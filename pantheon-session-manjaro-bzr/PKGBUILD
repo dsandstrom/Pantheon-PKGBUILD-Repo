@@ -1,5 +1,6 @@
-# Maintainer: Maxime Gauduin <alucryd@archlinux.org>
+#
 # Maintainer: Ste74 <capitani74@gmail.com> 
+# Maintainer: Maxime Gauduin <alucryd@archlinux.org>
 
 pkgname=pantheon-session-manjaro-bzr
 pkgver=r63

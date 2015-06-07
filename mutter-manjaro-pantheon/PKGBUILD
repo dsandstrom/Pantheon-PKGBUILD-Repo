@@ -1,4 +1,5 @@
-# Maintainer: Ste74 <capitani74@gmail.com>
+#
+# Maintainer: Stefano Capitani Ste74 <capitani74@gmail.com>
 # See https://bugzilla.gnome.org/show_bug.cgi?id=646629
 
 pkgname=mutter-manjaro-pantheon
