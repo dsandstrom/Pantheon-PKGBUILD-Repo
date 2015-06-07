@@ -7,6 +7,7 @@ eidete-bzr
 elementary-icon-theme-bzr
 elementary-add-icon-theme-git
 elementary-wallpapers-bzr
+pantheon-default-settings-bzr
 elementary-dpms-helper-bzr
 scour
 libgsignon-glib
@@ -37,7 +38,6 @@ mutter-manjaro-pantheon
 noise-bzr
 pantheon-backgrounds-bzr
 pantheon-calculator-bzr
-pantheon-default-settings-bzr
 pantheon-dock-bzr
 pantheon-files-bzr
 pantheon-files-plugin-dropbox-bzr
