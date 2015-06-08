@@ -1,8 +1,8 @@
-# Maintainer: Maxime Gauduin <alucryd@archlinux.org>
-# Contributor: Ner0 <darkelfdarkelf666@yahoo.co.uk>
+#
+# Maintainer: Stefano Capitani Ste74 <capitani74@gmail.com>
 
-pkgname=granite-bzr
-pkgver=r851
+pkgname=granite
+pkgver=0.3
 pkgrel=1
 pkgdesc='An extension of GTK+ libraries'
 arch=('i686' 'x86_64')
@@ -14,17 +14,17 @@ makedepends=('bzr' 'cmake' 'gobject-introspection' 'vala')
 provides=('granite')
 conflicts=('granite')
 install='granite.install'
-source=('bzr+lp:granite')
+source=("bzr+lp:granite/${pkgver}")
 sha256sums=('SKIP')
 
 pkgver() {
-  cd granite
+  cd "${pkgver}"
 
-  echo "r$(bzr revno)"
+#  echo "r$(bzr revno)"
 }
 
 build() {
-  cd granite
+  cd "${pkgver}"
 
   if [[ -d build ]]; then
     rm -rf build
@@ -39,7 +39,7 @@ build() {
 }
 
 package() {
-  cd granite/build
+  cd "${pkgver}"/build
 
   make DESTDIR="${pkgdir}" install
 }
