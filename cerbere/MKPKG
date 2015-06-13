@@ -1,5 +1,3 @@
-pkgname=('cerbere-bzr')
-
-check_bzr $packagedir/$pkgname/${pkgname%-*}
+pkgname=('cerbere')
 
 # vim: ts=2 sw=2 et:

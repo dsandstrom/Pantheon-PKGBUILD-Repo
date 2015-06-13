@@ -1,0 +1,223 @@
+# French translation for audience
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the audience package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: audience\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-03-28 13:16-0500\n"
+"PO-Revision-Date: 2015-06-03 13:54+0000\n"
+"Last-Translator: Philippe <philippe.benoitt@gmail.com>\n"
+"Language-Team: French <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-06-04 05:24+0000\n"
+"X-Generator: Launchpad (build 17540)\n"
+
+#. / TRANSLATORS: This is the name of the application shown in the application launcher. Some distributors (e.g. elementary OS) choose to display it instead of the brand name "Audience".
+#: ../src/Audience.vala:40
+msgid "Videos"
+msgstr "Vidéos"
+
+#. / TRANSLATORS: These are the keywords used when searching for this application in an application store or launcher.
+#: ../src/Audience.vala:42
+msgid "Audience;Video;Player;Movies;"
+msgstr "Audience;Vidéo;Lecteur;Film;"
+
+#: ../src/Audience.vala:43
+msgid "Watch videos and movies"
+msgstr "Regarder des vidéos et des films"
+
+#: ../src/Audience.vala:44
+msgid "Video Player"
+msgstr "Lecteur vidéo"
+
+#. / TRANSLATORS: This is the shortcut used to view information about the application itself when its displayed name is branded "Audience".
+#: ../src/Audience.vala:46
+msgid "About Audience"
+msgstr "À propos d'Audience"
+
+#. / TRANSLATORS: This is the shortcut used to view information about the application itself when its displayed name is the localized equivalent of "Videos".
+#: ../src/Audience.vala:48
+msgid "About Videos"
+msgstr "À propos de Vidéos"
+
+#: ../src/Audience.vala:241
+msgid "Replay last playlist"
+msgstr "Rejouer la dernière liste de lecture"
+
+#: ../src/Audience.vala:243
+msgid "Replay '%s'"
+msgstr "Relire"
+
+#: ../src/Audience.vala:366
+msgid "No Videos Open"
+msgstr "Aucun fichier vidéo ouvert"
+
+#: ../src/Audience.vala:366
+msgid "Select a source to begin playing."
+msgstr "Sélectionnez une source pour commencer à jouer."
+
+#: ../src/Audience.vala:367 ../src/Widgets/PlaylistPopover.vala:31
+msgid "Open file"
+msgstr "Ouvrir un fichier"
+
+#: ../src/Audience.vala:367
+msgid "Open a saved file."
+msgstr "Ouvrir un fichier sauvegardé."
+
+#: ../src/Audience.vala:372
+msgid "Resume last video"
+msgstr "Reprendre la lecture de la dernière vidéo"
+
+#: ../src/Audience.vala:380
+msgid "Replay"
+msgstr "Rejouer"
+
+#: ../src/Audience.vala:380
+msgid "Replay last video"
+msgstr "Rejouer la dernière vidéo"
+
+#: ../src/Audience.vala:383 ../src/Widgets/PlaylistPopover.vala:33
+msgid "Play from Disc"
+msgstr "Lire le disque"
+
+#: ../src/Audience.vala:383
+msgid "Watch a DVD or open a file from disc"
+msgstr "Regarder un DVD ou ouvrir un fichier sur le disque"
+
+#: ../src/Audience.vala:427
+msgid "Open location"
+msgstr "Ouvrir l'emplacement"
+
+#: ../src/Audience.vala:429
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../src/Audience.vala:430
+msgid "OK"
+msgstr "OK"
+
+#: ../src/Audience.vala:437
+msgid "Choose location"
+msgstr "Choisir l'emplacement"
+
+#: ../src/Audience.vala:704
+msgid "Open"
+msgstr "Ouvrir"
+
+#: ../src/Audience.vala:705
+msgid "_Cancel"
+msgstr "_Annuler"
+
+#: ../src/Audience.vala:705
+msgid "_Open"
+msgstr "_Ouvrir"
+
+#: ../src/Audience.vala:709 ../src/Widgets/SettingsPopover.vala:33
+msgid "All files"
+msgstr "Tous les fichiers"
+
+#: ../src/Audience.vala:713
+msgid "Video files"
+msgstr "Fichiers vidéo"
+
+#: ../src/Audience.vala:884
+msgid "Video added to playlist"
+msgstr "Vidéo ajoutée à la playlist"
+
+#: ../src/Audience.vala:886
+msgid "%i videos added to playlist"
+msgstr "%i vidéos ajoutées à la playlist"
+
+#: ../src/Widgets/PlaylistPopover.vala:37
+#: ../src/Widgets/PlaylistPopover.vala:62
+msgid "Enable Repeat"
+msgstr "Activer la lecture en boucle"
+
+#: ../src/Widgets/PlaylistPopover.vala:59
+msgid "Disable Repeat"
+msgstr "Désactiver la lecture en boucle"
+
+#: ../src/Widgets/BottomBar.vala:52 ../src/Widgets/BottomBar.vala:123
+msgid "Play"
+msgstr "Lire"
+
+#: ../src/Widgets/BottomBar.vala:56
+msgid "Playlist"
+msgstr "Liste de lecture"
+
+#: ../src/Widgets/BottomBar.vala:60
+msgid "Settings"
+msgstr "Paramètres"
+
+#: ../src/Widgets/BottomBar.vala:108
+msgid "Unfullscreen"
+msgstr "Quitter le mode plein écran"
+
+#: ../src/Widgets/BottomBar.vala:119
+msgid "Pause"
+msgstr "Mettre en pause"
+
+#: ../src/Widgets/VideoPlayer.vala:362
+msgid "Error"
+msgstr "Erreur"
+
+#: ../src/Widgets/VideoPlayer.vala:362
+msgid "_OK"
+msgstr "_OK"
+
+#: ../src/Widgets/VideoPlayer.vala:368
+msgid "Oops! Audience can't play this file!"
+msgstr "Oups ! Audience semble ne pas pouvoir lire ce fichier !"
+
+#: ../src/Widgets/VideoPlayer.vala:388
+msgid ""
+"Some media files need extra software to be played. Audience can install this "
+"software automatically."
+msgstr ""
+"Certains médias nécessitent des logiciels supplémentaires pour être lus. "
+"Audience peut installer ces logiciels automatiquement."
+
+#: ../src/Widgets/VideoPlayer.vala:393
+msgid "Audience needs %s to play this file."
+msgstr "Audience à besoin de %s pour lire ce fichier."
+
+#: ../src/Widgets/VideoPlayer.vala:400
+msgid "Don't install"
+msgstr "Ne pas installer"
+
+#: ../src/Widgets/VideoPlayer.vala:401
+msgid "Install"
+msgstr "Installer"
+
+#: ../src/Widgets/SettingsPopover.vala:37
+msgid "Subtitle files"
+msgstr "Fichiers de sous-titres"
+
+#: ../src/Widgets/SettingsPopover.vala:44
+msgid "External Subtitles"
+msgstr "Sous-titres externes"
+
+#: ../src/Widgets/SettingsPopover.vala:48
+msgid "Audio:"
+msgstr "Audio :"
+
+#: ../src/Widgets/SettingsPopover.vala:51
+msgid "Subtitles:"
+msgstr "Sous-titres :"
+
+#: ../src/Widgets/SettingsPopover.vala:54
+msgid "External Subtitles:"
+msgstr "Sous-titres externes :"
+
+#: ../src/Widgets/SettingsPopover.vala:121
+msgid "None"
+msgstr "Aucun"
+
+#: ../src/Widgets/SettingsPopover.vala:152
+msgid "Default"
+msgstr "Par défaut"

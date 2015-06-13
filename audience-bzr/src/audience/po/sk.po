@@ -1,0 +1,223 @@
+# Slovak translation for audience
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the audience package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: audience\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-03-28 13:16-0500\n"
+"PO-Revision-Date: 2015-04-26 09:34+0000\n"
+"Last-Translator: pyler <pyler@azet.sk>\n"
+"Language-Team: Slovak <sk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-04-27 05:18+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+
+#. / TRANSLATORS: This is the name of the application shown in the application launcher. Some distributors (e.g. elementary OS) choose to display it instead of the brand name "Audience".
+#: ../src/Audience.vala:40
+msgid "Videos"
+msgstr "Videá"
+
+#. / TRANSLATORS: These are the keywords used when searching for this application in an application store or launcher.
+#: ../src/Audience.vala:42
+msgid "Audience;Video;Player;Movies;"
+msgstr "Audience;Videá;Prehrávač;Filmy;"
+
+#: ../src/Audience.vala:43
+msgid "Watch videos and movies"
+msgstr "Sledovať videá a filmy"
+
+#: ../src/Audience.vala:44
+msgid "Video Player"
+msgstr "Prehrávač videí"
+
+#. / TRANSLATORS: This is the shortcut used to view information about the application itself when its displayed name is branded "Audience".
+#: ../src/Audience.vala:46
+msgid "About Audience"
+msgstr "O programe Audience"
+
+#. / TRANSLATORS: This is the shortcut used to view information about the application itself when its displayed name is the localized equivalent of "Videos".
+#: ../src/Audience.vala:48
+msgid "About Videos"
+msgstr "O programe Videá"
+
+#: ../src/Audience.vala:241
+msgid "Replay last playlist"
+msgstr "Prehrať posledný zoznam"
+
+#: ../src/Audience.vala:243
+msgid "Replay '%s'"
+msgstr "Prehrať'%s'"
+
+#: ../src/Audience.vala:366
+msgid "No Videos Open"
+msgstr "Nie je otvorené žiadne video"
+
+#: ../src/Audience.vala:366
+msgid "Select a source to begin playing."
+msgstr "Vyberte zdroj, ktorý chcete prehrať."
+
+#: ../src/Audience.vala:367 ../src/Widgets/PlaylistPopover.vala:31
+msgid "Open file"
+msgstr "Otvoriť súbor"
+
+#: ../src/Audience.vala:367
+msgid "Open a saved file."
+msgstr "Otvoriť uložený súbor."
+
+#: ../src/Audience.vala:372
+msgid "Resume last video"
+msgstr "Pokračovať v prehrávaní posledného videa"
+
+#: ../src/Audience.vala:380
+msgid "Replay"
+msgstr "Prehrať"
+
+#: ../src/Audience.vala:380
+msgid "Replay last video"
+msgstr "Prehrať posledné video"
+
+#: ../src/Audience.vala:383 ../src/Widgets/PlaylistPopover.vala:33
+msgid "Play from Disc"
+msgstr "Prehrať z disku"
+
+#: ../src/Audience.vala:383
+msgid "Watch a DVD or open a file from disc"
+msgstr "Pozrieť DVD alebo otvoriť súbor uložený na disku"
+
+#: ../src/Audience.vala:427
+msgid "Open location"
+msgstr "Otvoriť umiestnenie"
+
+#: ../src/Audience.vala:429
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: ../src/Audience.vala:430
+msgid "OK"
+msgstr "OK"
+
+#: ../src/Audience.vala:437
+msgid "Choose location"
+msgstr "Vyberte umiestnenie"
+
+#: ../src/Audience.vala:704
+msgid "Open"
+msgstr "Otvoriť"
+
+#: ../src/Audience.vala:705
+msgid "_Cancel"
+msgstr "_Zrušiť"
+
+#: ../src/Audience.vala:705
+msgid "_Open"
+msgstr "_Otvoriť"
+
+#: ../src/Audience.vala:709 ../src/Widgets/SettingsPopover.vala:33
+msgid "All files"
+msgstr "Všetky súbory"
+
+#: ../src/Audience.vala:713
+msgid "Video files"
+msgstr "Video súbory"
+
+#: ../src/Audience.vala:884
+msgid "Video added to playlist"
+msgstr "Video bolo pridané do zoznamu videí"
+
+#: ../src/Audience.vala:886
+msgid "%i videos added to playlist"
+msgstr "Videá (%i) boli pridané do zoznamu videí"
+
+#: ../src/Widgets/PlaylistPopover.vala:37
+#: ../src/Widgets/PlaylistPopover.vala:62
+msgid "Enable Repeat"
+msgstr "Povoliť opakovanie"
+
+#: ../src/Widgets/PlaylistPopover.vala:59
+msgid "Disable Repeat"
+msgstr "Zakázať opakovanie"
+
+#: ../src/Widgets/BottomBar.vala:52 ../src/Widgets/BottomBar.vala:123
+msgid "Play"
+msgstr "Prehrať"
+
+#: ../src/Widgets/BottomBar.vala:56
+msgid "Playlist"
+msgstr "Zoznam videí"
+
+#: ../src/Widgets/BottomBar.vala:60
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: ../src/Widgets/BottomBar.vala:108
+msgid "Unfullscreen"
+msgstr "Opustit režim Celej obrazovky"
+
+#: ../src/Widgets/BottomBar.vala:119
+msgid "Pause"
+msgstr "Pozastaviť"
+
+#: ../src/Widgets/VideoPlayer.vala:362
+msgid "Error"
+msgstr "Chyba"
+
+#: ../src/Widgets/VideoPlayer.vala:362
+msgid "_OK"
+msgstr "_OK"
+
+#: ../src/Widgets/VideoPlayer.vala:368
+msgid "Oops! Audience can't play this file!"
+msgstr "Fíha! Audience nedokáže prehrať tento súbor!"
+
+#: ../src/Widgets/VideoPlayer.vala:388
+msgid ""
+"Some media files need extra software to be played. Audience can install this "
+"software automatically."
+msgstr ""
+"Niektoré súbory vyžadujú daľší softvér pre prehrávanie. Audience nemôže "
+"tento softvér nainštalovať automaticky."
+
+#: ../src/Widgets/VideoPlayer.vala:393
+msgid "Audience needs %s to play this file."
+msgstr "Audience požaduje %s na prehranie tohto súboru."
+
+#: ../src/Widgets/VideoPlayer.vala:400
+msgid "Don't install"
+msgstr "Neinštalovať"
+
+#: ../src/Widgets/VideoPlayer.vala:401
+msgid "Install"
+msgstr "Inštalovať"
+
+#: ../src/Widgets/SettingsPopover.vala:37
+msgid "Subtitle files"
+msgstr "Súbory s titulkami"
+
+#: ../src/Widgets/SettingsPopover.vala:44
+msgid "External Subtitles"
+msgstr "Externé titulky"
+
+#: ../src/Widgets/SettingsPopover.vala:48
+msgid "Audio:"
+msgstr "Zvuk:"
+
+#: ../src/Widgets/SettingsPopover.vala:51
+msgid "Subtitles:"
+msgstr "Titulky:"
+
+#: ../src/Widgets/SettingsPopover.vala:54
+msgid "External Subtitles:"
+msgstr "Externé titulky"
+
+#: ../src/Widgets/SettingsPopover.vala:121
+msgid "None"
+msgstr "Žiadne"
+
+#: ../src/Widgets/SettingsPopover.vala:152
+msgid "Default"
+msgstr "Predvolené"

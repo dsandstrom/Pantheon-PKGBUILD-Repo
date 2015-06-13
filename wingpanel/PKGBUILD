@@ -1,34 +1,24 @@
 # Maintainer: Maxime Gauduin <alucryd@archlinux.org>
-# Contributor: Ner0 <darkelfdarkelf666@yahoo.co.uk>
-# Contributor: flamelab <panosfilip@gmail.com>
 
-pkgname=wingpanel-bzr
-pkgver=r218
+pkgname=wingpanel
+pkgver=0.3.0
 pkgrel=1
-pkgdesc='The Pantheon Panel'
+pkgdesc='The Pantheon Top Panel'
 arch=('i686' 'x86_64')
 url='https://launchpad.net/wingpanel'
 license=('GPL3')
-groups=('pantheon-unstable')
-depends=('granite-bzr' 'ido' 'libindicator-gtk3' 'libwnck3')
+groups=('pantheon')
+depends=('granite' 'libgee' 'libindicator-gtk3')
 optdepends=('indicator-datetime: Display date and time'
             'indicator-pantheon-session-bzr: Pantheon session indicator'
             'indicator-power: Battery idicator')
-makedepends=('bzr' 'cmake' 'vala')
-provides=('wingpanel')
-conflicts=('wingpanel')
-install='wingpanel.install'
-source=('bzr+lp:wingpanel')
-sha256sums=('SKIP')
-
-pkgver() {
-  cd wingpanel
-
-  echo "r$(bzr revno)"
-}
+makedepends=('cmake' 'vala')
+install="wingpanel.install"
+source=("https://launchpad.net/wingpanel/freya/${pkgver}/+download/wingpanel-${pkgver}.tgz")
+sha256sums=('41cd475427dc7fb0dfd889ac91a580590023888b54afe6979fd1593ada152c3a')
 
 build() {
-  cd wingpanel
+  cd wingpanel-${pkgver}
 
   if [[ -d build ]]; then
     rm -rf build
@@ -36,6 +26,7 @@ build() {
   mkdir build && cd build
 
   cmake .. \
+    -DCMAKE_BUILD_TYPE='Release' \
     -DCMAKE_INSTALL_PREFIX='/usr' \
     -DGSETTINGS_COMPILE='FALSE' \
     -DNO_INDICATOR_NG='TRUE' \
@@ -44,7 +35,7 @@ build() {
 }
 
 package() {
-  cd wingpanel/build
+  cd wingpanel-${pkgver}/build
 
   make DESTDIR="${pkgdir}" install
 }

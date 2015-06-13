@@ -1,31 +1,22 @@
 # Maintainer: Maxime Gauduin <alucryd@archlinux.org>
 # Contributor: Ner0 <darkelfdarkelf666@yahoo.co.uk>
 
-pkgname=audience-bzr
-pkgver=r518
+pkgname=audience
+pkgver=0.1
 pkgrel=1
 pkgdesc='The Pantheon Video Player'
 arch=('i686' 'x86_64')
 url='https://launchpad.net/audience'
 license=('GPL3')
-groups=('pantheon-unstable')
-depends=('clutter-gtk' 'desktop-file-utils' 'granite-bzr'
-         'gst-plugins-base-libs')
-makedepends=('bzr' 'clutter-gst' 'cmake' 'vala')
-provides=('audience')
-conflicts=('audience')
+groups=('pantheon')
+depends=('clutter-gtk' 'desktop-file-utils' 'granite' 'gst-plugins-base-libs')
+makedepends=('clutter-gst' 'cmake' 'vala')
 install='audience.install'
-source=('bzr+lp:audience')
-sha256sums=('SKIP')
-
-pkgver() {
-  cd audience
-
-  echo "r$(bzr revno)"
-}
+source=("https://launchpad.net/audience/freya/${pkgver}/+download/audience-${pkgver}.tgz")
+sha256sums=('adcf66ca073a24a0d29bf0ecbd5bfe1ad269e4b94c5fdd0101c7c269ed15d039')
 
 build() {
-  cd audience
+  cd audience-${pkgver}
 
   if [[ -d build ]]; then
     rm -rf build
@@ -35,12 +26,12 @@ build() {
   cmake .. \
     -DCMAKE_BUILD_TYPE='Release' \
     -DCMAKE_INSTALL_PREFIX='/usr' \
-    -DGSETTINGS_COMPILE='OFF'
+    -DGSETTINGS_COMPILE='FALSE'
   make
 }
 
 package() {
-  cd audience/build
+  cd audience-${pkgver}/build
 
   make DESTDIR="${pkgdir}" install
 }

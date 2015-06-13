@@ -1,0 +1,5 @@
+/home/stefano/Package/pantheon/audience-bzr/src/audience/build/CMakeFiles/uninstall.dir
+/home/stefano/Package/pantheon/audience-bzr/src/audience/build/po/CMakeFiles/i18n.dir
+/home/stefano/Package/pantheon/audience-bzr/src/audience/build/CMakeFiles/dist.dir
+/home/stefano/Package/pantheon/audience-bzr/src/audience/build/po/CMakeFiles/pot.dir
+/home/stefano/Package/pantheon/audience-bzr/src/audience/build/src/CMakeFiles/audience.dir
