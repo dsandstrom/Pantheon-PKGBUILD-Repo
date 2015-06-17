@@ -1,0 +1,27 @@
+[Desktop Entry]
+Name=shutdown control
+Comment=shutdown control
+Icon=system-shutdown-symbolic
+Type=Application
+
+X-Ayatana-Desktop-Shortcuts=Reboot;Shutdown;Lock;Suspend
+
+[Reboot Shortcut Group]
+Name=Reboot
+Exec=systemctl reboot
+TargetEnvironment=Unity
+
+[Shutdown Shortcut Group]
+Name=Shutdown
+Exec=systemctl poweroff
+TargetEnvironment=Unity
+
+[Lock Shortcut Group]
+Name=Lock
+Exec=light-locker-command -l
+TargetEnvironment=Unity
+
+[Suspend Shortcut Group]
+Name=Suspend
+Exec=systemctl suspend
+TargetEnvironment=Unity
