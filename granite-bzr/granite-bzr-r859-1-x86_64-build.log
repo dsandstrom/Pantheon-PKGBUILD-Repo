@@ -1,0 +1,2488 @@
+-- The C compiler identification is GNU 5.1.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found Vala: /usr/bin/valac  
+-- checking for a minimum Vala version of 0.23.2
+--   found Vala, version 0.28.0
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.28") 
+-- checking for modules 'gtk+-3.0>=3.14;gio-unix-2.0;gthread-2.0;gee-0.8'
+--   found gtk+-3.0, version 3.16.4
+--   found gio-unix-2.0, version 2.44.1
+--   found gthread-2.0, version 2.44.1
+--   found gee-0.8, version 0.18.0
+-- checking for module 'gobject-introspection-1.0'
+--   found gobject-introspection-1.0, version 1.44.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /build/granite-bzr/src/granite/build
+[  2%] Generating style-classes.c;Application.c;Drawing/Color.c;Drawing/BufferSurface.c;Drawing/Utilities.c;GtkPatch/AboutDialog.c;Services/Settings.c;Services/Logger.c;Services/Paths.c;Services/System.c;Services/Contractor.c;Services/ContractorProxy.c;Services/IconFactory.c;Services/SimpleCommand.c;Widgets/AlertView.c;Widgets/Utils.c;Widgets/WrapLabel.c;Widgets/AboutDialog.c;Widgets/ModeButton.c;Widgets/DatePicker.c;Widgets/Entries.c;Widgets/TimePicker.c;Widgets/CollapsiblePaned.c;Widgets/StaticNotebook.c;Widgets/DynamicNotebook.c;Widgets/CompositedWindow.c;Widgets/AppMenu.c;Widgets/Welcome.c;Widgets/WelcomeButton.c;Widgets/ToolButtonWithMenu.c;Widgets/PopOver.c;Widgets/ContractorView.c;Widgets/ContractorMenu.c;Widgets/DecoratedWindow.c;Widgets/LightWindow.c;Widgets/StatusBar.c;Widgets/SidebarPaned.c;Widgets/SourceList.c;Widgets/CellRendererExpander.c;Widgets/CellRendererBadge.c;Widgets/ThinPaned.c;Widgets/OverlayBar.c;granite.vapi;granite.h
+/build/granite-bzr/src/granite/lib/Widgets/Utils.vala:279.23-279.48: warning: GLib.Settings.list_schemas has been deprecated since 2.40
+/build/granite-bzr/src/granite/lib/Widgets/DynamicNotebook.vala:644.58-644.61: warning: Argument 1: Cannot pass null to non-null parameter type
+                        this.notebook.set_action_widget (null, Gtk.PackType.START);
+                                                         ^^^^
+/build/granite-bzr/src/granite/lib/Widgets/DecoratedWindow.vala:213.48-213.84: warning: Gdk.Cursor.new has been deprecated since 3.16
+/build/granite-bzr/src/granite/lib/Services/Contractor.vala:23.9-23.77: warning: method `Granite.Services.ContractorDBus.GetServicesByLocation' never used
+        public abstract GLib.HashTable<string,string>[] GetServicesByLocation (string strlocation, string? file_mime = "") throws IOError;
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/build/granite-bzr/src/granite/lib/Services/Contractor.vala:24.9-24.82: warning: method `Granite.Services.ContractorDBus.GetServicesByLocationsList' never used
+        public abstract GLib.HashTable<string,string>[] GetServicesByLocationsList (GLib.HashTable<string,string>[] locations) throws IOError;
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/build/granite-bzr/src/granite/lib/Services/Contractor.vala:32.9-32.40: warning: field `Granite.Services.Contractor.contract' never used
+        internal ContractorDBus contract;
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/build/granite-bzr/src/granite/lib/Services/Contractor.vala:33.9-33.46: warning: field `Granite.Services.Contractor.contractor' never used
+        internal static Contractor? contractor = null;
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/build/granite-bzr/src/granite/lib/Services/Contractor.vala:41.9-41.35: warning: method `Granite.Services.Contractor.ensure' never used
+        internal static void ensure () {
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/build/granite-bzr/src/granite/lib/Widgets/AboutDialog.vala:70.9-70.52: warning: field `Granite.Widgets.AboutDialog.buffer' never used
+        private Granite.Drawing.BufferSurface buffer;
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/build/granite-bzr/src/granite/lib/Widgets/DatePicker.vala:135.13-135.41: warning: use of possibly unassigned parameter `rect'
+            rect.x = size.width - OFFSET;
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/build/granite-bzr/src/granite/lib/Widgets/DatePicker.vala:136.13-136.33: warning: use of possibly unassigned parameter `rect'
+            rect.y = size.height;
+            ^^^^^^^^^^^^^^^^^^^^^
+/build/granite-bzr/src/granite/lib/Widgets/DatePicker.vala:131.51-131.72: warning: use of possibly unassigned parameter `rect'
+        protected virtual void position_dropdown (out Gdk.Rectangle rect) {
+                                                  ^^^^^^^^^^^^^^^^^^^^^^
+/build/granite-bzr/src/granite/lib/Widgets/DynamicNotebook.vala:953.74-953.83: warning: use of possibly unassigned parameter `p'
+        void restore_menu_position (Gtk.Menu menu, out int x, out int y, out bool p) {
+                                                                         ^^^^^^^^^^
+/build/granite-bzr/src/granite/lib/Widgets/DynamicNotebook.vala:443.64-443.83: warning: copying delegates is not supported
+/build/granite-bzr/src/granite/lib/Widgets/DynamicNotebook.vala:449.40-449.60: warning: copying delegates is not supported
+/build/granite-bzr/src/granite/lib/Widgets/DynamicNotebook.vala:422.13-422.45: warning: copying delegates is not supported
+Compilation succeeded - 16 warning(s)
+Scanning dependencies of target granite
+[  4%] Building C object lib/CMakeFiles/granite.dir/Widgets/widgets-utils.c.o
+In file included from /build/granite-bzr/src/granite/lib/Widgets/widgets-utils.h:3:0,
+                 from /build/granite-bzr/src/granite/lib/Widgets/widgets-utils.c:31:
+/build/granite-bzr/src/granite/build/lib/granite.h:1677:1: warning: ‘GraniteWidgetsSourceListSortFunc’ is deprecated [-Wdeprecated-declarations]
+ void granite_widgets_source_list_set_sort_func (GraniteWidgetsSourceList* self, GraniteWidgetsSourceListSortFunc sort_func, void* sort_func_target, GDestroyNotify sort_func_target_destroy_notify) G_GNUC_DEPRECATED;
+ ^
+/build/granite-bzr/src/granite/lib/Widgets/widgets-utils.c: In function ‘close_cb’:
+/build/granite-bzr/src/granite/lib/Widgets/widgets-utils.c:36:35: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+     GtkAboutDialogPrivate *priv = about->priv;
+                                   ^
+[  6%] Building C object lib/CMakeFiles/granite.dir/Widgets/close-button.c.o
+/build/granite-bzr/src/granite/lib/Widgets/close-button.c: In function ‘get_close_pixbuf’:
+/build/granite-bzr/src/granite/lib/Widgets/close-button.c:167:5: warning: ‘gdk_pixbuf_new_from_inline’ is deprecated [-Wdeprecated-declarations]
+     return gdk_pixbuf_new_from_inline (-1, close_button_data, FALSE, NULL);
+     ^
+In file included from /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:33:0,
+                 from /usr/include/gtk-3.0/gdk/gdkpixbuf.h:33,
+                 from /usr/include/gtk-3.0/gdk/gdkcairo.h:28,
+                 from /usr/include/gtk-3.0/gdk/gdk.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from /build/granite-bzr/src/granite/lib/Widgets/close-button.c:6:
+/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:314:12: note: declared here
+ GdkPixbuf* gdk_pixbuf_new_from_inline (gint          data_length,
+            ^
+[  8%] Building C object lib/CMakeFiles/granite.dir/style-classes.c.o
+[ 10%] Building C object lib/CMakeFiles/granite.dir/Application.c.o
+/build/granite-bzr/src/granite/build/lib/Application.c: In function ‘granite_application_construct’:
+/build/granite-bzr/src/granite/build/lib/Application.c:247:2: warning: ‘granite_app’ is deprecated [-Wdeprecated-declarations]
+  _g_object_unref0 (granite_app);
+  ^
+/build/granite-bzr/src/granite/build/lib/Application.c:146:21: note: declared here
+ GraniteApplication* granite_app = NULL;
+                     ^
+/build/granite-bzr/src/granite/build/lib/Application.c:247:2: warning: ‘granite_app’ is deprecated [-Wdeprecated-declarations]
+  _g_object_unref0 (granite_app);
+  ^
+/build/granite-bzr/src/granite/build/lib/Application.c:146:21: note: declared here
+ GraniteApplication* granite_app = NULL;
+                     ^
+/build/granite-bzr/src/granite/build/lib/Application.c:247:2: warning: ‘granite_app’ is deprecated [-Wdeprecated-declarations]
+  _g_object_unref0 (granite_app);
+  ^
+/build/granite-bzr/src/granite/build/lib/Application.c:146:21: note: declared here
+ GraniteApplication* granite_app = NULL;
+                     ^
+/build/granite-bzr/src/granite/build/lib/Application.c:248:2: warning: ‘granite_app’ is deprecated [-Wdeprecated-declarations]
+  granite_app = _tmp15_;
+  ^
+/build/granite-bzr/src/granite/build/lib/Application.c:146:21: note: declared here
+ GraniteApplication* granite_app = NULL;
+                     ^
+[ 12%] Building C object lib/CMakeFiles/granite.dir/Drawing/Color.c.o
+[ 14%] Building C object lib/CMakeFiles/granite.dir/Drawing/BufferSurface.c.o
+[ 17%] Building C object lib/CMakeFiles/granite.dir/Drawing/Utilities.c.o
+[ 19%] Building C object lib/CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.o
+/build/granite-bzr/src/granite/build/lib/GtkPatch/AboutDialog.c: In function ‘granite_gtk_patch_about_dialog_construct’:
+/build/granite-bzr/src/granite/build/lib/GtkPatch/AboutDialog.c:285:2: warning: ‘gtk_window_set_has_resize_grip’ is deprecated [-Wdeprecated-declarations]
+  gtk_window_set_has_resize_grip ((GtkWindow*) self, FALSE);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkdialog.h:33:0,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/GtkPatch/AboutDialog.c:7:
+/usr/include/gtk-3.0/gtk/gtkwindow.h:472:10: note: declared here
+ void     gtk_window_set_has_resize_grip    (GtkWindow    *window,
+          ^
+/build/granite-bzr/src/granite/build/lib/GtkPatch/AboutDialog.c:295:2: warning: ‘gtk_dialog_get_action_area’ is deprecated [-Wdeprecated-declarations]
+  _tmp4_ = gtk_dialog_get_action_area ((GtkDialog*) self);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30:0,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/GtkPatch/AboutDialog.c:7:
+/usr/include/gtk-3.0/gtk/gtkdialog.h:205:13: note: declared here
+ GtkWidget * gtk_dialog_get_action_area  (GtkDialog *dialog);
+             ^
+/build/granite-bzr/src/granite/build/lib/GtkPatch/AboutDialog.c:440:2: warning: ‘gtk_scrolled_window_add_with_viewport’ is deprecated: Use 'gtk_container_add' instead [-Wdeprecated-declarations]
+  gtk_scrolled_window_add_with_viewport (content_scrolled, (GtkWidget*) content_scrolled_vbox);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:178:0,
+                 from /build/granite-bzr/src/granite/build/lib/GtkPatch/AboutDialog.c:7:
+/usr/include/gtk-3.0/gtk/gtkscrolledwindow.h:186:13: note: declared here
+ void        gtk_scrolled_window_add_with_viewport (GtkScrolledWindow *scrolled_window,
+             ^
+In file included from /usr/include/glib-2.0/glib.h:79:0,
+                 from /build/granite-bzr/src/granite/build/lib/GtkPatch/AboutDialog.c:5:
+/build/granite-bzr/src/granite/build/lib/GtkPatch/AboutDialog.c: In function ‘string_strip’:
+/build/granite-bzr/src/granite/build/lib/GtkPatch/AboutDialog.c:759:14: warning: passing argument 1 of ‘g_strchug’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  g_strstrip (_tmp1_);
+              ^
+/usr/include/glib-2.0/glib/gstrfuncs.h:180:53: note: in definition of macro ‘g_strstrip’
+ #define g_strstrip( string ) g_strchomp (g_strchug (string))
+                                                     ^
+/usr/include/glib-2.0/glib/gstrfuncs.h:175:23: note: expected ‘gchar * {aka char *}’ but argument is of type ‘const gchar * {aka const char *}’
+ gchar*                g_strchug        (gchar        *string);
+                       ^
+[ 21%] Building C object lib/CMakeFiles/granite.dir/Services/Settings.c.o
+/build/granite-bzr/src/granite/build/lib/Services/Settings.c: In function ‘granite_services_settings_save_key’:
+/build/granite-bzr/src/granite/build/lib/Services/Settings.c:842:58: warning: passing argument 3 of ‘g_settings_set_strv’ from incompatible pointer type [-Wincompatible-pointer-types]
+         _tmp68_ = g_settings_set_strv (_tmp65_, _tmp66_, _tmp67_);
+                                                          ^
+In file included from /usr/include/glib-2.0/gio/gio.h:110:0,
+                 from /build/granite-bzr/src/granite/build/lib/Services/Settings.c:28:
+/usr/include/glib-2.0/gio/gsettings.h:173:25: note: expected ‘const gchar * const* {aka const char * const*}’ but argument is of type ‘gchar ** {aka char **}’
+ gboolean                g_settings_set_strv                             (GSettings          *settings,
+                         ^
+[ 23%] Building C object lib/CMakeFiles/granite.dir/Services/Logger.c.o
+[ 25%] Building C object lib/CMakeFiles/granite.dir/Services/Paths.c.o
+[ 27%] Building C object lib/CMakeFiles/granite.dir/Services/System.c.o
+[ 29%] Building C object lib/CMakeFiles/granite.dir/Services/Contractor.c.o
+[ 31%] Building C object lib/CMakeFiles/granite.dir/Services/ContractorProxy.c.o
+/build/granite-bzr/src/granite/build/lib/Services/ContractorProxy.c: In function ‘granite_services_contractor_proxy_on_contracts_changed’:
+/build/granite-bzr/src/granite/build/lib/Services/ContractorProxy.c:1274:42: warning: passing argument 1 of ‘gee_abstract_map_get_values’ from incompatible pointer type [-Wincompatible-pointer-types]
+    _tmp3_ = gee_abstract_map_get_values ((GeeMap*) _tmp2_);
+                                          ^
+In file included from /build/granite-bzr/src/granite/build/lib/Services/ContractorProxy.c:30:0:
+/usr/include/gee-0.8/gee.h:1477:16: note: expected ‘GeeAbstractMap * {aka struct _GeeAbstractMap *}’ but argument is of type ‘GeeMap * {aka struct _GeeMap *}’
+ GeeCollection* gee_abstract_map_get_values (GeeAbstractMap* self);
+                ^
+/build/granite-bzr/src/granite/build/lib/Services/ContractorProxy.c:1325:48: warning: passing argument 1 of ‘gee_abstract_collection_get_size’ from incompatible pointer type [-Wincompatible-pointer-types]
+    _tmp20_ = gee_abstract_collection_get_size ((GeeCollection*) _tmp19_);
+                                                ^
+In file included from /build/granite-bzr/src/granite/build/lib/Services/ContractorProxy.c:30:0:
+/usr/include/gee-0.8/gee.h:1452:6: note: expected ‘GeeAbstractCollection * {aka struct _GeeAbstractCollection *}’ but argument is of type ‘GeeCollection * {aka struct _GeeCollection *}’
+ gint gee_abstract_collection_get_size (GeeAbstractCollection* self);
+      ^
+/build/granite-bzr/src/granite/build/lib/Services/ContractorProxy.c:1362:40: warning: passing argument 1 of ‘gee_abstract_map_get_size’ from incompatible pointer type [-Wincompatible-pointer-types]
+   _tmp33_ = gee_abstract_map_get_size ((GeeMap*) _tmp32_);
+                                        ^
+In file included from /build/granite-bzr/src/granite/build/lib/Services/ContractorProxy.c:30:0:
+/usr/include/gee-0.8/gee.h:1474:6: note: expected ‘GeeAbstractMap * {aka struct _GeeAbstractMap *}’ but argument is of type ‘GeeMap * {aka struct _GeeMap *}’
+ gint gee_abstract_map_get_size (GeeAbstractMap* self);
+      ^
+/build/granite-bzr/src/granite/build/lib/Services/ContractorProxy.c: In function ‘granite_services_contractor_proxy_get_contracts_for_files’:
+/build/granite-bzr/src/granite/build/lib/Services/ContractorProxy.c:1723:10: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp19_ = _tmp18_;
+          ^
+[ 34%] Building C object lib/CMakeFiles/granite.dir/Services/IconFactory.c.o
+/build/granite-bzr/src/granite/build/lib/Services/IconFactory.c: In function ‘granite_services_icon_factory_load_symbolic_icon_from_gicon’:
+/build/granite-bzr/src/granite/build/lib/Services/IconFactory.c:164:3: warning: ‘gtk_icon_info_free’ is deprecated: Use 'g_object_unref' instead [-Wdeprecated-declarations]
+   _gtk_icon_info_free0 (icon_info);
+   ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:120:0,
+                 from /build/granite-bzr/src/granite/build/lib/Services/IconFactory.c:26:
+/usr/include/gtk-3.0/gtk/gtkicontheme.h:283:23: note: declared here
+ void                  gtk_icon_info_free               (GtkIconInfo  *icon_info);
+                       ^
+/build/granite-bzr/src/granite/build/lib/Services/IconFactory.c:204:3: warning: ‘gtk_icon_info_free’ is deprecated: Use 'g_object_unref' instead [-Wdeprecated-declarations]
+   _gtk_icon_info_free0 (icon_info);
+   ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:120:0,
+                 from /build/granite-bzr/src/granite/build/lib/Services/IconFactory.c:26:
+/usr/include/gtk-3.0/gtk/gtkicontheme.h:283:23: note: declared here
+ void                  gtk_icon_info_free               (GtkIconInfo  *icon_info);
+                       ^
+/build/granite-bzr/src/granite/build/lib/Services/IconFactory.c:211:2: warning: ‘gtk_icon_info_free’ is deprecated: Use 'g_object_unref' instead [-Wdeprecated-declarations]
+  _gtk_icon_info_free0 (icon_info);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:120:0,
+                 from /build/granite-bzr/src/granite/build/lib/Services/IconFactory.c:26:
+/usr/include/gtk-3.0/gtk/gtkicontheme.h:283:23: note: declared here
+ void                  gtk_icon_info_free               (GtkIconInfo  *icon_info);
+                       ^
+[ 36%] Building C object lib/CMakeFiles/granite.dir/Services/SimpleCommand.c.o
+[ 38%] Building C object lib/CMakeFiles/granite.dir/Widgets/AlertView.c.o
+[ 40%] Building C object lib/CMakeFiles/granite.dir/Widgets/Utils.c.o
+In file included from /usr/include/glib-2.0/glib.h:79:0,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/Utils.c:23:
+/build/granite-bzr/src/granite/build/lib/Widgets/Utils.c: In function ‘string_strip’:
+/build/granite-bzr/src/granite/build/lib/Widgets/Utils.c:539:14: warning: passing argument 1 of ‘g_strchug’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  g_strstrip (_tmp1_);
+              ^
+/usr/include/glib-2.0/glib/gstrfuncs.h:180:53: note: in definition of macro ‘g_strstrip’
+ #define g_strstrip( string ) g_strchomp (g_strchug (string))
+                                                     ^
+/usr/include/glib-2.0/glib/gstrfuncs.h:175:23: note: expected ‘gchar * {aka char *}’ but argument is of type ‘const gchar * {aka const char *}’
+ gchar*                g_strchug        (gchar        *string);
+                       ^
+/build/granite-bzr/src/granite/build/lib/Widgets/Utils.c: In function ‘granite_widgets_utils_get_button_layout_schema’:
+/build/granite-bzr/src/granite/build/lib/Widgets/Utils.c:957:2: warning: ‘g_settings_list_schemas’ is deprecated: Use 'g_settings_schema_source_list_schemas' instead [-Wdeprecated-declarations]
+  _tmp1_ = _tmp0_ = g_settings_list_schemas ();
+  ^
+In file included from /usr/include/glib-2.0/gio/gio.h:110:0,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/Utils.c:28:
+/usr/include/glib-2.0/gio/gsettings.h:74:25: note: declared here
+ const gchar * const *   g_settings_list_schemas                         (void);
+                         ^
+/build/granite-bzr/src/granite/build/lib/Widgets/Utils.c:957:18: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp1_ = _tmp0_ = g_settings_list_schemas ();
+                  ^
+[ 42%] Building C object lib/CMakeFiles/granite.dir/Widgets/WrapLabel.c.o
+/build/granite-bzr/src/granite/build/lib/Widgets/WrapLabel.c: In function ‘granite_widgets_wrap_label_construct’:
+/build/granite-bzr/src/granite/build/lib/Widgets/WrapLabel.c:85:2: warning: ‘gtk_misc_set_alignment’ is deprecated [-Wdeprecated-declarations]
+  gtk_misc_set_alignment ((GtkMisc*) self, (gfloat) 0, (gfloat) 0);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtklabel.h:33:0,
+                 from /usr/include/gtk-3.0/gtk/gtkaccellabel.h:36,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:33,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/WrapLabel.c:27:
+/usr/include/gtk-3.0/gtk/deprecated/gtkmisc.h:72:6: note: declared here
+ void gtk_misc_set_alignment (GtkMisc *misc,
+      ^
+[ 44%] Building C object lib/CMakeFiles/granite.dir/Widgets/AboutDialog.c.o
+/build/granite-bzr/src/granite/build/lib/Widgets/AboutDialog.c: In function ‘granite_widgets_about_dialog_construct’:
+/build/granite-bzr/src/granite/build/lib/Widgets/AboutDialog.c:258:2: warning: ‘gtk_dialog_get_action_area’ is deprecated [-Wdeprecated-declarations]
+  _tmp0_ = gtk_dialog_get_action_area ((GtkDialog*) self);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30:0,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/AboutDialog.c:25:
+/usr/include/gtk-3.0/gtk/gtkdialog.h:205:13: note: declared here
+ GtkWidget * gtk_dialog_get_action_area  (GtkDialog *dialog);
+             ^
+[ 46%] Building C object lib/CMakeFiles/granite.dir/Widgets/ModeButton.c.o
+/build/granite-bzr/src/granite/build/lib/Widgets/ModeButton.c: In function ‘granite_widgets_mode_button_append’:
+/build/granite-bzr/src/granite/build/lib/Widgets/ModeButton.c:345:39: warning: passing argument 1 of ‘gee_abstract_map_get_size’ from incompatible pointer type [-Wincompatible-pointer-types]
+   _tmp1_ = gee_abstract_map_get_size ((GeeMap*) _tmp0_);
+                                       ^
+In file included from /build/granite-bzr/src/granite/build/lib/Widgets/ModeButton.c:29:0:
+/usr/include/gee-0.8/gee.h:1474:6: note: expected ‘GeeAbstractMap * {aka struct _GeeAbstractMap *}’ but argument is of type ‘GeeMap * {aka struct _GeeMap *}’
+ gint gee_abstract_map_get_size (GeeAbstractMap* self);
+      ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ModeButton.c: In function ‘granite_widgets_mode_button_get_n_items’:
+/build/granite-bzr/src/granite/build/lib/Widgets/ModeButton.c:825:38: warning: passing argument 1 of ‘gee_abstract_map_get_size’ from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp1_ = gee_abstract_map_get_size ((GeeMap*) _tmp0_);
+                                      ^
+In file included from /build/granite-bzr/src/granite/build/lib/Widgets/ModeButton.c:29:0:
+/usr/include/gee-0.8/gee.h:1474:6: note: expected ‘GeeAbstractMap * {aka struct _GeeAbstractMap *}’ but argument is of type ‘GeeMap * {aka struct _GeeMap *}’
+ gint gee_abstract_map_get_size (GeeAbstractMap* self);
+      ^
+[ 48%] Building C object lib/CMakeFiles/granite.dir/Widgets/DatePicker.c.o
+[ 51%] Building C object lib/CMakeFiles/granite.dir/Widgets/Entries.c.o
+/build/granite-bzr/src/granite/build/lib/Widgets/Entries.c: In function ‘granite_widgets_search_bar_emit_text_changed’:
+/build/granite-bzr/src/granite/build/lib/Widgets/Entries.c:464:2: warning: ‘granite_widgets_hinted_entry_get_text’ is deprecated [-Wdeprecated-declarations]
+  _tmp0_ = granite_widgets_hinted_entry_get_text ((GraniteWidgetsHintedEntry*) self);
+  ^
+/build/granite-bzr/src/granite/build/lib/Widgets/Entries.c:218:8: note: declared here
+ gchar* granite_widgets_hinted_entry_get_text (GraniteWidgetsHintedEntry* self) {
+        ^
+[ 53%] Building C object lib/CMakeFiles/granite.dir/Widgets/TimePicker.c.o
+[ 55%] Building C object lib/CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.o
+[ 57%] Building C object lib/CMakeFiles/granite.dir/Widgets/StaticNotebook.c.o
+/build/granite-bzr/src/granite/build/lib/Widgets/StaticNotebook.c: In function ‘granite_widgets_static_notebook_append_page’:
+/build/granite-bzr/src/granite/build/lib/Widgets/StaticNotebook.c:229:2: warning: ‘gtk_widget_set_margin_right’ is deprecated: Use 'gtk_widget_set_margin_end' instead [-Wdeprecated-declarations]
+  gtk_widget_set_margin_right ((GtkWidget*) _tmp3_, 5);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/StaticNotebook.c:25:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1100:10: note: declared here
+ void     gtk_widget_set_margin_right  (GtkWidget *widget,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/StaticNotebook.c:231:2: warning: ‘gtk_widget_set_margin_left’ is deprecated: Use 'gtk_widget_set_margin_start' instead [-Wdeprecated-declarations]
+  gtk_widget_set_margin_left ((GtkWidget*) _tmp4_, 5);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/StaticNotebook.c:25:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1095:10: note: declared here
+ void     gtk_widget_set_margin_left   (GtkWidget *widget,
+          ^
+[ 59%] Building C object lib/CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.o
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c: In function ‘granite_widgets_tab_construct’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:1198:2: warning: ‘gtk_widget_override_background_color’ is deprecated [-Wdeprecated-declarations]
+  gtk_widget_override_background_color ((GtkWidget*) self, 0, &_tmp37_);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:26:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1157:14: note: declared here
+ void         gtk_widget_override_background_color (GtkWidget     *widget,
+              ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c: In function ‘granite_widgets_tab_set_pinned’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:1454:5: warning: ‘gtk_widget_set_margin_left’ is deprecated: Use 'gtk_widget_set_margin_start' instead [-Wdeprecated-declarations]
+     gtk_widget_set_margin_left ((GtkWidget*) _tmp6_, 1);
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:26:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1095:10: note: declared here
+ void     gtk_widget_set_margin_left   (GtkWidget *widget,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:1456:5: warning: ‘gtk_widget_set_margin_left’ is deprecated: Use 'gtk_widget_set_margin_start' instead [-Wdeprecated-declarations]
+     gtk_widget_set_margin_left ((GtkWidget*) _tmp7_, 1);
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:26:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1095:10: note: declared here
+ void     gtk_widget_set_margin_left   (GtkWidget *widget,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:1464:5: warning: ‘gtk_widget_set_margin_left’ is deprecated: Use 'gtk_widget_set_margin_start' instead [-Wdeprecated-declarations]
+     gtk_widget_set_margin_left ((GtkWidget*) _tmp9_, 0);
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:26:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1095:10: note: declared here
+ void     gtk_widget_set_margin_left   (GtkWidget *widget,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:1466:5: warning: ‘gtk_widget_set_margin_left’ is deprecated: Use 'gtk_widget_set_margin_start' instead [-Wdeprecated-declarations]
+     gtk_widget_set_margin_left ((GtkWidget*) _tmp10_, 0);
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:26:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1095:10: note: declared here
+ void     gtk_widget_set_margin_left   (GtkWidget *widget,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c: In function ‘granite_widgets_tab_set_page’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:1561:3: warning: ‘gtk_widget_reparent’ is deprecated [-Wdeprecated-declarations]
+   gtk_widget_reparent (_tmp7_, (GtkWidget*) _tmp8_);
+   ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:26:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:773:9: note: declared here
+ void    gtk_widget_reparent    (GtkWidget        *widget,
+         ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c: In function ‘granite_widgets_closed_tabs_construct’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:1953:128: warning: passing argument 3 of ‘gee_linked_list_new’ from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp0_ = gee_linked_list_new (GRANITE_WIDGETS_CLOSED_TABS_TYPE_ENTRY, (GBoxedCopyFunc) granite_widgets_closed_tabs_entry_dup, granite_widgets_closed_tabs_entry_free, NULL, NULL, NULL);
+                                                                                                                                ^
+In file included from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:34:0:
+/usr/include/gee-0.8/gee.h:1680:16: note: expected ‘GDestroyNotify {aka void (*)(void *)}’ but argument is of type ‘void (*)(GraniteWidgetsClosedTabsEntry *) {aka void (*)(struct _GraniteWidgetsClosedTabsEntry *)}’
+ GeeLinkedList* gee_linked_list_new (GType g_type, GBoxedCopyFunc g_dup_func, GDestroyNotify g_destroy_func, GeeEqualDataFunc equal_func, void* equal_func_target, GDestroyNotify equal_func_target_destroy_notify);
+                ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c: In function ‘granite_widgets_closed_tabs_push’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:2004:46: warning: passing argument 1 of ‘gee_abstract_collection_get_size’ from incompatible pointer type [-Wincompatible-pointer-types]
+   _tmp3_ = gee_abstract_collection_get_size ((GeeCollection*) _tmp2_);
+                                              ^
+In file included from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:34:0:
+/usr/include/gee-0.8/gee.h:1452:6: note: expected ‘GeeAbstractCollection * {aka struct _GeeAbstractCollection *}’ but argument is of type ‘GeeCollection * {aka struct _GeeCollection *}’
+ gint gee_abstract_collection_get_size (GeeAbstractCollection* self);
+      ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:2078:46: warning: passing argument 1 of ‘gee_abstract_collection_get_size’ from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp33_ = gee_abstract_collection_get_size ((GeeCollection*) _tmp32_);
+                                              ^
+In file included from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:34:0:
+/usr/include/gee-0.8/gee.h:1452:6: note: expected ‘GeeAbstractCollection * {aka struct _GeeAbstractCollection *}’ but argument is of type ‘GeeCollection * {aka struct _GeeCollection *}’
+ gint gee_abstract_collection_get_size (GeeAbstractCollection* self);
+      ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c: In function ‘granite_widgets_closed_tabs_pop’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:2133:45: warning: passing argument 1 of ‘gee_abstract_collection_get_size’ from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp1_ = gee_abstract_collection_get_size ((GeeCollection*) _tmp0_);
+                                             ^
+In file included from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:34:0:
+/usr/include/gee-0.8/gee.h:1452:6: note: expected ‘GeeAbstractCollection * {aka struct _GeeAbstractCollection *}’ but argument is of type ‘GeeCollection * {aka struct _GeeCollection *}’
+ gint gee_abstract_collection_get_size (GeeAbstractCollection* self);
+      ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c: In function ‘granite_widgets_closed_tabs_pick’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:2185:48: warning: passing argument 1 of ‘gee_abstract_collection_get_size’ from incompatible pointer type [-Wincompatible-pointer-types]
+     _tmp5_ = gee_abstract_collection_get_size ((GeeCollection*) _tmp4_);
+                                                ^
+In file included from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:34:0:
+/usr/include/gee-0.8/gee.h:1452:6: note: expected ‘GeeAbstractCollection * {aka struct _GeeAbstractCollection *}’ but argument is of type ‘GeeCollection * {aka struct _GeeCollection *}’
+ gint gee_abstract_collection_get_size (GeeAbstractCollection* self);
+      ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c: In function ‘granite_widgets_closed_tabs_get_empty’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:2252:45: warning: passing argument 1 of ‘gee_abstract_collection_get_size’ from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp1_ = gee_abstract_collection_get_size ((GeeCollection*) _tmp0_);
+                                             ^
+In file included from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:34:0:
+/usr/include/gee-0.8/gee.h:1452:6: note: expected ‘GeeAbstractCollection * {aka struct _GeeAbstractCollection *}’ but argument is of type ‘GeeCollection * {aka struct _GeeCollection *}’
+ gint gee_abstract_collection_get_size (GeeAbstractCollection* self);
+      ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c: In function ‘_granite_widgets_closed_tabs_menu____lambda49_’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:2326:46: warning: passing argument 1 of ‘gee_abstract_collection_get_size’ from incompatible pointer type [-Wincompatible-pointer-types]
+   _tmp3_ = gee_abstract_collection_get_size ((GeeCollection*) _tmp2_);
+                                              ^
+In file included from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:34:0:
+/usr/include/gee-0.8/gee.h:1452:6: note: expected ‘GeeAbstractCollection * {aka struct _GeeAbstractCollection *}’ but argument is of type ‘GeeCollection * {aka struct _GeeCollection *}’
+ gint gee_abstract_collection_get_size (GeeAbstractCollection* self);
+      ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c: In function ‘granite_widgets_closed_tabs_get_menu’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:2402:46: warning: passing argument 1 of ‘gee_abstract_collection_get_size’ from incompatible pointer type [-Wincompatible-pointer-types]
+   _tmp4_ = gee_abstract_collection_get_size ((GeeCollection*) _tmp3_);
+                                              ^
+In file included from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:34:0:
+/usr/include/gee-0.8/gee.h:1452:6: note: expected ‘GeeAbstractCollection * {aka struct _GeeAbstractCollection *}’ but argument is of type ‘GeeCollection * {aka struct _GeeCollection *}’
+ gint gee_abstract_collection_get_size (GeeAbstractCollection* self);
+      ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:2442:4: warning: ‘gtk_image_menu_item_new_with_label’ is deprecated: Use 'gtk_menu_item_new_with_label' instead [-Wdeprecated-declarations]
+    _tmp14_ = (GtkImageMenuItem*) gtk_image_menu_item_new_with_label (_tmp13_);
+    ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:255:0,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:26:
+/usr/include/gtk-3.0/gtk/deprecated/gtkimagemenuitem.h:80:12: note: declared here
+ GtkWidget* gtk_image_menu_item_new_with_label    (const gchar      *label);
+            ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:2446:4: warning: ‘gtk_image_menu_item_set_always_show_image’ is deprecated [-Wdeprecated-declarations]
+    gtk_image_menu_item_set_always_show_image (_tmp15_, TRUE);
+    ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:255:0,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:26:
+/usr/include/gtk-3.0/gtk/deprecated/gtkimagemenuitem.h:87:12: note: declared here
+ void       gtk_image_menu_item_set_always_show_image (GtkImageMenuItem *image_menu_item,
+            ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:2463:5: warning: ‘gtk_image_menu_item_set_image’ is deprecated [-Wdeprecated-declarations]
+     gtk_image_menu_item_set_image (_tmp21_, (GtkWidget*) _tmp22_);
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:255:0,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:26:
+/usr/include/gtk-3.0/gtk/deprecated/gtkimagemenuitem.h:92:12: note: declared here
+ void       gtk_image_menu_item_set_image         (GtkImageMenuItem *image_menu_item,
+            ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c: In function ‘granite_widgets_dynamic_notebook_construct’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:3307:2: warning: ‘gtk_widget_set_margin_right’ is deprecated: Use 'gtk_widget_set_margin_end' instead [-Wdeprecated-declarations]
+  gtk_widget_set_margin_right ((GtkWidget*) _tmp38_, 5);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:26:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1100:10: note: declared here
+ void     gtk_widget_set_margin_right  (GtkWidget *widget,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c: In function ‘granite_widgets_dynamic_notebook_recalc_size’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:3855:2: warning: ‘gtk_container_resize_children’ is deprecated [-Wdeprecated-declarations]
+  gtk_container_resize_children ((GtkContainer*) _tmp46_);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkbin.h:33:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:35,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:26:
+/usr/include/gtk-3.0/gtk/gtkcontainer.h:211:9: note: declared here
+ void    gtk_container_resize_children      (GtkContainer     *container);
+         ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c: In function ‘granite_widgets_dynamic_notebook_set_show_icons’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:4714:27: warning: passing argument 2 of ‘g_list_foreach’ from incompatible pointer type [-Wincompatible-pointer-types]
+   g_list_foreach (_tmp4_, __granite_widgets_dynamic_notebook_show_icons____lambda64__gfunc, _data6_);
+                           ^
+In file included from /usr/include/glib-2.0/glib/ghash.h:33:0,
+                 from /usr/include/glib-2.0/glib.h:50,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:23:
+/usr/include/glib-2.0/glib/glist.h:132:10: note: expected ‘GFunc {aka void (*)(void *, void *)}’ but argument is of type ‘void (*)(const void *, void *)’
+ void     g_list_foreach                 (GList            *list,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c: In function ‘granite_widgets_dynamic_notebook_set_tabs_closable’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:4788:27: warning: passing argument 2 of ‘g_list_foreach’ from incompatible pointer type [-Wincompatible-pointer-types]
+   g_list_foreach (_tmp4_, __granite_widgets_dynamic_notebook_tabs_closable____lambda61__gfunc, _data7_);
+                           ^
+In file included from /usr/include/glib-2.0/glib/ghash.h:33:0,
+                 from /usr/include/glib-2.0/glib.h:50,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:23:
+/usr/include/glib-2.0/glib/glist.h:132:10: note: expected ‘GFunc {aka void (*)(void *, void *)}’ but argument is of type ‘void (*)(const void *, void *)’
+ void     g_list_foreach                 (GList            *list,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c: In function ‘granite_widgets_dynamic_notebook_set_allow_drag’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:4863:26: warning: passing argument 2 of ‘g_list_foreach’ from incompatible pointer type [-Wincompatible-pointer-types]
+  g_list_foreach (_tmp3_, __granite_widgets_dynamic_notebook_allow_drag___lambda62__gfunc, _data8_);
+                          ^
+In file included from /usr/include/glib-2.0/glib/ghash.h:33:0,
+                 from /usr/include/glib-2.0/glib.h:50,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:23:
+/usr/include/glib-2.0/glib/glist.h:132:10: note: expected ‘GFunc {aka void (*)(void *, void *)}’ but argument is of type ‘void (*)(const void *, void *)’
+ void     g_list_foreach                 (GList            *list,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c: In function ‘granite_widgets_dynamic_notebook_set_allow_new_window’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:4935:26: warning: passing argument 2 of ‘g_list_foreach’ from incompatible pointer type [-Wincompatible-pointer-types]
+  g_list_foreach (_tmp3_, __granite_widgets_dynamic_notebook_allow_new_window___lambda63__gfunc, _data9_);
+                          ^
+In file included from /usr/include/glib-2.0/glib/ghash.h:33:0,
+                 from /usr/include/glib-2.0/glib.h:50,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DynamicNotebook.c:23:
+/usr/include/glib-2.0/glib/glist.h:132:10: note: expected ‘GFunc {aka void (*)(void *, void *)}’ but argument is of type ‘void (*)(const void *, void *)’
+ void     g_list_foreach                 (GList            *list,
+          ^
+[ 61%] Building C object lib/CMakeFiles/granite.dir/Widgets/CompositedWindow.c.o
+[ 63%] Building C object lib/CMakeFiles/granite.dir/Widgets/AppMenu.c.o
+[ 65%] Building C object lib/CMakeFiles/granite.dir/Widgets/Welcome.c.o
+[ 68%] Building C object lib/CMakeFiles/granite.dir/Widgets/WelcomeButton.c.o
+[ 70%] Building C object lib/CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.o
+/build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c: In function ‘granite_widgets_tool_button_with_menu_construct_from_action’:
+/build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:211:2: warning: ‘gtk_action_get_stock_id’ is deprecated [-Wdeprecated-declarations]
+  _tmp1_ = gtk_action_get_stock_id (_tmp0_);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/deprecated/gtkactivatable.h:25:0,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:238,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:35:
+/usr/include/gtk-3.0/gtk/deprecated/gtkaction.h:182:23: note: declared here
+ const gchar *         gtk_action_get_stock_id           (GtkAction   *action);
+                       ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:214:2: warning: ‘gtk_action_get_label’ is deprecated [-Wdeprecated-declarations]
+  _tmp4_ = gtk_action_get_label (_tmp3_);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/deprecated/gtkactivatable.h:25:0,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:238,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:35:
+/usr/include/gtk-3.0/gtk/deprecated/gtkaction.h:167:23: note: declared here
+ const gchar *         gtk_action_get_label              (GtkAction   *action);
+                       ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:221:2: warning: ‘gtk_activatable_set_use_action_appearance’ is deprecated [-Wdeprecated-declarations]
+  gtk_activatable_set_use_action_appearance ((GtkActivatable*) self, TRUE);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:238:0,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:35:
+/usr/include/gtk-3.0/gtk/deprecated/gtkactivatable.h:86:12: note: declared here
+ void       gtk_activatable_set_use_action_appearance  (GtkActivatable *activatable,
+            ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:223:2: warning: ‘gtk_activatable_set_related_action’ is deprecated [-Wdeprecated-declarations]
+  gtk_activatable_set_related_action ((GtkActivatable*) self, _tmp8_);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:238:0,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:35:
+/usr/include/gtk-3.0/gtk/deprecated/gtkactivatable.h:80:12: note: declared here
+ void       gtk_activatable_set_related_action         (GtkActivatable *activatable,
+            ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c: In function ‘granite_widgets_tool_button_with_menu_construct_from_stock’:
+/build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:252:2: warning: ‘gtk_image_new_from_stock’ is deprecated: Use 'gtk_image_new_from_icon_name' instead [-Wdeprecated-declarations]
+  _tmp2_ = (GtkImage*) gtk_image_new_from_stock (_tmp0_, _tmp1_);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkentry.h:42:0,
+                 from /usr/include/gtk-3.0/gtk/gtktreeview.h:29,
+                 from /usr/include/gtk-3.0/gtk/gtkcombobox.h:27,
+                 from /usr/include/gtk-3.0/gtk/gtkappchooserbutton.h:29,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:42,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:35:
+/usr/include/gtk-3.0/gtk/gtkimage.h:122:12: note: declared here
+ GtkWidget* gtk_image_new_from_stock     (const gchar     *stock_id,
+            ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c: In function ‘granite_widgets_tool_button_with_menu_deactivate_menu’:
+/build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:405:3: warning: ‘gtk_action_block_activate’ is deprecated [-Wdeprecated-declarations]
+   gtk_action_block_activate (_tmp1_);
+   ^
+In file included from /usr/include/gtk-3.0/gtk/deprecated/gtkactivatable.h:25:0,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:238,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:35:
+/usr/include/gtk-3.0/gtk/deprecated/gtkaction.h:140:14: note: declared here
+ void         gtk_action_block_activate         (GtkAction     *action);
+              ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:412:3: warning: ‘gtk_action_unblock_activate’ is deprecated [-Wdeprecated-declarations]
+   gtk_action_unblock_activate (_tmp3_);
+   ^
+In file included from /usr/include/gtk-3.0/gtk/deprecated/gtkactivatable.h:25:0,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:238,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:35:
+/usr/include/gtk-3.0/gtk/deprecated/gtkaction.h:142:14: note: declared here
+ void         gtk_action_unblock_activate       (GtkAction     *action);
+              ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c: In function ‘granite_widgets_tool_button_with_menu_popup_menu_and_depress_button’:
+/build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:427:3: warning: ‘gtk_action_block_activate’ is deprecated [-Wdeprecated-declarations]
+   gtk_action_block_activate (_tmp1_);
+   ^
+In file included from /usr/include/gtk-3.0/gtk/deprecated/gtkactivatable.h:25:0,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:238,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:35:
+/usr/include/gtk-3.0/gtk/deprecated/gtkaction.h:140:14: note: declared here
+ void         gtk_action_block_activate         (GtkAction     *action);
+              ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:434:3: warning: ‘gtk_action_unblock_activate’ is deprecated [-Wdeprecated-declarations]
+   gtk_action_unblock_activate (_tmp3_);
+   ^
+In file included from /usr/include/gtk-3.0/gtk/deprecated/gtkactivatable.h:25:0,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:238,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:35:
+/usr/include/gtk-3.0/gtk/deprecated/gtkaction.h:142:14: note: declared here
+ void         gtk_action_unblock_activate       (GtkAction     *action);
+              ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c: In function ‘granite_widgets_tool_button_with_menu_on_button_release_event’:
+/build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:460:4: warning: ‘gtk_action_activate’ is deprecated [-Wdeprecated-declarations]
+    gtk_action_activate (_tmp5_);
+    ^
+In file included from /usr/include/gtk-3.0/gtk/deprecated/gtkactivatable.h:25:0,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:238,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ToolButtonWithMenu.c:35:
+/usr/include/gtk-3.0/gtk/deprecated/gtkaction.h:119:14: note: declared here
+ void         gtk_action_activate               (GtkAction     *action);
+              ^
+[ 72%] Building C object lib/CMakeFiles/granite.dir/Widgets/PopOver.c.o
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c: In function ‘granite_widgets_pop_over_construct’:
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:279:2: warning: ‘gtk_dialog_get_action_area’ is deprecated [-Wdeprecated-declarations]
+  _tmp2_ = gtk_dialog_get_action_area ((GtkDialog*) self);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30:0,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:25:
+/usr/include/gtk-3.0/gtk/gtkdialog.h:205:13: note: declared here
+ GtkWidget * gtk_dialog_get_action_area  (GtkDialog *dialog);
+             ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:301:2: warning: ‘gtk_widget_set_margin_left’ is deprecated: Use 'gtk_widget_set_margin_start' instead [-Wdeprecated-declarations]
+  gtk_widget_set_margin_left ((GtkWidget*) _tmp12_, (_tmp14_ + _tmp15_) + 5);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:25:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1095:10: note: declared here
+ void     gtk_widget_set_margin_left   (GtkWidget *widget,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:306:2: warning: ‘gtk_widget_set_margin_right’ is deprecated: Use 'gtk_widget_set_margin_end' instead [-Wdeprecated-declarations]
+  gtk_widget_set_margin_right ((GtkWidget*) _tmp16_, (_tmp18_ + _tmp19_) + 5);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:25:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1100:10: note: declared here
+ void     gtk_widget_set_margin_right  (GtkWidget *widget,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:311:2: warning: ‘gtk_widget_set_margin_left’ is deprecated: Use 'gtk_widget_set_margin_start' instead [-Wdeprecated-declarations]
+  gtk_widget_set_margin_left ((GtkWidget*) _tmp20_, (_tmp22_ + _tmp23_) + 5);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:25:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1095:10: note: declared here
+ void     gtk_widget_set_margin_left   (GtkWidget *widget,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:316:2: warning: ‘gtk_widget_set_margin_right’ is deprecated: Use 'gtk_widget_set_margin_end' instead [-Wdeprecated-declarations]
+  gtk_widget_set_margin_right ((GtkWidget*) _tmp24_, (_tmp26_ + _tmp27_) + 5);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:25:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1100:10: note: declared here
+ void     gtk_widget_set_margin_right  (GtkWidget *widget,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c: In function ‘granite_widgets_pop_over_compute_shadow’:
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:1508:2: warning: ‘gtk_style_context_get_border_color’ is deprecated: Use 'gtk_render_frame' instead [-Wdeprecated-declarations]
+  gtk_style_context_get_border_color (_tmp85_, GTK_STATE_FLAG_NORMAL, &_tmp86_);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkicontheme.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:120,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:25:
+/usr/include/gtk-3.0/gtk/gtkstylecontext.h:1164:6: note: declared here
+ void gtk_style_context_get_border_color     (GtkStyleContext *context,
+      ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c: In function ‘granite_widgets_pop_over_class_init’:
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:1642:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp0_ = g_param_spec_int ("border-radius", "Border radius", "Border radius of the popover", 0, 50, 8, G_PARAM_READABLE);
+         ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:1645:24: warning: passing argument 1 of ‘g_param_spec_unref’ from incompatible pointer type [-Wincompatible-pointer-types]
+  _g_param_spec_unref0 (_tmp1_);
+                        ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:58:87: note: in definition of macro ‘_g_param_spec_unref0’
+ #define _g_param_spec_unref0(var) ((var == NULL) ? NULL : (var = (g_param_spec_unref (var), NULL)))
+                                                                                       ^
+In file included from /usr/include/glib-2.0/gobject/gobject.h:26:0,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:29,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:24:
+/usr/include/glib-2.0/gobject/gparam.h:281:7: note: expected ‘GParamSpec * {aka struct _GParamSpec *}’ but argument is of type ‘GParamSpecInt * {aka struct _GParamSpecInt *}’
+ void  g_param_spec_unref  (GParamSpec    *pspec);
+       ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:1646:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp2_ = g_param_spec_int ("border-width", "Border width", "Width of the popover's outer border", 0, 8, 1, G_PARAM_READABLE);
+         ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:1649:24: warning: passing argument 1 of ‘g_param_spec_unref’ from incompatible pointer type [-Wincompatible-pointer-types]
+  _g_param_spec_unref0 (_tmp3_);
+                        ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:58:87: note: in definition of macro ‘_g_param_spec_unref0’
+ #define _g_param_spec_unref0(var) ((var == NULL) ? NULL : (var = (g_param_spec_unref (var), NULL)))
+                                                                                       ^
+In file included from /usr/include/glib-2.0/gobject/gobject.h:26:0,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:29,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:24:
+/usr/include/glib-2.0/gobject/gparam.h:281:7: note: expected ‘GParamSpec * {aka struct _GParamSpec *}’ but argument is of type ‘GParamSpecInt * {aka struct _GParamSpecInt *}’
+ void  g_param_spec_unref  (GParamSpec    *pspec);
+       ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:1650:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp4_ = g_param_spec_int ("shadow-size", "Shadow size", "Size of the popover's shadow", 4, 50, 20, G_PARAM_READABLE);
+         ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:1653:24: warning: passing argument 1 of ‘g_param_spec_unref’ from incompatible pointer type [-Wincompatible-pointer-types]
+  _g_param_spec_unref0 (_tmp5_);
+                        ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:58:87: note: in definition of macro ‘_g_param_spec_unref0’
+ #define _g_param_spec_unref0(var) ((var == NULL) ? NULL : (var = (g_param_spec_unref (var), NULL)))
+                                                                                       ^
+In file included from /usr/include/glib-2.0/gobject/gobject.h:26:0,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:29,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:24:
+/usr/include/glib-2.0/gobject/gparam.h:281:7: note: expected ‘GParamSpec * {aka struct _GParamSpec *}’ but argument is of type ‘GParamSpecInt * {aka struct _GParamSpecInt *}’
+ void  g_param_spec_unref  (GParamSpec    *pspec);
+       ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:1654:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp6_ = g_param_spec_int ("arrow-height", "Arrow height", "Height of the popover's arrow", 0, 50, 14, G_PARAM_READABLE);
+         ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:1657:24: warning: passing argument 1 of ‘g_param_spec_unref’ from incompatible pointer type [-Wincompatible-pointer-types]
+  _g_param_spec_unref0 (_tmp7_);
+                        ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:58:87: note: in definition of macro ‘_g_param_spec_unref0’
+ #define _g_param_spec_unref0(var) ((var == NULL) ? NULL : (var = (g_param_spec_unref (var), NULL)))
+                                                                                       ^
+In file included from /usr/include/glib-2.0/gobject/gobject.h:26:0,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:29,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:24:
+/usr/include/glib-2.0/gobject/gparam.h:281:7: note: expected ‘GParamSpec * {aka struct _GParamSpec *}’ but argument is of type ‘GParamSpecInt * {aka struct _GParamSpecInt *}’
+ void  g_param_spec_unref  (GParamSpec    *pspec);
+       ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:1658:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp8_ = g_param_spec_int ("arrow-width", "Arrow width", "Width of the popover's arrow", 0, 50, 30, G_PARAM_READABLE);
+         ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:1661:24: warning: passing argument 1 of ‘g_param_spec_unref’ from incompatible pointer type [-Wincompatible-pointer-types]
+  _g_param_spec_unref0 (_tmp9_);
+                        ^
+/build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:58:87: note: in definition of macro ‘_g_param_spec_unref0’
+ #define _g_param_spec_unref0(var) ((var == NULL) ? NULL : (var = (g_param_spec_unref (var), NULL)))
+                                                                                       ^
+In file included from /usr/include/glib-2.0/gobject/gobject.h:26:0,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:29,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/PopOver.c:24:
+/usr/include/glib-2.0/gobject/gparam.h:281:7: note: expected ‘GParamSpec * {aka struct _GParamSpec *}’ but argument is of type ‘GParamSpecInt * {aka struct _GParamSpecInt *}’
+ void  g_param_spec_unref  (GParamSpec    *pspec);
+       ^
+[ 74%] Building C object lib/CMakeFiles/granite.dir/Widgets/ContractorView.c.o
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorView.c: In function ‘granite_widgets_contractor_view_construct’:
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorView.c:156:179: warning: passing argument 6 of ‘gee_hash_map_new’ from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp1_ = gee_hash_map_new (G_TYPE_INT, NULL, NULL, GRANITE_WIDGETS_CONTRACTOR_VIEW_TYPE_DELEGATE_WRAPPER, (GBoxedCopyFunc) granite_widgets_contractor_view_delegate_wrapper_dup, granite_widgets_contractor_view_delegate_wrapper_free, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+                                                                                                                                                                                   ^
+In file included from /build/granite-bzr/src/granite/build/lib/Widgets/ContractorView.c:26:0:
+/usr/include/gee-0.8/gee.h:1609:13: note: expected ‘GDestroyNotify {aka void (*)(void *)}’ but argument is of type ‘void (*)(GraniteWidgetsContractorViewDelegateWrapper *) {aka void (*)(struct _GraniteWidgetsContractorViewDelegateWrapper *)}’
+ GeeHashMap* gee_hash_map_new (GType k_type, GBoxedCopyFunc k_dup_func, GDestroyNotify k_destroy_func, GType v_type, GBoxedCopyFunc v_dup_func, GDestroyNotify v_destroy_func, GeeHashDataFunc key_hash_func, void* key_hash_func_target, GDestroyNotify key_hash_func_target_destroy_notify, GeeEqualDataFunc key_equal_func, void* key_equal_func_target, GDestroyNotify key_equal_func_target_destroy_notify, GeeEqualDataFunc value_equal_func, void* value_equal_func_target, GDestroyNotify value_equal_func_target_destroy_notify);
+             ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorView.c: In function ‘granite_widgets_contractor_view_run_selected’:
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorView.c:754:38: warning: passing argument 1 of ‘gee_abstract_map_get_keys’ from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp1_ = gee_abstract_map_get_keys ((GeeMap*) _tmp0_);
+                                      ^
+In file included from /build/granite-bzr/src/granite/build/lib/Widgets/ContractorView.c:26:0:
+/usr/include/gee-0.8/gee.h:1476:9: note: expected ‘GeeAbstractMap * {aka struct _GeeAbstractMap *}’ but argument is of type ‘GeeMap * {aka struct _GeeMap *}’
+ GeeSet* gee_abstract_map_get_keys (GeeAbstractMap* self);
+         ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorView.c:801:42: warning: passing argument 1 of ‘gee_abstract_map_get_keys’ from incompatible pointer type [-Wincompatible-pointer-types]
+     _tmp15_ = gee_abstract_map_get_keys ((GeeMap*) _tmp14_);
+                                          ^
+In file included from /build/granite-bzr/src/granite/build/lib/Widgets/ContractorView.c:26:0:
+/usr/include/gee-0.8/gee.h:1476:9: note: expected ‘GeeAbstractMap * {aka struct _GeeAbstractMap *}’ but argument is of type ‘GeeMap * {aka struct _GeeMap *}’
+ GeeSet* gee_abstract_map_get_keys (GeeAbstractMap* self);
+         ^
+[ 76%] Building C object lib/CMakeFiles/granite.dir/Widgets/ContractorMenu.c.o
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c: In function ‘granite_widgets_contractor_menu_add_item’:
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c:235:2: warning: ‘gtk_image_menu_item_new’ is deprecated: Use 'gtk_menu_item_new' instead [-Wdeprecated-declarations]
+  _tmp3_ = (GtkImageMenuItem*) gtk_image_menu_item_new ();
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:255:0,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c:25:
+/usr/include/gtk-3.0/gtk/deprecated/gtkimagemenuitem.h:78:12: note: declared here
+ GtkWidget* gtk_image_menu_item_new               (void);
+            ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c:238:2: warning: ‘gtk_image_menu_item_set_always_show_image’ is deprecated [-Wdeprecated-declarations]
+  gtk_image_menu_item_set_always_show_image (item, TRUE);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:255:0,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c:25:
+/usr/include/gtk-3.0/gtk/deprecated/gtkimagemenuitem.h:87:12: note: declared here
+ void       gtk_image_menu_item_set_always_show_image (GtkImageMenuItem *image_menu_item,
+            ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c:240:2: warning: ‘gtk_image_menu_item_set_use_stock’ is deprecated [-Wdeprecated-declarations]
+  gtk_image_menu_item_set_use_stock (item, _tmp4_);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:255:0,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c:25:
+/usr/include/gtk-3.0/gtk/deprecated/gtkimagemenuitem.h:97:12: note: declared here
+ void       gtk_image_menu_item_set_use_stock     (GtkImageMenuItem *image_menu_item,
+            ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c:247:2: warning: ‘gtk_image_menu_item_set_image’ is deprecated [-Wdeprecated-declarations]
+  gtk_image_menu_item_set_image (item, (GtkWidget*) image);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:255:0,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c:25:
+/usr/include/gtk-3.0/gtk/deprecated/gtkimagemenuitem.h:92:12: note: declared here
+ void       gtk_image_menu_item_set_image         (GtkImageMenuItem *image_menu_item,
+            ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c: In function ‘__lambda72_’:
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c:305:59: warning: passing argument 3 of ‘_vala_string_array_contains’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  if (_vala_string_array_contains (_tmp2_, _tmp2__length1, _tmp1_)) {
+                                                           ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c:282:17: note: expected ‘gchar * {aka char *}’ but argument is of type ‘const gchar * {aka const char *}’
+ static gboolean _vala_string_array_contains (gchar** stack, int stack_length, gchar* needle) {
+                 ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c: In function ‘granite_widgets_contractor_menu_load_items’:
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c:491:5: warning: ‘gtk_image_menu_item_new’ is deprecated: Use 'gtk_menu_item_new' instead [-Wdeprecated-declarations]
+     _tmp18_ = (GtkImageMenuItem*) gtk_image_menu_item_new ();
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:255:0,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c:25:
+/usr/include/gtk-3.0/gtk/deprecated/gtkimagemenuitem.h:78:12: note: declared here
+ GtkWidget* gtk_image_menu_item_new               (void);
+            ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c:495:5: warning: ‘gtk_image_menu_item_set_always_show_image’ is deprecated [-Wdeprecated-declarations]
+     gtk_image_menu_item_set_always_show_image (_tmp19_, TRUE);
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:255:0,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c:25:
+/usr/include/gtk-3.0/gtk/deprecated/gtkimagemenuitem.h:87:12: note: declared here
+ void       gtk_image_menu_item_set_always_show_image (GtkImageMenuItem *image_menu_item,
+            ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c:513:5: warning: ‘gtk_image_menu_item_set_image’ is deprecated [-Wdeprecated-declarations]
+     gtk_image_menu_item_set_image (_tmp30_, (GtkWidget*) _tmp31_);
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:255:0,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ContractorMenu.c:25:
+/usr/include/gtk-3.0/gtk/deprecated/gtkimagemenuitem.h:92:12: note: declared here
+ void       gtk_image_menu_item_set_image         (GtkImageMenuItem *image_menu_item,
+            ^
+[ 78%] Building C object lib/CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.o
+/build/granite-bzr/src/granite/build/lib/Widgets/DecoratedWindow.c: In function ‘granite_widgets_decorated_window_construct’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DecoratedWindow.c:292:2: warning: ‘gtk_window_set_has_resize_grip’ is deprecated [-Wdeprecated-declarations]
+  gtk_window_set_has_resize_grip ((GtkWindow*) self, FALSE);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkdialog.h:33:0,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DecoratedWindow.c:27:
+/usr/include/gtk-3.0/gtk/gtkwindow.h:472:10: note: declared here
+ void     gtk_window_set_has_resize_grip    (GtkWindow    *window,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DecoratedWindow.c:315:2: warning: ‘gtk_widget_set_margin_right’ is deprecated: Use 'gtk_widget_set_margin_end' instead [-Wdeprecated-declarations]
+  gtk_widget_set_margin_right ((GtkWidget*) _tmp8_, 6 + (_tmp10_ / 3));
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DecoratedWindow.c:27:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1100:10: note: declared here
+ void     gtk_widget_set_margin_right  (GtkWidget *widget,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DecoratedWindow.c:316:2: warning: ‘gtk_widget_set_margin_left’ is deprecated: Use 'gtk_widget_set_margin_start' instead [-Wdeprecated-declarations]
+  gtk_widget_set_margin_left ((GtkWidget*) _tmp7_, 6 + (_tmp10_ / 3));
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DecoratedWindow.c:27:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1095:10: note: declared here
+ void     gtk_widget_set_margin_left   (GtkWidget *widget,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/DecoratedWindow.c: In function ‘granite_widgets_decorated_window_on_motion_notify’:
+/build/granite-bzr/src/granite/build/lib/Widgets/DecoratedWindow.c:624:3: warning: ‘gdk_cursor_new’ is deprecated [-Wdeprecated-declarations]
+   _tmp6_ = gdk_cursor_new (GDK_HAND1);
+   ^
+In file included from /usr/include/gtk-3.0/gdk/gdk.h:34:0,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:30,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/DecoratedWindow.c:27:
+/usr/include/gtk-3.0/gdk/gdkcursor.h:223:12: note: declared here
+ GdkCursor* gdk_cursor_new   (GdkCursorType    cursor_type);
+            ^
+[ 80%] Building C object lib/CMakeFiles/granite.dir/Widgets/LightWindow.c.o
+[ 82%] Building C object lib/CMakeFiles/granite.dir/Widgets/StatusBar.c.o
+[ 85%] Building C object lib/CMakeFiles/granite.dir/Widgets/SidebarPaned.c.o
+[ 87%] Building C object lib/CMakeFiles/granite.dir/Widgets/SourceList.c.o
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:476:1: warning: ‘GraniteWidgetsSourceListSortFunc’ is deprecated [-Wdeprecated-declarations]
+ void granite_widgets_source_list_set_sort_func (GraniteWidgetsSourceList* self, GraniteWidgetsSourceListSortFunc sort_func, void* sort_func_target, GDestroyNotify sort_func_target_destroy_notify) G_GNUC_DEPRECATED;
+ ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c: In function ‘granite_widgets_source_list_construct’:
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:1014:2: warning: ‘gtk_widget_push_composite_child’ is deprecated: Use 'gtk_widget_class_set_template' instead [-Wdeprecated-declarations]
+  gtk_widget_push_composite_child ();
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:59:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1204:11: note: declared here
+ void      gtk_widget_push_composite_child (void);
+           ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:1021:2: warning: ‘gtk_widget_set_composite_name’ is deprecated: Use 'gtk_widget_class_set_template' instead [-Wdeprecated-declarations]
+  gtk_widget_set_composite_name ((GtkWidget*) _tmp3_, "treeview");
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:59:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1194:8: note: declared here
+ void   gtk_widget_set_composite_name (GtkWidget *widget,
+        ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:1022:2: warning: ‘gtk_widget_pop_composite_child’ is deprecated: Use 'gtk_widget_class_set_template' instead [-Wdeprecated-declarations]
+  gtk_widget_pop_composite_child ();
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:59:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1206:11: note: declared here
+ void      gtk_widget_pop_composite_child  (void);
+           ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c: At top level:
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:1071:1: warning: ‘GraniteWidgetsSourceListSortFunc’ is deprecated [-Wdeprecated-declarations]
+ void granite_widgets_source_list_set_sort_func (GraniteWidgetsSourceList* self, GraniteWidgetsSourceListSortFunc sort_func, void* sort_func_target, GDestroyNotify sort_func_target_destroy_notify) {
+ ^
+In file included from /usr/include/glib-2.0/glib.h:79:0,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:57:
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c: In function ‘string_strip’:
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:1944:14: warning: passing argument 1 of ‘g_strchug’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  g_strstrip (_tmp1_);
+              ^
+/usr/include/glib-2.0/glib/gstrfuncs.h:180:53: note: in definition of macro ‘g_strstrip’
+ #define g_strstrip( string ) g_strchomp (g_strchug (string))
+                                                     ^
+/usr/include/glib-2.0/glib/gstrfuncs.h:175:23: note: expected ‘gchar * {aka char *}’ but argument is of type ‘const gchar * {aka const char *}’
+ gchar*                g_strchug        (gchar        *string);
+                       ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c: In function ‘granite_widgets_source_list_data_model_real_drag_data_received’:
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:3946:19: warning: comparison of distinct pointer types lacks a cast
+   _tmp0_ = _tmp6_ == _tmp7_;
+                   ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c: In function ‘granite_widgets_source_list_data_model_real_row_drop_possible’:
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:4298:19: warning: comparison of distinct pointer types lacks a cast
+   _tmp0_ = _tmp6_ != _tmp7_;
+                   ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c: In function ‘granite_widgets_source_list_data_model_node_wrapper_get_iter’:
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:4923:47: warning: passing argument 1 of ‘gtk_tree_row_reference_get_model’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+    _tmp6_ = gtk_tree_row_reference_get_model (_tmp5_);
+                                               ^
+In file included from /usr/include/gtk-3.0/gtk/gtkcombobox.h:26:0,
+                 from /usr/include/gtk-3.0/gtk/gtkappchooserbutton.h:29,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:42,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:59:
+/usr/include/gtk-3.0/gtk/gtktreemodel.h:269:22: note: expected ‘GtkTreeRowReference * {aka struct _GtkTreeRowReference *}’ but argument is of type ‘const GtkTreeRowReference * {aka const struct _GtkTreeRowReference *}’
+ GtkTreeModel        *gtk_tree_row_reference_get_model (GtkTreeRowReference *reference);
+                      ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c: In function ‘granite_widgets_source_list_data_model_node_wrapper_get_path’:
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:4955:45: warning: passing argument 1 of ‘gtk_tree_row_reference_get_path’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   _tmp4_ = gtk_tree_row_reference_get_path (_tmp3_);
+                                             ^
+In file included from /usr/include/gtk-3.0/gtk/gtkcombobox.h:26:0,
+                 from /usr/include/gtk-3.0/gtk/gtkappchooserbutton.h:29,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:42,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:59:
+/usr/include/gtk-3.0/gtk/gtktreemodel.h:267:22: note: expected ‘GtkTreeRowReference * {aka struct _GtkTreeRowReference *}’ but argument is of type ‘const GtkTreeRowReference * {aka const struct _GtkTreeRowReference *}’
+ GtkTreePath         *gtk_tree_row_reference_get_path  (GtkTreeRowReference *reference);
+                      ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c: In function ‘granite_widgets_source_list_data_model_node_wrapper_get_valid’:
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:4977:42: warning: passing argument 1 of ‘gtk_tree_row_reference_valid’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   _tmp3_ = gtk_tree_row_reference_valid (_tmp2_);
+                                          ^
+In file included from /usr/include/gtk-3.0/gtk/gtkcombobox.h:26:0,
+                 from /usr/include/gtk-3.0/gtk/gtkappchooserbutton.h:29,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:42,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:59:
+/usr/include/gtk-3.0/gtk/gtktreemodel.h:271:22: note: expected ‘GtkTreeRowReference * {aka struct _GtkTreeRowReference *}’ but argument is of type ‘const GtkTreeRowReference * {aka const struct _GtkTreeRowReference *}’
+ gboolean             gtk_tree_row_reference_valid     (GtkTreeRowReference *reference);
+                      ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c: In function ‘granite_widgets_source_list_cell_renderer_icon_class_init’:
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:5528:45: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  ((GtkCellRendererClass *) klass)->activate = granite_widgets_source_list_cell_renderer_icon_real_activate;
+                                             ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c: In function ‘granite_widgets_source_list_cell_renderer_spacer_class_init’:
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:5675:43: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  ((GtkCellRendererClass *) klass)->render = granite_widgets_source_list_cell_renderer_spacer_real_render;
+                                           ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:5676:45: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  ((GtkCellRendererClass *) klass)->get_size = granite_widgets_source_list_cell_renderer_spacer_real_get_size;
+                                             ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c: In function ‘granite_widgets_source_list_tree_class_init’:
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:8837:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp0_ = g_param_spec_int (GRANITE_WIDGETS_SOURCE_LIST_TREE_STYLE_PROP_LEVEL_INDENTATION, "Level Indentation", "Space to add at the beginning of every indentation level. Must be an e" \
+         ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:8841:24: warning: passing argument 1 of ‘g_param_spec_unref’ from incompatible pointer type [-Wincompatible-pointer-types]
+  _g_param_spec_unref0 (_tmp1_);
+                        ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:230:87: note: in definition of macro ‘_g_param_spec_unref0’
+ #define _g_param_spec_unref0(var) ((var == NULL) ? NULL : (var = (g_param_spec_unref (var), NULL)))
+                                                                                       ^
+In file included from /usr/include/glib-2.0/gobject/gobject.h:26:0,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:29,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:58:
+/usr/include/glib-2.0/gobject/gparam.h:281:7: note: expected ‘GParamSpec * {aka struct _GParamSpec *}’ but argument is of type ‘GParamSpecInt * {aka struct _GParamSpecInt *}’
+ void  g_param_spec_unref  (GParamSpec    *pspec);
+       ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:8842:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp2_ = g_param_spec_int (GRANITE_WIDGETS_SOURCE_LIST_TREE_STYLE_PROP_LEFT_PADDING, "Left Padding", "Padding added to the left side of the tree. Must be an even number.", 1, 50, 4, G_PARAM_READABLE);
+         ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:8845:24: warning: passing argument 1 of ‘g_param_spec_unref’ from incompatible pointer type [-Wincompatible-pointer-types]
+  _g_param_spec_unref0 (_tmp3_);
+                        ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:230:87: note: in definition of macro ‘_g_param_spec_unref0’
+ #define _g_param_spec_unref0(var) ((var == NULL) ? NULL : (var = (g_param_spec_unref (var), NULL)))
+                                                                                       ^
+In file included from /usr/include/glib-2.0/gobject/gobject.h:26:0,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:29,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:58:
+/usr/include/glib-2.0/gobject/gparam.h:281:7: note: expected ‘GParamSpec * {aka struct _GParamSpec *}’ but argument is of type ‘GParamSpecInt * {aka struct _GParamSpecInt *}’
+ void  g_param_spec_unref  (GParamSpec    *pspec);
+       ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:8846:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp4_ = g_param_spec_int (GRANITE_WIDGETS_SOURCE_LIST_TREE_STYLE_PROP_EXPANDER_SPACING, "Expander Spacing", "Space added between an item and its expander. Must be an even number.", 1, 50, 4, G_PARAM_READABLE);
+         ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:8849:24: warning: passing argument 1 of ‘g_param_spec_unref’ from incompatible pointer type [-Wincompatible-pointer-types]
+  _g_param_spec_unref0 (_tmp5_);
+                        ^
+/build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:230:87: note: in definition of macro ‘_g_param_spec_unref0’
+ #define _g_param_spec_unref0(var) ((var == NULL) ? NULL : (var = (g_param_spec_unref (var), NULL)))
+                                                                                       ^
+In file included from /usr/include/glib-2.0/gobject/gobject.h:26:0,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:29,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/SourceList.c:58:
+/usr/include/glib-2.0/gobject/gparam.h:281:7: note: expected ‘GParamSpec * {aka struct _GParamSpec *}’ but argument is of type ‘GParamSpecInt * {aka struct _GParamSpecInt *}’
+ void  g_param_spec_unref  (GParamSpec    *pspec);
+       ^
+[ 89%] Building C object lib/CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.o
+/build/granite-bzr/src/granite/build/lib/Widgets/CellRendererExpander.c: In function ‘granite_widgets_cell_renderer_expander_class_init’:
+/build/granite-bzr/src/granite/build/lib/Widgets/CellRendererExpander.c:404:43: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  ((GtkCellRendererClass *) klass)->render = granite_widgets_cell_renderer_expander_real_render;
+                                           ^
+/build/granite-bzr/src/granite/build/lib/Widgets/CellRendererExpander.c:405:45: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  ((GtkCellRendererClass *) klass)->get_size = granite_widgets_cell_renderer_expander_real_get_size;
+                                             ^
+[ 91%] Building C object lib/CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.o
+/build/granite-bzr/src/granite/build/lib/Widgets/CellRendererBadge.c: In function ‘granite_widgets_cell_renderer_badge_update_layout_properties’:
+/build/granite-bzr/src/granite/build/lib/Widgets/CellRendererBadge.c:288:2: warning: ‘gtk_style_context_get_font’ is deprecated: Use 'gtk_style_context_get' instead [-Wdeprecated-declarations]
+  _tmp11_ = gtk_style_context_get_font (ctx, state);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkicontheme.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:120,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/CellRendererBadge.c:25:
+/usr/include/gtk-3.0/gtk/gtkstylecontext.h:1170:6: note: declared here
+      gtk_style_context_get_font             (GtkStyleContext *context,
+      ^
+/build/granite-bzr/src/granite/build/lib/Widgets/CellRendererBadge.c:288:10: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  _tmp11_ = gtk_style_context_get_font (ctx, state);
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/CellRendererBadge.c: In function ‘granite_widgets_cell_renderer_badge_class_init’:
+/build/granite-bzr/src/granite/build/lib/Widgets/CellRendererBadge.c:561:43: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  ((GtkCellRendererClass *) klass)->render = granite_widgets_cell_renderer_badge_real_render;
+                                           ^
+/build/granite-bzr/src/granite/build/lib/Widgets/CellRendererBadge.c:562:45: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  ((GtkCellRendererClass *) klass)->get_size = granite_widgets_cell_renderer_badge_real_get_size;
+                                             ^
+[ 93%] Building C object lib/CMakeFiles/granite.dir/Widgets/ThinPaned.c.o
+/build/granite-bzr/src/granite/build/lib/Widgets/ThinPaned.c: In function ‘granite_widgets_thin_paned_class_init’:
+/build/granite-bzr/src/granite/build/lib/Widgets/ThinPaned.c:731:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  _tmp0_ = g_param_spec_int (GRANITE_WIDGETS_THIN_PANED_STYLE_PROP_OVERLAY_HANDLE_SIZE, "Overlay handle's size", "Width of the invisible overlay handle", 1, 50, 10, G_PARAM_READABLE);
+         ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ThinPaned.c:734:24: warning: passing argument 1 of ‘g_param_spec_unref’ from incompatible pointer type [-Wincompatible-pointer-types]
+  _g_param_spec_unref0 (_tmp1_);
+                        ^
+/build/granite-bzr/src/granite/build/lib/Widgets/ThinPaned.c:46:87: note: in definition of macro ‘_g_param_spec_unref0’
+ #define _g_param_spec_unref0(var) ((var == NULL) ? NULL : (var = (g_param_spec_unref (var), NULL)))
+                                                                                       ^
+In file included from /usr/include/glib-2.0/gobject/gobject.h:26:0,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:29,
+                 from /usr/include/glib-2.0/glib-object.h:23,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/ThinPaned.c:24:
+/usr/include/glib-2.0/gobject/gparam.h:281:7: note: expected ‘GParamSpec * {aka struct _GParamSpec *}’ but argument is of type ‘GParamSpecInt * {aka struct _GParamSpecInt *}’
+ void  g_param_spec_unref  (GParamSpec    *pspec);
+       ^
+[ 95%] Building C object lib/CMakeFiles/granite.dir/Widgets/OverlayBar.c.o
+/build/granite-bzr/src/granite/build/lib/Widgets/OverlayBar.c: In function ‘granite_widgets_overlay_bar_update_spacing’:
+/build/granite-bzr/src/granite/build/lib/Widgets/OverlayBar.c:412:2: warning: ‘gtk_widget_set_margin_left’ is deprecated: Use 'gtk_widget_set_margin_start' instead [-Wdeprecated-declarations]
+  gtk_widget_set_margin_left ((GtkWidget*) _tmp10_, (gint) _tmp12_);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/OverlayBar.c:26:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1095:10: note: declared here
+ void     gtk_widget_set_margin_left   (GtkWidget *widget,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/OverlayBar.c:416:2: warning: ‘gtk_widget_set_margin_right’ is deprecated: Use 'gtk_widget_set_margin_end' instead [-Wdeprecated-declarations]
+  gtk_widget_set_margin_right ((GtkWidget*) _tmp13_, (gint) _tmp15_);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/OverlayBar.c:26:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1100:10: note: declared here
+ void     gtk_widget_set_margin_right  (GtkWidget *widget,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/OverlayBar.c:427:2: warning: ‘gtk_widget_set_margin_left’ is deprecated: Use 'gtk_widget_set_margin_start' instead [-Wdeprecated-declarations]
+  gtk_widget_set_margin_left ((GtkWidget*) self, (gint) _tmp22_);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/OverlayBar.c:26:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1095:10: note: declared here
+ void     gtk_widget_set_margin_left   (GtkWidget *widget,
+          ^
+/build/granite-bzr/src/granite/build/lib/Widgets/OverlayBar.c:430:2: warning: ‘gtk_widget_set_margin_right’ is deprecated: Use 'gtk_widget_set_margin_end' instead [-Wdeprecated-declarations]
+  gtk_widget_set_margin_right ((GtkWidget*) self, (gint) _tmp24_);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from /build/granite-bzr/src/granite/build/lib/Widgets/OverlayBar.c:26:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1100:10: note: declared here
+ void     gtk_widget_set_margin_right  (GtkWidget *widget,
+          ^
+Linking C shared library libgranite.so
+/usr/include/bits/mathinline.h:153: syntax error, unexpected ':', expecting '}' or ',' in '  __extension__ union { long double __l; int __i[3]; } __u = { __l: __x };' at ':'
+Application.c:193: Error: Granite: identifier not found on the first line:
+         * This creates a new Application class
+           ^
+Application.c:254: Error: Granite: identifier not found on the first line:
+         * This method runs the application
+           ^
+Application.c:331: Error: Granite: identifier not found on the first line:
+         * This methods creates a new App Menu
+           ^
+Application.c:360: Error: Granite: identifier not found on the first line:
+         * This method shows the about dialog of this app.
+           ^
+Application.c:607: Error: Granite: identifier not found on the first line:
+     * This is the base class for all Granite-based apps. It has methods that help
+       ^
+Drawing/Color.c:114: Error: Granite: identifier not found on the first line:
+         * Constructs a new {@link Granite.Drawing.Color} with the supplied values.
+           ^
+Drawing/Color.c:146: Error: Granite: identifier not found on the first line:
+         * Constructs a new {@link Granite.Drawing.Color} from a {@link Gdk.Color}.
+           ^
+Drawing/Color.c:180: Error: Granite: identifier not found on the first line:
+         * Changes the hue of this color to the supplied one.
+           ^
+Drawing/Color.c:235: Error: Granite: identifier not found on the first line:
+         * Changes the saturation of this color to the supplied one.
+           ^
+Drawing/Color.c:285: Error: Granite: identifier not found on the first line:
+         * Changes the value of this color to the supplied one.
+           ^
+Drawing/Color.c:335: Error: Granite: identifier not found on the first line:
+         * Changes the value of the alpha channel.
+           ^
+Drawing/Color.c:360: Error: Granite: identifier not found on the first line:
+         * Get the value.
+           ^
+Drawing/Color.c:388: Error: Granite: identifier not found on the first line:
+         * Get the value.
+           ^
+Drawing/Color.c:416: Error: Granite: identifier not found on the first line:
+         * Get the value.
+           ^
+Drawing/Color.c:445: Error: Granite: identifier not found on the first line:
+         * Adds the supplied hue value to this color's hue value.
+           ^
+Drawing/Color.c:492: Error: Granite: identifier not found on the first line:
+         * Changes this color's saturation to the supplied saturation, if it is greater than this color's saturation.
+           ^
+Drawing/Color.c:546: Error: Granite: identifier not found on the first line:
+         * Changes this color's value to the supplied value, if it is greater than this color's value.
+           ^
+Drawing/Color.c:600: Error: Granite: identifier not found on the first line:
+         * Changes this color's saturation to the supplied saturation, if it is smaller than this color's saturation.
+           ^
+Drawing/Color.c:654: Error: Granite: identifier not found on the first line:
+         * Changes this color's value to the supplied value, if it is smaller than this color's value.
+           ^
+Drawing/Color.c:708: Error: Granite: identifier not found on the first line:
+         * Multiplies this color's saturation by the supplied amount.
+           ^
+Drawing/Color.c:760: Error: Granite: identifier not found on the first line:
+         * Brightens this color's value by the supplied amount.
+           ^
+Drawing/Color.c:816: Error: Granite: identifier not found on the first line:
+         * Darkens this color's value by the supplied amount.
+           ^
+Drawing/Color.c:872: Error: Granite: identifier not found on the first line:
+         * Darkens this color's value by the supplied amount * color's saturation.
+           ^
+Drawing/Color.c:1286: Error: Granite: identifier not found on the first line:
+         * {@inheritDoc}
+           ^
+Drawing/Color.c:1308: Error: Granite: identifier not found on the first line:
+         * {@inheritDoc}
+           ^
+Drawing/Color.c:1390: Error: Granite: identifier not found on the first line:
+     * A class containing an RGBA color and methods for more powerful color manipulation.
+       ^
+Drawing/BufferSurface.c:173: Error: Granite: identifier not found on the first line:
+         * Constructs a new, empty {@link Granite.Drawing.BufferSurface} with the supplied dimensions.
+           ^
+Drawing/BufferSurface.c:202: Error: Granite: identifier not found on the first line:
+         * Constructs a new, empty {@link Granite.Drawing.BufferSurface} with the supplied dimensions, using
+           ^
+Drawing/BufferSurface.c:242: Error: Granite: identifier not found on the first line:
+         * Constructs a new, empty {@link Granite.Drawing.BufferSurface} with the supplied dimensions, using
+           ^
+Drawing/BufferSurface.c:286: Error: Granite: identifier not found on the first line:
+         * Clears the internal {@link Cairo.Surface}, making all pixels fully transparent.
+           ^
+Drawing/BufferSurface.c:311: Error: Granite: identifier not found on the first line:
+         * Creates a {@link Gdk.Pixbuf} from internal {@link Cairo.Surface}.
+           ^
+Drawing/BufferSurface.c:555: Error: Granite: identifier not found on the first line:
+         * Averages all the colors in the internal {@link Cairo.Surface}.
+           ^
+Drawing/BufferSurface.c:762: Error: Granite: identifier not found on the first line:
+         * Performs a blur operation on the internal {@link Cairo.Surface}, using the
+           ^
+Drawing/BufferSurface.c:1798: Error: Granite: identifier not found on the first line:
+         * Performs a blur operation on the internal {@link Cairo.Surface}, using an
+           ^
+Drawing/BufferSurface.c:2403: Error: Granite: identifier not found on the first line:
+         * Performs a blur operation on the internal {@link Cairo.Surface}, using a
+           ^
+Drawing/BufferSurface.c:3681: Error: Granite: identifier not found on the first line:
+	         * The {@link Cairo.Surface} which will store the results of all drawing operations
+            ^
+Drawing/BufferSurface.c:3686: Error: Granite: identifier not found on the first line:
+	         * The width of the {@link Granite.Drawing.BufferSurface}, in pixels.
+            ^
+Drawing/BufferSurface.c:3690: Error: Granite: identifier not found on the first line:
+	         * The height of the BufferSurface, in pixels.
+            ^
+Drawing/BufferSurface.c:3694: Error: Granite: identifier not found on the first line:
+	         * The {@link Cairo.Context} for the internal surface. All drawing operations done on this
+            ^
+Drawing/BufferSurface.c:3716: Error: Granite: identifier not found on the first line:
+     * A buffer containing an internal Cairo-usable surface and context, designed
+       ^
+Drawing/Utilities.c:82: Error: Granite: identifier not found on the first line:
+         * Adds a closed sub-path rounded rectangle of the given size and border radius to the current path
+           ^
+Drawing/Utilities.c:170: Error: Granite: identifier not found on the first line:
+         * Averages the colors in the {@link Gdk.Pixbuf} and returns it.
+           ^
+Drawing/Utilities.c:383: Error: Granite: identifier not found on the first line:
+     * A utility class for frequently-performed drawing operations.
+       ^
+GtkPatch/AboutDialog.c:181: Error: Granite: identifier not found on the first line:
+     * Creates a new Granite.AboutDialog
+       ^
+GtkPatch/AboutDialog.c:2280: Error: Granite: identifier not found on the first line:
+	     * The people who contributed artwork to the program, as a null-terminated array of strings.
+        ^
+GtkPatch/AboutDialog.c:2284: Error: Granite: identifier not found on the first line:
+	     * The authors of the program, as a null-terminated array of strings.
+        ^
+GtkPatch/AboutDialog.c:2288: Error: Granite: identifier not found on the first line:
+	     * Comments about the program.
+        ^
+GtkPatch/AboutDialog.c:2292: Error: Granite: identifier not found on the first line:
+	     * Copyright information for the program.
+        ^
+GtkPatch/AboutDialog.c:2296: Error: Granite: identifier not found on the first line:
+	     * The people documenting the program, as a null-terminated array of strings.
+        ^
+GtkPatch/AboutDialog.c:2300: Error: Granite: identifier not found on the first line:
+	     * The license of the program.
+        ^
+GtkPatch/AboutDialog.c:2305: Error: Granite: identifier not found on the first line:
+	     * A logo for the about box.
+        ^
+GtkPatch/AboutDialog.c:2309: Error: Granite: identifier not found on the first line:
+	     * A named icon to use as the logo for the about box.
+        ^
+GtkPatch/AboutDialog.c:2313: Error: Granite: identifier not found on the first line:
+	     * The name of the program.
+        ^
+GtkPatch/AboutDialog.c:2317: Error: Granite: identifier not found on the first line:
+	     * Credits to the translators.
+        ^
+GtkPatch/AboutDialog.c:2321: Error: Granite: identifier not found on the first line:
+	     * The version of the program.
+        ^
+GtkPatch/AboutDialog.c:2325: Error: Granite: identifier not found on the first line:
+	     * The URL for the link to the website of the program.
+        ^
+GtkPatch/AboutDialog.c:2329: Error: Granite: identifier not found on the first line:
+	     * The label for the link to the website of the program.
+        ^
+Services/Settings.c:117: Error: Granite: identifier not found on the first line:
+         * Serializes the object into a string representation.
+           ^
+Services/Settings.c:128: Error: Granite: identifier not found on the first line:
+         * Un-serializes the object from a string representation.
+           ^
+Services/Settings.c:147: Error: Granite: identifier not found on the first line:
+     * This interface is used by objects that need to be serialized in a Settings.
+       ^
+Services/Settings.c:165: Error: Granite: identifier not found on the first line:
+         * Creates a new {@link Granite.Services.Settings} object for the supplied schema.
+           ^
+Services/Settings.c:185: Error: Granite: identifier not found on the first line:
+         * Creates a new {@link Granite.Services.Settings} object for the supplied schema and {@link GLib.SettingsBackend}.
+           ^
+Services/Settings.c:209: Error: Granite: identifier not found on the first line:
+         * Creates a new {@link Granite.Services.Settings} object for the supplied schema, {@link GLib.SettingsBackend}, and path.
+           ^
+Services/Settings.c:238: Error: Granite: identifier not found on the first line:
+         * Creates a new {@link Granite.Services.Settings} object for the supplied schema, and path.
+           ^
+Services/Settings.c:362: Error: Granite: identifier not found on the first line:
+         * Verify the given key, changing the property if necessary. Refer to the example given for the class.
+           ^
+Services/Settings.c:1076: Error: Granite: identifier not found on the first line:
+	         * This signal is to be used in place of the standard {@link GLib.Object.notify} signal.
+            ^
+Services/Settings.c:1103: Error: Granite: identifier not found on the first line:
+     * Class for interacting with an internal {@link GLib.Settings} using native Vala properties.
+       ^
+Services/Settings.c:1129: Warning: Granite: missing ":" at column 30:
+     *                    if (!Gdk.Color.parse (background_color, out bg))
+                             ^
+Services/Settings.c:1129: Warning: Granite: unknown annotation: !gdk.color.parse
+Services/Logger.c:148: Error: Granite: identifier not found on the first line:
+         * This method initializes the Logger
+           ^
+Services/Logger.c:171: Error: Granite: identifier not found on the first line:
+         * Formats a message to be logged
+           ^
+Services/Logger.c:240: Error: Granite: identifier not found on the first line:
+         * Logs message using Notify level formatting
+           ^
+Services/Logger.c:765: Error: Granite: identifier not found on the first line:
+     * This class helps in the use of logs in a Granite application.
+       ^
+Services/Paths.c:112: Error: Granite: identifier not found on the first line:
+         * Initialize all the paths using the supplied app name and path to the app's data folder.
+           ^
+Services/Paths.c:447: Error: Granite: identifier not found on the first line:
+         * Ensure the directory exists, by creating it if it does not.
+           ^
+Services/Paths.c:704: Error: Granite: identifier not found on the first line:
+     * A class for interacting with frequently-used directories, following the
+       ^
+Services/System.c:82: Error: Granite: identifier not found on the first line:
+         * Opens the specified URI with the default application.  This can be used for opening websites
+           ^
+Services/System.c:101: Error: Granite: identifier not found on the first line:
+         * Opens the specified file with the default application.
+           ^
+Services/System.c:129: Error: Granite: identifier not found on the first line:
+         * Opens the specified files with the default application.
+           ^
+Services/System.c:143: Error: Granite: identifier not found on the first line:
+         * Launches the specified application.
+           ^
+Services/System.c:163: Error: Granite: identifier not found on the first line:
+         * Executes the specified command.
+           ^
+Services/System.c:221: Error: Granite: identifier not found on the first line:
+         * Launches the supplied files with the specified application.
+           ^
+Services/System.c:713: Error: Granite: identifier not found on the first line:
+     * Utility class for frequently-used system-related functions, such as opening files, launching
+       ^
+Services/Contractor.c:540: Error: Granite: identifier not found on the first line:
+         * This creates a new Contractor 
+           ^
+Services/Contractor.c:559: Error: Granite: identifier not found on the first line:
+         * This searches for available contracts of a particular file
+           ^
+Services/Contractor.c:592: Error: Granite: identifier not found on the first line:
+         * generate contracts for arguments and filter them by common parent mimetype.
+           ^
+Services/Contractor.c:635: Error: Granite: identifier not found on the first line:
+     * Wrapper around a long-obsolete and unused revision of Contractor API
+       ^
+Services/ContractorProxy.c:91: Error: Granite: identifier not found on the first line:
+     * thrown by {@link Granite.Services.ContractorProxy}
+       ^
+Services/ContractorProxy.c:264: Error: Granite: identifier not found on the first line:
+         * Returns the display name of the contract, already internationalized
+           ^
+Services/ContractorProxy.c:276: Error: Granite: identifier not found on the first line:
+         * Returns the description of the contract, already internationalized
+           ^
+Services/ContractorProxy.c:288: Error: Granite: identifier not found on the first line:
+         * Returns an icon for this contract
+           ^
+Services/ContractorProxy.c:299: Error: Granite: identifier not found on the first line:
+         * Executes the action on the given file
+           ^
+Services/ContractorProxy.c:308: Error: Granite: identifier not found on the first line:
+         * Executes the action on the given list of files
+           ^
+Services/ContractorProxy.c:325: Error: Granite: identifier not found on the first line:
+     * Interface for executing and accessing properties of Contractor actions
+       ^
+Services/ContractorProxy.c:1461: Error: Granite: identifier not found on the first line:
+         * Provides all the contracts.
+           ^
+Services/ContractorProxy.c:1501: Error: Granite: identifier not found on the first line:
+         * Returns actions (contracts) applicable to the given mimetypes.
+           ^
+Services/ContractorProxy.c:1545: Error: Granite: identifier not found on the first line:
+         * Returns actions (contracts) applicable to all given mimetypes.
+           ^
+Services/ContractorProxy.c:1592: Error: Granite: identifier not found on the first line:
+         * Returns actions (contracts) applicable to the given file.
+           ^
+Services/ContractorProxy.c:1637: Error: Granite: identifier not found on the first line:
+         * Returns actions (contracts) applicable to all given files.
+           ^
+Services/ContractorProxy.c:2174: Error: Granite: identifier not found on the first line:
+	         * Emitted when the list of actions available to Contractor changes.
+            ^
+Services/ContractorProxy.c:2196: Error: Granite: identifier not found on the first line:
+     * Provides a convenient GObject wrapper around Contractor's D-bus API
+       ^
+Services/IconFactory.c:128: Error: Granite: identifier not found on the first line:
+         * Attempts to load a symbolic icon for the given {@link Glib.Icon} 
+           ^
+Services/IconFactory.c:217: Error: Granite: identifier not found on the first line:
+         * Loads a symbolic icon for the given icon name with a better chance
+           ^
+Services/IconFactory.c:282: Error: Granite: identifier not found on the first line:
+     * This class provides an easy way to access symbolic icons.
+       ^
+Services/SimpleCommand.c:87: Error: Granite: identifier not found on the first line:
+     * Create a new object. You will have to call run() when you want to run the command.
+       ^
+Services/SimpleCommand.c:121: Error: Granite: identifier not found on the first line:
+     * Launch the command. It is async.
+       ^
+Services/SimpleCommand.c:379: Error: Granite: identifier not found on the first line:
+	     * Emitted when the command is finished.
+        ^
+Services/SimpleCommand.c:383: Error: Granite: identifier not found on the first line:
+	     * When the output changed (std.out and std.err).
+        ^
+Services/SimpleCommand.c:389: Error: Granite: identifier not found on the first line:
+	     * When the standard output is changed.
+        ^
+Services/SimpleCommand.c:395: Error: Granite: identifier not found on the first line:
+	     * When the error output is changed.
+        ^
+Services/SimpleCommand.c:432: Error: Granite: identifier not found on the first line:
+ * This class is a wrapper to run an async command. It provides useful signals.
+   ^
+Widgets/AlertView.c:91: Error: Granite: identifier not found on the first line:
+     * Makes new AlertView
+       ^
+Widgets/AlertView.c:119: Error: Granite: identifier not found on the first line:
+     * Creates the action button with the given label
+       ^
+Widgets/AlertView.c:153: Error: Granite: identifier not found on the first line:
+     * Hides the action button.
+       ^
+Widgets/AlertView.c:396: Error: Granite: identifier not found on the first line:
+	     * The first line of text, should be short and not contain markup.
+        ^
+Widgets/AlertView.c:400: Error: Granite: identifier not found on the first line:
+	     * The second line of text, explaining why this alert is shown.
+        ^
+Widgets/AlertView.c:405: Error: Granite: identifier not found on the first line:
+	     * The icon name
+        ^
+Widgets/AlertView.c:430: Error: Granite: identifier not found on the first line:
+ * The AlertView widget shows to the user that some actions are now restricted.
+   ^
+Widgets/Utils.c:84: Error: Granite: identifier not found on the first line:
+     * Gets style sheet of text style
+       ^
+Widgets/Utils.c:518: Error: Granite: identifier not found on the first line:
+     * Applies the stylesheet to the widget
+       ^
+Widgets/Utils.c:603: Error: Granite: identifier not found on the first line:
+     * Applies a stylesheet to the given screen. This will affects all the
+       ^
+Widgets/Utils.c:637: Error: Granite: identifier not found on the first line:
+     * @return a new {@link Gtk.CssProvider}, or null in case the parsing of
+       ^
+Widgets/Utils.c:712: Error: Granite: identifier not found on the first line:
+     * This method applies given text style to given label
+       ^
+Widgets/Utils.c:799: Error: Granite: identifier not found on the first line:
+     * This method detects the close button position as configured for the window manager. If you
+       ^
+Widgets/Utils.c:915: Error: Granite: identifier not found on the first line:
+     * This methods returns the schema used by {@link Granite.Widgets.Utils.get_default_close_button_position}
+       ^
+Widgets/WrapLabel.c:74: Error: Granite: identifier not found on the first line:
+     * Create a new WrapLabel.
+       ^
+Widgets/WrapLabel.c:188: Error: Granite: identifier not found on the first line:
+ * This is a label which is automatically wrapped.
+   ^
+Widgets/AboutDialog.c:135: Error: Granite: identifier not found on the first line:
+         * Creates a new Granite.Widgets.AboutDialog
+           ^
+Widgets/AboutDialog.c:426: Error: Granite: identifier not found on the first line:
+	         * The URL for the link to the website of the program.
+            ^
+Widgets/AboutDialog.c:430: Error: Granite: identifier not found on the first line:
+	         * The URL for the link to the website of the program.
+            ^
+Widgets/AboutDialog.c:434: Error: Granite: identifier not found on the first line:
+	         * The URL for the link to the website of the program.
+            ^
+Widgets/AboutDialog.c:469: Error: Granite: identifier not found on the first line:
+     * This class makes an about dialog which goes in the App Menu on most apps.
+       ^
+Widgets/ModeButton.c:148: Error: Granite: identifier not found on the first line:
+         * Makes new ModeButton
+           ^
+Widgets/ModeButton.c:184: Error: Granite: identifier not found on the first line:
+         * Appends Pixbuf to ModeButton
+           ^
+Widgets/ModeButton.c:210: Error: Granite: identifier not found on the first line:
+         * Appends text to ModeButton
+           ^
+Widgets/ModeButton.c:237: Error: Granite: identifier not found on the first line:
+         * Appends icon to ModeButton
+           ^
+Widgets/ModeButton.c:267: Error: Granite: identifier not found on the first line:
+         * Appends given widget to ModeButton
+           ^
+Widgets/ModeButton.c:397: Error: Granite: identifier not found on the first line:
+         * Sets item of given index's activity
+           ^
+Widgets/ModeButton.c:485: Error: Granite: identifier not found on the first line:
+         * Changes visibility of item of given index
+           ^
+Widgets/ModeButton.c:542: Error: Granite: identifier not found on the first line:
+         * Removes item at given index
+           ^
+Widgets/ModeButton.c:603: Error: Granite: identifier not found on the first line:
+         * Clears all children
+           ^
+Widgets/ModeButton.c:956: Error: Granite: identifier not found on the first line:
+	         * Index of currently selected item.
+            ^
+Widgets/ModeButton.c:960: Error: Granite: identifier not found on the first line:
+	         * Read-only length of current ModeButton
+            ^
+Widgets/ModeButton.c:984: Error: Granite: identifier not found on the first line:
+     * This widget is a multiple option modal switch
+       ^
+Widgets/DatePicker.c:112: Error: Granite: identifier not found on the first line:
+         * Makes a new DatePicker
+           ^
+Widgets/DatePicker.c:439: Error: Granite: identifier not found on the first line:
+	         * Desired format of DatePicker
+            ^
+Widgets/DatePicker.c:443: Error: Granite: identifier not found on the first line:
+	         * Current Date
+            ^
+Widgets/DatePicker.c:473: Error: Granite: identifier not found on the first line:
+     * This class allows users to pick dates from a calendar.
+       ^
+Widgets/Entries.c:139: Error: Granite: identifier not found on the first line:
+         * Makes new hinted entry
+           ^
+Widgets/Entries.c:306: Error: Granite: identifier not found on the first line:
+     * A text entry space with hint and clear icon
+       ^
+Widgets/Entries.c:355: Error: Granite: identifier not found on the first line:
+         * Makes new search bar
+           ^
+Widgets/Entries.c:501: Error: Granite: identifier not found on the first line:
+	         * This value handles how much time (in ms) should pass
+            ^
+Widgets/Entries.c:507: Error: Granite: unexpected parentheses, annotations will be ignored:
+	         * text_changed () signal is emitted after a short delay,
+                          ^
+Widgets/Entries.c:514: Error: Granite: unexpected parentheses, annotations will be ignored:
+	         * search_icon_release () signal is emitted after releasing the mouse button,
+                                 ^
+Widgets/Entries.c:538: Error: Granite: identifier not found on the first line:
+     * A searchbar with hint-text.
+       ^
+Widgets/TimePicker.c:126: Error: Granite: identifier not found on the first line:
+         * Creates a new TimePicker.
+           ^
+Widgets/TimePicker.c:1479: Error: Granite: identifier not found on the first line:
+	         * Format used in 12h mode
+            ^
+Widgets/TimePicker.c:1483: Error: Granite: identifier not found on the first line:
+	         * Format used in 24h mode
+            ^
+Widgets/TimePicker.c:1487: Error: Granite: identifier not found on the first line:
+	         * Current time
+            ^
+Widgets/TimePicker.c:1491: Error: Granite: identifier not found on the first line:
+	         * Sent when the time got changed
+            ^
+Widgets/TimePicker.c:1524: Error: Granite: identifier not found on the first line:
+     * This widget allows users to easily pick a time.
+       ^
+Widgets/CollapsiblePaned.c:334: Error: Granite: identifier not found on the first line:
+     * A paned that can be easily collapsed by double-clicking over the pane separator.
+       ^
+Widgets/StaticNotebook.c:98: Error: Granite: identifier not found on the first line:
+         * This creates a new StaticNotebook
+           ^
+Widgets/StaticNotebook.c:359: Error: Granite: identifier not found on the first line:
+	         * This currently selected page
+            ^
+Widgets/StaticNotebook.c:382: Error: Granite: identifier not found on the first line:
+     * This class provides an easy way to manage tabs.
+       ^
+Widgets/DynamicNotebook.c:1785: Error: Granite: identifier not found on the first line:
+	         * Data which will be kept once the tab is deleted, and which will be used by
+            ^
+Widgets/DynamicNotebook.c:1841: Error: Granite: identifier not found on the first line:
+     * This is a standard tab which can be used in a notebook to form a tabbed UI.
+       ^
+Widgets/DynamicNotebook.c:2727: Error: Granite: identifier not found on the first line:
+         * Create a new dynamic notebook
+           ^
+Widgets/DynamicNotebook.c:5411: Error: Granite: identifier not found on the first line:
+	         * number of pages
+            ^
+Widgets/DynamicNotebook.c:5415: Error: Granite: identifier not found on the first line:
+	         * Hide the tab bar and only show the pages
+            ^
+Widgets/DynamicNotebook.c:5425: Error: Granite: identifier not found on the first line:
+	         * Set or get the upper limit of the size of the set
+            ^
+Widgets/DynamicNotebook.c:5433: Error: Granite: identifier not found on the first line:
+	        * The text shown in the add button tooltip
+           ^
+Widgets/DynamicNotebook.c:5440: Error: Granite: identifier not found on the first line:
+	         * The behavior of the tab bar and its visibility
+            ^
+Widgets/DynamicNotebook.c:5444: Error: Granite: identifier not found on the first line:
+	         * The menu appearing when the notebook is clicked on a blank space
+            ^
+Widgets/DynamicNotebook.c:5516: Error: Granite: identifier not found on the first line:
+    * Tab bar widget designed for a variable number of tabs.
+      ^
+Widgets/CompositedWindow.c:120: Error: Granite: identifier not found on the first line:
+     * A transparent window without decorations and so on. Useful for any kinds of overlays and similar things
+       ^
+Widgets/AppMenu.c:110: Error: Granite: identifier not found on the first line:
+         * Makes new AppMenu.
+           ^
+Widgets/AppMenu.c:138: Error: Granite: identifier not found on the first line:
+         * Makes new AppMenu with built-in about page.
+           ^
+Widgets/AppMenu.c:185: Error: Granite: identifier not found on the first line:
+         * Create a new AppMenu, parameters are unused now.
+           ^
+Widgets/AppMenu.c:216: Error: Granite: identifier not found on the first line:
+         * This method adds makes a properly formatted App Menu menu from given menu
+           ^
+Widgets/AppMenu.c:264: Error: Granite: identifier not found on the first line:
+	         * Called when showing about.
+            ^
+Widgets/AppMenu.c:283: Error: Granite: identifier not found on the first line:
+ * An App Menu is the gear menu that goes on the right of the toolbar.
+   ^
+Widgets/Welcome.c:130: Error: Granite: identifier not found on the first line:
+     * Makes new Welcome Page
+       ^
+Widgets/Welcome.c:154: Error: Granite: identifier not found on the first line:
+      * Sets action item of given index's visiblity
+        ^
+Widgets/Welcome.c:203: Error: Granite: identifier not found on the first line:
+      * Removes action item of given index
+        ^
+Widgets/Welcome.c:255: Error: Granite: identifier not found on the first line:
+      * Sets action item of given index sensitivity
+        ^
+Widgets/Welcome.c:295: Error: Granite: identifier not found on the first line:
+      * Appends new action item to welcome page with icon
+        ^
+Widgets/Welcome.c:328: Error: Granite: identifier not found on the first line:
+      * Appends new action item to welcome page with Gtk.Pixbuf icon
+        ^
+Widgets/Welcome.c:360: Error: Granite: identifier not found on the first line:
+      * Appends new action item to welcome page with Gtk.Image icon
+        ^
+Widgets/Welcome.c:447: Error: Granite: identifier not found on the first line:
+     * Returns a welcome button by index
+       ^
+Widgets/Welcome.c:665: Error: Granite: identifier not found on the first line:
+	     * This is the title of the welcome widget.
+        ^
+Widgets/Welcome.c:669: Error: Granite: identifier not found on the first line:
+	     * This is the subtitle of the welcome widget.
+        ^
+Widgets/Welcome.c:694: Error: Granite: identifier not found on the first line:
+ * This class is for making a first-launch screen easily
+   ^
+Widgets/WelcomeButton.c:280: Error: Granite: identifier not found on the first line:
+	     * Title property of the Welcome Button
+        ^
+Widgets/WelcomeButton.c:286: Error: Granite: identifier not found on the first line:
+	     * Description property of the Welcome Button
+        ^
+Widgets/WelcomeButton.c:292: Error: Granite: identifier not found on the first line:
+	     * Image of the Welcome Button
+        ^
+Widgets/PopOver.c:155: Error: Granite: identifier not found on the first line:
+     * Location of small triangle of popover
+       ^
+Widgets/PopOver.c:170: Error: Granite: identifier not found on the first line:
+     * Create a new PopOver
+       ^
+Widgets/PopOver.c:338: Error: Granite: identifier not found on the first line:
+    * Hides popover
+      ^
+Widgets/PopOver.c:370: Error: Granite: identifier not found on the first line:
+    * Grabs focus
+      ^
+Widgets/PopOver.c:517: Error: Granite: identifier not found on the first line:
+     * Set the parent window of the popover. It should not be needed, but it
+       ^
+Widgets/PopOver.c:892: Error: Granite: identifier not found on the first line:
+     * Change the position of the popover, to display it under w.
+       ^
+Widgets/PopOver.c:1032: Error: Granite: identifier not found on the first line:
+     * Move the popover to the coordinates of the given Gdk.Rectangle and
+       ^
+Widgets/PopOver.c:1057: Error: Granite: identifier not found on the first line:
+     * Move the popover to the Gdk.Window window. The recommand method is
+       ^
+Widgets/PopOver.c:1690: Error: Granite: identifier not found on the first line:
+ * PopOver widget. It is a Dialog you can attach to a widget, e.g. a button.
+   ^
+Widgets/ContractorView.c:111: Error: Granite: identifier not found on the first line:
+     * Create the default ContractorView
+       ^
+Widgets/ContractorView.c:431: Error: Granite: identifier not found on the first line:
+     * A method to add items to the tree
+       ^
+Widgets/ContractorView.c:971: Error: Granite: identifier not found on the first line:
+	     * the index of the currently selected contract
+        ^
+Widgets/ContractorView.c:975: Error: Granite: identifier not found on the first line:
+	     * A contract was launched using double clicking
+        ^
+Widgets/ContractorView.c:998: Error: Granite: identifier not found on the first line:
+ * This class provides a simple way to look at contracts from Contractor.
+   ^
+Widgets/ContractorMenu.c:124: Error: Granite: identifier not found on the first line:
+     * Makes new Contractor Meu
+       ^
+Widgets/ContractorMenu.c:161: Error: Granite: identifier not found on the first line:
+     * Adds new item to Contractor Menu
+       ^
+Widgets/ContractorMenu.c:260: Error: Granite: identifier not found on the first line:
+     * Deletes a group of menu items
+       ^
+Widgets/ContractorMenu.c:530: Error: Granite: identifier not found on the first line:
+     * Updates Contractor menu items
+       ^
+Widgets/ContractorMenu.c:620: Error: Granite: identifier not found on the first line:
+	     * Passes when contract is clicked
+        ^
+Widgets/ContractorMenu.c:643: Error: Granite: identifier not found on the first line:
+ * This class provides a simple menu for managing Contractor.
+   ^
+Widgets/DecoratedWindow.c:175: Error: Granite: identifier not found on the first line:
+         * This method sets the given window to the decorated window style
+           ^
+Widgets/DecoratedWindow.c:199: Error: Granite: identifier not found on the first line:
+         * This creates a new DecoratedWindow
+           ^
+Widgets/DecoratedWindow.c:403: Error: Granite: identifier not found on the first line:
+         * This method adds new item to window
+           ^
+Widgets/DecoratedWindow.c:419: Error: Granite: identifier not found on the first line:
+         * This method removes item to window
+           ^
+Widgets/DecoratedWindow.c:928: Error: Granite: identifier not found on the first line:
+	         * Whether to show the window title
+            ^
+Widgets/DecoratedWindow.c:957: Error: Granite: identifier not found on the first line:
+     * This class is a standard decorated window.
+       ^
+Widgets/LightWindow.c:112: Error: Granite: identifier not found on the first line:
+         * Makes a new Window with the Light Theme
+           ^
+Widgets/LightWindow.c:141: Error: Granite: identifier not found on the first line:
+     * This is always-on-top, non-modal window with a large close button.
+       ^
+Widgets/StatusBar.c:89: Error: Granite: identifier not found on the first line:
+     * Creates a new StatusBar.
+       ^
+Widgets/StatusBar.c:167: Error: Granite: identifier not found on the first line:
+     * Inserts widget in status bar
+       ^
+Widgets/StatusBar.c:194: Error: Granite: identifier not found on the first line:
+     * Sets the text of StatusBar
+       ^
+Widgets/StatusBar.c:232: Error: Granite: identifier not found on the first line:
+ * A status bar with a centered label.
+   ^
+Widgets/SourceList.c:23: Error: Granite: identifier not found on the first line:
+     * = WORKING INTERNALS =
+       ^
+Widgets/SourceList.c:51: Error: Granite: unexpected parentheses, annotations will be ignored:
+     *   DataModel::add_item() and DataModel::remove_item()
+                             ^
+Widgets/SourceList.c:789: Error: Granite: identifier not found on the first line:
+     * Whether this item will allow users to re-arrange its children via DnD.
+       ^
+Widgets/SourceList.c:808: Error: Granite: identifier not found on the first line:
+     * Should return a negative integer, zero, or a positive integer if ''a''
+       ^
+Widgets/SourceList.c:839: Error: Granite: identifier not found on the first line:
+		     * Emitted after a user has re-ordered an item via DnD.
+         ^
+Widgets/SourceList.c:850: Error: Granite: identifier not found on the first line:
+ * An interface for sorting items.
+   ^
+Widgets/SourceList.c:868: Error: Granite: identifier not found on the first line:
+     * Determines whether this item can be dragged outside the source list widget.
+       ^
+Widgets/SourceList.c:885: Error: Granite: identifier not found on the first line:
+     * This method is called when the drop site requests the data which is dragged.
+       ^
+Widgets/SourceList.c:911: Error: Granite: identifier not found on the first line:
+ * An interface for dragging items out of the source list widget.
+   ^
+Widgets/SourceList.c:929: Error: Granite: identifier not found on the first line:
+     * Determines whether //data// can be dropped into this item.
+       ^
+Widgets/SourceList.c:943: Error: Granite: identifier not found on the first line:
+     * If a data drop is deemed possible, then this method is called
+       ^
+Widgets/SourceList.c:967: Error: Granite: identifier not found on the first line:
+ * An interface for receiving data from other widgets via drag-and-drop.
+   ^
+Widgets/SourceList.c:985: Error: Granite: identifier not found on the first line:
+     * Creates a new {@link Granite.Widgets.SourceList}.
+       ^
+Widgets/SourceList.c:1039: Error: Granite: identifier not found on the first line:
+     * Checks whether //item// is part of the source list.
+       ^
+Widgets/SourceList.c:1061: Error: Granite: identifier not found on the first line:
+     * Sets the method used for sorting items.
+       ^
+Widgets/SourceList.c:1083: Error: Granite: identifier not found on the first line:
+     * Sets the method used for filtering out items.
+       ^
+Widgets/SourceList.c:1109: Error: Granite: identifier not found on the first line:
+     * Applies the filter method set by {@link Granite.Widgets.SourceList.set_filter_func}
+       ^
+Widgets/SourceList.c:1125: Error: Granite: identifier not found on the first line:
+     * Queries the actual expansion state of //item//.
+       ^
+Widgets/SourceList.c:1169: Error: Granite: identifier not found on the first line:
+     * If //item// is editable, this activates the editor; otherwise, it does nothing.
+       ^
+Widgets/SourceList.c:1200: Error: Granite: identifier not found on the first line:
+     * Cancels any editing operation going on.
+       ^
+Widgets/SourceList.c:1221: Error: Granite: identifier not found on the first line:
+     * Turns Source List into a //drag source//.
+       ^
+Widgets/SourceList.c:1245: Error: Granite: identifier not found on the first line:
+     * Undoes the effect of {@link Granite.Widgets.SourceList.enable_drag_source}
+       ^
+Widgets/SourceList.c:1259: Error: Granite: identifier not found on the first line:
+     * Turns Source List into a //drop destination//.
+       ^
+Widgets/SourceList.c:1286: Error: Granite: identifier not found on the first line:
+     * Undoes the effect of {@link Granite.Widgets.SourceList.enable_drag_dest}
+       ^
+Widgets/SourceList.c:1300: Error: Granite: identifier not found on the first line:
+     * Scrolls the source list tree to make //item// visible.
+       ^
+Widgets/SourceList.c:1366: Error: Granite: identifier not found on the first line:
+     * Gets the previous item with respect to //reference//.
+       ^
+Widgets/SourceList.c:1419: Error: Granite: identifier not found on the first line:
+     * Gets the next item with respect to //reference//.
+       ^
+Widgets/SourceList.c:1472: Error: Granite: identifier not found on the first line:
+     * Gets the first visible child of an expandable item.
+       ^
+Widgets/SourceList.c:1492: Error: Granite: identifier not found on the first line:
+     * Gets the last visible child of an expandable item.
+       ^
+Widgets/SourceList.c:1516: Error: Granite: identifier not found on the first line:
+     * Gets the number of visible children of an expandable item.
+       ^
+Widgets/SourceList.c:1722: Error: Granite: identifier not found on the first line:
+         * Creates a new {@link Granite.Widgets.SourceList.Item}.
+           ^
+Widgets/SourceList.c:1745: Error: Granite: identifier not found on the first line:
+         * Invoked when the item is secondary-clicked or when the usual menu keys are pressed.
+           ^
+Widgets/SourceList.c:1994: Error: Granite: identifier not found on the first line:
+	         * Parent {@link Granite.Widgets.SourceList.ExpandableItem} of the item.
+            ^
+Widgets/SourceList.c:2001: Error: Granite: identifier not found on the first line:
+	         * The item's name. Primary and most important information.
+            ^
+Widgets/SourceList.c:2007: Error: Granite: identifier not found on the first line:
+	         * A badge shown next to the item's name.
+            ^
+Widgets/SourceList.c:2016: Error: Granite: identifier not found on the first line:
+	         * Whether the item's name can be edited from within the source list.
+            ^
+Widgets/SourceList.c:2029: Error: Granite: identifier not found on the first line:
+	         * Whether the item should appear in the source list's tree or not.
+            ^
+Widgets/SourceList.c:2035: Error: Granite: identifier not found on the first line:
+	         * Whether the item can be selected or not.
+            ^
+Widgets/SourceList.c:2047: Error: Granite: identifier not found on the first line:
+	         * Primary icon.
+            ^
+Widgets/SourceList.c:2056: Error: Granite: identifier not found on the first line:
+	         * An activatable icon that works like a button.
+            ^
+Widgets/SourceList.c:2065: Error: Granite: identifier not found on the first line:
+	         * Emitted when the user has finished editing the item's name.
+            ^
+Widgets/SourceList.c:2075: Error: Granite: identifier not found on the first line:
+	         * The {@link Granite.Widgets.SourceList.Item.activatable} icon was activated.
+            ^
+Widgets/SourceList.c:2082: Error: Granite: identifier not found on the first line:
+	         * Emitted when the item is double-clicked or when it is selected and one of the keys:
+            ^
+Widgets/SourceList.c:2119: Error: Granite: identifier not found on the first line:
+     * A source list entry.
+       ^
+Widgets/SourceList.c:2209: Error: Granite: identifier not found on the first line:
+         * Creates a new {@link Granite.Widgets.SourceList.ExpandableItem}
+           ^
+Widgets/SourceList.c:2232: Error: Granite: identifier not found on the first line:
+         * Checks whether the item contains the specified child.
+           ^
+Widgets/SourceList.c:2256: Error: Granite: identifier not found on the first line:
+         * Adds an item.
+           ^
+Widgets/SourceList.c:2265: Warning: Granite: missing ":" at column 15:
+         * if (item.parent != null)
+              ^
+Widgets/SourceList.c:2265: Warning: Granite: unknown annotation: item.parent
+Widgets/SourceList.c:2255: Warning: Granite: multiple comment blocks documenting 'if:' identifier (already seen at Settings.c:1102).
+Widgets/SourceList.c:2300: Error: Granite: identifier not found on the first line:
+         * Removes an item.
+           ^
+Widgets/SourceList.c:2338: Error: Granite: identifier not found on the first line:
+         * Removes all the items contained by the item. It works similarly to
+           ^
+Widgets/SourceList.c:2386: Error: Granite: identifier not found on the first line:
+         * Expands the item and/or its children.
+           ^
+Widgets/SourceList.c:2405: Error: Granite: identifier not found on the first line:
+         * Collapses the item and/or its children.
+           ^
+Widgets/SourceList.c:2498: Error: Granite: identifier not found on the first line:
+         * Recursively expands the item along with its parent(s).
+           ^
+Widgets/SourceList.c:2521: Error: Granite: identifier not found on the first line:
+         * Recursively collapses the item along with its parent(s).
+           ^
+Widgets/SourceList.c:2637: Error: Granite: identifier not found on the first line:
+	         * Whether the item is collapsible or not.
+            ^
+Widgets/SourceList.c:2649: Error: Granite: identifier not found on the first line:
+	         * Number of children contained by the item.
+            ^
+Widgets/SourceList.c:2655: Error: Granite: identifier not found on the first line:
+	         * The item's children.
+            ^
+Widgets/SourceList.c:2665: Error: Granite: identifier not found on the first line:
+	         * Emitted when an item is added.
+            ^
+Widgets/SourceList.c:2673: Error: Granite: identifier not found on the first line:
+	         * Emitted when an item is removed.
+            ^
+Widgets/SourceList.c:2681: Error: Granite: identifier not found on the first line:
+	         * Emitted when the item is expanded or collapsed.
+            ^
+Widgets/SourceList.c:2708: Error: Granite: identifier not found on the first line:
+     * An item that can contain more items.
+       ^
+Widgets/SourceList.c:3327: Error: Granite: identifier not found on the first line:
+         * Pushes a call to update_item() if //parent// is not //null//.
+           ^
+Widgets/SourceList.c:3432: Error: Granite: identifier not found on the first line:
+         * Returns the Item pointed by iter, or null if the iter doesn't refer to a valid item.
+           ^
+Widgets/SourceList.c:3448: Error: Granite: identifier not found on the first line:
+         * Returns the Item pointed by path, or null if the path doesn't refer to a valid item.
+           ^
+Widgets/SourceList.c:3475: Error: Granite: identifier not found on the first line:
+         * Returns a newly-created path pointing to the item, or null in case a valid path
+           ^
+Widgets/SourceList.c:3507: Error: Granite: identifier not found on the first line:
+         * Returns a newly-created iterator pointing to the item, or null in case a valid iter
+           ^
+Widgets/SourceList.c:3547: Error: Granite: identifier not found on the first line:
+         * External "extra" filter method.
+           ^
+Widgets/SourceList.c:3561: Error: Granite: identifier not found on the first line:
+         * Checks whether an item is a category (i.e. a root-level expandable item).
+           ^
+Widgets/SourceList.c:3781: Error: Granite: identifier not found on the first line:
+         * Filters the child-tree items based on their "visible" property.
+           ^
+Widgets/SourceList.c:3918: Error: Granite: identifier not found on the first line:
+         * TreeDragDest implementation
+           ^
+Widgets/SourceList.c:4612: Error: Granite: identifier not found on the first line:
+         * Override default implementation of TreeDragSource
+           ^
+Widgets/SourceList.c:5119: Error: Granite: identifier not found on the first line:
+         * An object that references a particular row in a model. This class is a wrapper built around
+           ^
+Widgets/SourceList.c:5354: Error: Granite: identifier not found on the first line:
+         * Helper object used to monitor item property changes.
+           ^
+Widgets/SourceList.c:5395: Error: Granite: identifier not found on the first line:
+	         * Root item.
+            ^
+Widgets/SourceList.c:5442: Error: Granite: identifier not found on the first line:
+     * The model backing the SourceList tree.
+       ^
+Widgets/SourceList.c:5538: Error: Granite: identifier not found on the first line:
+     * Class responsible for rendering Item.icon and Item.activatable. It also
+       ^
+Widgets/SourceList.c:5681: Error: Granite: identifier not found on the first line:
+	         * Indentation level represented by this cell renderer
+            ^
+Widgets/SourceList.c:5701: Error: Granite: identifier not found on the first line:
+     * A cell renderer that only adds space.
+       ^
+Widgets/SourceList.c:6600: Error: Granite: identifier not found on the first line:
+         * Evaluates whether the item at the specified path can be selected or not.
+           ^
+Widgets/SourceList.c:7128: Error: Granite: identifier not found on the first line:
+         * Updates the tree to reflect the ''expanded'' property of expandable_item.
+           ^
+Widgets/SourceList.c:8104: Error: Granite: identifier not found on the first line:
+         * Positions a menu based on an item's coordinates.
+           ^
+Widgets/SourceList.c:8639: Error: Granite: identifier not found on the first line:
+         * Controls expander visibility.
+           ^
+Widgets/SourceList.c:8888: Error: Granite: identifier not found on the first line:
+     * The tree that actually displays the items.
+       ^
+Widgets/SourceList.c:8955: Error: Granite: identifier not found on the first line:
+	     * Root-level expandable item.
+        ^
+Widgets/SourceList.c:8968: Error: Granite: identifier not found on the first line:
+	     * The current selected item.
+        ^
+Widgets/SourceList.c:8978: Error: Granite: identifier not found on the first line:
+	     * Text ellipsize mode.
+        ^
+Widgets/SourceList.c:8984: Error: Granite: identifier not found on the first line:
+	     * Whether an item is being edited.
+        ^
+Widgets/SourceList.c:8991: Error: Granite: identifier not found on the first line:
+	     * Sort direction to use along with the sort function.
+        ^
+Widgets/SourceList.c:8999: Error: Granite: identifier not found on the first line:
+	     * Emitted when the source list selection changes.
+        ^
+Widgets/SourceList.c:9026: Error: Granite: identifier not found on the first line:
+ * A widget that can display a list of items organized in categories.
+   ^
+Widgets/CellRendererExpander.c:171: Error: Granite: identifier not found on the first line:
+     * Gets the size of the expander arrow.
+       ^
+Widgets/CellRendererExpander.c:427: Error: Granite: identifier not found on the first line:
+ * An expander renderer.
+   ^
+Widgets/CellRendererExpander.c:431: Error: Granite: unbalanced parentheses, annotations will be ignored:
+ * collapsed) is controlled by the {@link Gtk.CellRenderer.is_expanded} property. 
+            ^
+Widgets/CellRendererBadge.c:588: Error: Granite: identifier not found on the first line:
+ * A badge renderer.
+   ^
+Widgets/ThinPaned.c:753: Error: Granite: identifier not found on the first line:
+ * A widget with two adjustable panes.
+   ^
+Widgets/OverlayBar.c:103: Error: Granite: identifier not found on the first line:
+     * Create a new Overlay Bar, and add it to the {@link Gtk.Overlay}.
+       ^
+Widgets/OverlayBar.c:500: Error: Granite: identifier not found on the first line:
+	     * Status text displayed inside the Overlay Bar.
+        ^
+Widgets/OverlayBar.c:520: Error: Granite: identifier not found on the first line:
+ * A floating status bar that displays a single line of text.
+   ^
+granite.h:1225: Warning: Granite: symbol='prctl': Unknown namespace for symbol 'prctl'
+granite.h:1404: Warning: Granite: symbol='get_close_pixbuf': Unknown namespace for symbol 'get_close_pixbuf'
+g-ir-scanner: compile: cc -Wno-deprecated-declarations -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -D_FORTIFY_SOURCE=2 -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong --param=ssp-buffer-size=4 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libdrm -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/gee-0.8 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/atk-1.0 -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libdrm -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -c -o /build/granite-bzr/src/granite/build/lib/tmp-introspectSHQb5o/Granite-1.0.o /build/granite-bzr/src/granite/build/lib/tmp-introspectSHQb5o/Granite-1.0.c
+/usr/bin/libtool: line 2460: printf: write error: Bad file descriptor
+g-ir-scanner: link: libtool --mode=link --tag=CC cc -o /build/granite-bzr/src/granite/build/lib/tmp-introspectSHQb5o/Granite-1.0 -export-dynamic -D_FORTIFY_SOURCE=2 -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong --param=ssp-buffer-size=4 -Wl,-O1,--sort-common,--as-needed,-z,relro /build/granite-bzr/src/granite/build/lib/tmp-introspectSHQb5o/Granite-1.0.o -L. -lgranite -L/build/granite-bzr/src/granite/build/lib -rpath /build/granite-bzr/src/granite/build/lib -lgio-2.0 -lgobject-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+libtool: link: cc -o /build/granite-bzr/src/granite/build/lib/tmp-introspectSHQb5o/Granite-1.0 -D_FORTIFY_SOURCE=2 -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong --param=ssp-buffer-size=4 -Wl,-O1 -Wl,--sort-common -Wl,--as-needed -Wl,-z -Wl,relro /build/granite-bzr/src/granite/build/lib/tmp-introspectSHQb5o/Granite-1.0.o -Wl,--export-dynamic -pthread -Wl,--export-dynamic  -L. -lgranite -L/build/granite-bzr/src/granite/build/lib -lgio-2.0 -lgobject-2.0 -lgmodule-2.0 -lglib-2.0 -pthread -Wl,-rpath -Wl,/build/granite-bzr/src/granite/build/lib
+/usr/bin/libtool: line 2460: printf: write error: Bad file descriptor
+granite.h:1405: Warning: Granite: granite_widgets_utils_set_theming: return value: Missing (transfer) annotation
+granite.h:1406: Warning: Granite: granite_widgets_utils_set_theming_for_screen: return value: Missing (transfer) annotation
+granite.h:1407: Warning: Granite: granite_widgets_utils_get_css_provider: return value: Missing (transfer) annotation
+granite.h:1230: Warning: Granite: granite_application_create_appmenu: return value: Missing (transfer) annotation
+granite.h:1224: Warning: Granite: granite_application_construct: return value: Missing (transfer) annotation
+granite.h:1278: Warning: Granite: granite_gtk_patch_about_dialog_get_artists: return value: Missing (transfer) annotation
+granite.h:1280: Warning: Granite: granite_gtk_patch_about_dialog_get_authors: return value: Missing (transfer) annotation
+granite.h:1286: Warning: Granite: granite_gtk_patch_about_dialog_get_documenters: return value: Missing (transfer) annotation
+granite.h:1292: Warning: Granite: granite_gtk_patch_about_dialog_get_logo: return value: Missing (transfer) annotation
+granite.h:1277: Warning: Granite: granite_gtk_patch_about_dialog_construct: return value: Missing (transfer) annotation
+granite.h:1415: Warning: Granite: granite_widgets_about_dialog_construct: return value: Missing (transfer) annotation
+granite.h:1611: Warning: Granite: granite_widgets_tool_button_with_menu_get_fetcher: return value: Callbacks cannot be return values; use (skip)
+granite.h:1612: Warning: Granite: granite_widgets_tool_button_with_menu_set_fetcher: argument value: Missing (scope) annotation for callback without GDestroyNotify (valid: call, async)
+granite.h:1613: Warning: Granite: granite_widgets_tool_button_with_menu_get_menu: return value: Missing (transfer) annotation
+granite.h:1600: Warning: Granite: granite_widgets_tool_button_with_menu_construct_from_action: return value: Missing (transfer) annotation
+granite.h:1602: Warning: Granite: granite_widgets_tool_button_with_menu_construct_from_stock: return value: Missing (transfer) annotation
+granite.h:1604: Warning: Granite: granite_widgets_tool_button_with_menu_construct: return value: Missing (transfer) annotation
+granite.h:1568: Warning: Granite: granite_widgets_app_menu_construct: return value: Missing (transfer) annotation
+granite.h:1570: Warning: Granite: granite_widgets_app_menu_construct_with_app: return value: Missing (transfer) annotation
+granite.h:1572: Warning: Granite: granite_widgets_app_menu_construct_with_urls: return value: Missing (transfer) annotation
+granite.h:1238: Warning: Granite: granite_drawing_color_set_hue: return value: Missing (transfer) annotation
+granite.h:1239: Warning: Granite: granite_drawing_color_set_sat: return value: Missing (transfer) annotation
+granite.h:1240: Warning: Granite: granite_drawing_color_set_val: return value: Missing (transfer) annotation
+granite.h:1241: Warning: Granite: granite_drawing_color_set_alpha: return value: Missing (transfer) annotation
+granite.h:1245: Warning: Granite: granite_drawing_color_add_hue: return value: Missing (transfer) annotation
+granite.h:1246: Warning: Granite: granite_drawing_color_set_min_sat: return value: Missing (transfer) annotation
+granite.h:1247: Warning: Granite: granite_drawing_color_set_min_value: return value: Missing (transfer) annotation
+granite.h:1248: Warning: Granite: granite_drawing_color_set_max_sat: return value: Missing (transfer) annotation
+granite.h:1249: Warning: Granite: granite_drawing_color_set_max_val: return value: Missing (transfer) annotation
+granite.h:1250: Warning: Granite: granite_drawing_color_multiply_sat: return value: Missing (transfer) annotation
+granite.h:1251: Warning: Granite: granite_drawing_color_brighten_val: return value: Missing (transfer) annotation
+granite.h:1252: Warning: Granite: granite_drawing_color_darken_val: return value: Missing (transfer) annotation
+granite.h:1253: Warning: Granite: granite_drawing_color_darken_by_sat: return value: Missing (transfer) annotation
+granite.h:1235: Warning: Granite: granite_drawing_color_construct: return value: Missing (transfer) annotation
+granite.h:1237: Warning: Granite: granite_drawing_color_construct_from_gdk: return value: Missing (transfer) annotation
+granite.h:1262: Warning: Granite: granite_drawing_buffer_surface_load_to_pixbuf: return value: Missing (transfer) annotation
+granite.h:1263: Warning: Granite: granite_drawing_buffer_surface_average_color: return value: Missing (transfer) annotation
+granite.h:1256: Warning: Granite: granite_drawing_buffer_surface_construct: return value: Missing (transfer) annotation
+granite.h:1258: Warning: Granite: granite_drawing_buffer_surface_construct_with_surface: return value: Missing (transfer) annotation
+granite.h:1260: Warning: Granite: granite_drawing_buffer_surface_construct_with_buffer_surface: return value: Missing (transfer) annotation
+granite.h:1273: Warning: Granite: granite_drawing_utilities_average_color: return value: Missing (transfer) annotation
+granite.h:1275: Warning: Granite: granite_drawing_utilities_construct: return value: Missing (transfer) annotation
+granite.h:1314: Warning: Granite: granite_services_settings_get_schema: return value: Missing (transfer) annotation
+granite.h:1309: Warning: Granite: granite_services_settings_construct: return value: Missing (transfer) annotation
+granite.h:1310: Warning: Granite: granite_services_settings_construct_with_backend: return value: Missing (transfer) annotation
+granite.h:1311: Warning: Granite: granite_services_settings_construct_with_backend_and_path: return value: Missing (transfer) annotation
+granite.h:1312: Warning: Granite: granite_services_settings_construct_with_path: return value: Missing (transfer) annotation
+granite.h:1320: Warning: Granite: granite_services_logger_construct: return value: Missing (transfer) annotation
+granite.h:1327: Warning: Granite: granite_services_paths_construct: return value: Missing (transfer) annotation
+granite.h:1328: Warning: Granite: granite_services_paths_get_home_folder: return value: Missing (transfer) annotation
+granite.h:1330: Warning: Granite: granite_services_paths_get_data_folder: return value: Missing (transfer) annotation
+granite.h:1332: Warning: Granite: granite_services_paths_get_xdg_config_home_folder: return value: Missing (transfer) annotation
+granite.h:1334: Warning: Granite: granite_services_paths_get_xdg_data_home_folder: return value: Missing (transfer) annotation
+granite.h:1336: Warning: Granite: granite_services_paths_get_xdg_cache_home_folder: return value: Missing (transfer) annotation
+granite.h:1338: Warning: Granite: granite_services_paths_get_xdg_data_dir_folders: return value: Missing (element-type) annotation
+granite.h:1339: Warning: Granite: granite_services_paths_set_xdg_data_dir_folders: argument value: Missing (element-type) annotation
+granite.h:1340: Warning: Granite: granite_services_paths_get_user_config_folder: return value: Missing (transfer) annotation
+granite.h:1342: Warning: Granite: granite_services_paths_get_user_data_folder: return value: Missing (transfer) annotation
+granite.h:1344: Warning: Granite: granite_services_paths_get_user_cache_folder: return value: Missing (transfer) annotation
+granite.h:1354: Warning: Granite: granite_services_system_construct: return value: Missing (transfer) annotation
+granite.h:1360: Warning: Granite: granite_services_contractor_construct: return value: Missing (transfer) annotation
+granite.h:1361: Warning: Granite: granite_services_contractor_get_contract: return value: Missing (transfer) annotation
+granite.h:1362: Warning: Granite: granite_services_contractor_get_selection_contracts: return value: Missing (transfer) annotation
+granite.h:1366: Warning: Granite: granite_services_contract_get_icon: return value: Missing (transfer) annotation
+granite.h:1371: Warning: Granite: granite_services_contractor_proxy_get_instance: return value: Missing (transfer) annotation
+granite.h:1372: Warning: Granite: granite_services_contractor_proxy_get_all_contracts: return value: Missing (transfer) annotation
+granite.h:1373: Warning: Granite: granite_services_contractor_proxy_get_contracts_by_mime: return value: Missing (transfer) annotation
+granite.h:1374: Warning: Granite: granite_services_contractor_proxy_get_contracts_by_mimelist: return value: Missing (transfer) annotation
+granite.h:1375: Warning: Granite: granite_services_contractor_proxy_get_contracts_for_file: return value: Missing (transfer) annotation
+granite.h:1376: Warning: Granite: granite_services_contractor_proxy_get_contracts_for_files: return value: Missing (transfer) annotation
+granite.h:1382: Warning: Granite: granite_services_icon_factory_load_symbolic_icon_from_gicon: return value: Missing (transfer) annotation
+granite.h:1383: Warning: Granite: granite_services_icon_factory_load_symbolic_icon: return value: Missing (transfer) annotation
+granite.h:1380: Warning: Granite: granite_services_icon_factory_construct: return value: Missing (transfer) annotation
+granite.h:1381: Warning: Granite: granite_services_icon_factory_get_default: return value: Missing (transfer) annotation
+granite.h:1386: Warning: Granite: granite_services_simple_command_construct: return value: Missing (transfer) annotation
+granite.h:1390: Warning: Granite: granite_widgets_alert_view_construct: return value: Missing (transfer) annotation
+granite.h:1413: Warning: Granite: granite_widgets_wrap_label_construct: return value: Missing (transfer) annotation
+granite.h:1425: Warning: Granite: granite_widgets_mode_button_construct: return value: Missing (transfer) annotation
+granite.h:1439: Warning: Granite: granite_widgets_date_picker_construct_with_format: return value: Missing (transfer) annotation
+granite.h:1442: Warning: Granite: granite_widgets_date_picker_construct: return value: Missing (transfer) annotation
+granite.h:1448: Warning: Granite: granite_widgets_hinted_entry_construct: return value: Missing (transfer) annotation
+granite.h:1459: Warning: Granite: granite_widgets_search_bar_construct: return value: Missing (transfer) annotation
+granite.h:1464: Warning: Granite: granite_widgets_time_picker_construct_with_format: return value: Missing (transfer) annotation
+granite.h:1467: Warning: Granite: granite_widgets_time_picker_construct: return value: Missing (transfer) annotation
+granite.h:1475: Warning: Granite: granite_widgets_collapsible_paned_construct: return value: Missing (transfer) annotation
+granite.h:1480: Warning: Granite: granite_widgets_hcollapsable_paned_construct: return value: Missing (transfer) annotation
+granite.h:1483: Warning: Granite: granite_widgets_vcollapsable_paned_construct: return value: Missing (transfer) annotation
+granite.h:1486: Warning: Granite: granite_widgets_static_notebook_construct: return value: Missing (transfer) annotation
+granite.h:1505: Warning: Granite: granite_widgets_tab_get_page: return value: Missing (transfer) annotation
+granite.h:1507: Warning: Granite: granite_widgets_tab_get_icon: return value: Missing (transfer) annotation
+granite.h:1515: Warning: Granite: granite_widgets_tab_get_menu: return value: Missing (transfer) annotation
+granite.h:1495: Warning: Granite: granite_widgets_tab_construct: return value: Missing (transfer) annotation
+granite.h:1524: Warning: Granite: granite_widgets_dynamic_notebook_get_children: return value: Missing (element-type) annotation
+granite.h:1527: Warning: Granite: granite_widgets_dynamic_notebook_get_tab_by_index: return value: Missing (transfer) annotation
+granite.h:1528: Warning: Granite: granite_widgets_dynamic_notebook_get_tab_by_widget: return value: Missing (transfer) annotation
+granite.h:1529: Warning: Granite: granite_widgets_dynamic_notebook_get_nth_page: return value: Missing (transfer) annotation
+granite.h:1556: Warning: Granite: granite_widgets_dynamic_notebook_get_current: return value: Missing (transfer) annotation
+granite.h:1558: Warning: Granite: granite_widgets_dynamic_notebook_get_tabs: return value: Missing (element-type) annotation
+granite.h:1563: Warning: Granite: granite_widgets_dynamic_notebook_get_menu: return value: Missing (transfer) annotation
+granite.h:1520: Warning: Granite: granite_widgets_dynamic_notebook_construct: return value: Missing (transfer) annotation
+granite.h:1566: Warning: Granite: granite_widgets_composited_window_construct: return value: Missing (transfer) annotation
+granite.h:1584: Warning: Granite: granite_widgets_welcome_get_button_from_index: return value: Missing (transfer) annotation
+granite.h:1576: Warning: Granite: granite_widgets_welcome_construct: return value: Missing (transfer) annotation
+granite.h:1595: Warning: Granite: granite_widgets_welcome_button_get_icon: return value: Missing (transfer) annotation
+granite.h:1590: Warning: Granite: granite_widgets_welcome_button_construct: return value: Missing (transfer) annotation
+granite.h:1618: Warning: Granite: granite_widgets_pop_over_construct: return value: Missing (transfer) annotation
+granite.h:1629: Warning: Granite: granite_widgets_contractor_view_add_item: argument method: Missing (scope) annotation for callback without GDestroyNotify (valid: call, async)
+granite.h:1628: Warning: Granite: granite_widgets_contractor_view_construct: return value: Missing (transfer) annotation
+granite.h:1637: Warning: Granite: granite_widgets_contractor_menu_add_item: argument method: Missing (scope) annotation for callback without GDestroyNotify (valid: call, async)
+granite.h:1636: Warning: Granite: granite_widgets_contractor_menu_construct: return value: Missing (transfer) annotation
+granite.h:1648: Warning: Granite: granite_widgets_decorated_window_get_box: return value: Missing (transfer) annotation
+granite.h:1649: Warning: Granite: granite_widgets_decorated_window_get_draw_ref: return value: Missing (transfer) annotation
+granite.h:1643: Warning: Granite: granite_widgets_decorated_window_construct: return value: Missing (transfer) annotation
+granite.h:1652: Warning: Granite: granite_widgets_light_window_construct: return value: Missing (transfer) annotation
+granite.h:1655: Warning: Granite: granite_widgets_status_bar_construct: return value: Missing (transfer) annotation
+granite.h:1749: Warning: Granite: granite_widgets_thin_paned_get_overlay_handle_window: return value: Missing (transfer) annotation
+granite.h:1748: Warning: Granite: granite_widgets_thin_paned_construct: return value: Missing (transfer) annotation
+granite.h:1661: Warning: Granite: granite_widgets_sidebar_paned_construct: return value: Missing (transfer) annotation
+granite.h:1704: Warning: Granite: granite_widgets_source_list_item_get_context_menu: return value: Missing (transfer) annotation
+granite.h:1705: Warning: Granite: granite_widgets_source_list_item_get_parent: return value: Missing (transfer) annotation
+granite.h:1716: Warning: Granite: granite_widgets_source_list_item_get_icon: return value: Missing (transfer) annotation
+granite.h:1718: Warning: Granite: granite_widgets_source_list_item_get_activatable: return value: Missing (transfer) annotation
+granite.h:1703: Warning: Granite: granite_widgets_source_list_item_construct: return value: Missing (transfer) annotation
+granite.h:1735: Warning: Granite: granite_widgets_source_list_expandable_item_get_children: return value: Missing (transfer) annotation
+granite.h:1721: Warning: Granite: granite_widgets_source_list_expandable_item_construct: return value: Missing (transfer) annotation
+granite.h:1678: Warning: Granite: granite_widgets_source_list_set_filter_func: argument visible_func: Missing (scope) annotation for callback without GDestroyNotify (valid: call, async)
+granite.h:1688: Warning: Granite: granite_widgets_source_list_get_previous_item: return value: Missing (transfer) annotation
+granite.h:1689: Warning: Granite: granite_widgets_source_list_get_next_item: return value: Missing (transfer) annotation
+granite.h:1690: Warning: Granite: granite_widgets_source_list_get_first_child: return value: Missing (transfer) annotation
+granite.h:1691: Warning: Granite: granite_widgets_source_list_get_last_child: return value: Missing (transfer) annotation
+granite.h:1693: Warning: Granite: granite_widgets_source_list_get_root: return value: Missing (transfer) annotation
+granite.h:1695: Warning: Granite: granite_widgets_source_list_get_selected: return value: Missing (transfer) annotation
+granite.h:1675: Warning: Granite: granite_widgets_source_list_construct: return value: Missing (transfer) annotation
+granite.h:1738: Warning: Granite: granite_widgets_cell_renderer_expander_construct: return value: Missing (transfer) annotation
+granite.h:1744: Warning: Granite: granite_widgets_cell_renderer_badge_construct: return value: Missing (transfer) annotation
+granite.h:1752: Warning: Granite: granite_widgets_overlay_bar_construct: return value: Missing (transfer) annotation
+/usr/share/gir-1.0/Gee-0.8.gir:9:51: warning: element annotation from state 7 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10:53: warning: element annotation from state 7 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:3697:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:3742:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:3794:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:3900:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:3914:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:3928:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4025:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4039:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4067:72: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4093:83: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4094:55: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4095:66: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4180:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4194:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4502:1: warning: element property from state 24 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4510:1: warning: element property from state 24 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4558:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4627:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4674:1: warning: element property from state 24 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4719:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4733:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4799:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4886:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:4932:50: warning: element annotation from state 16 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5420:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5431:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5442:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5453:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5464:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5475:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5486:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5492:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5498:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5511:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5524:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5537:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5550:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5563:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5576:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5589:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5602:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5615:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5628:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5644:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5660:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5676:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5692:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5708:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5724:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5737:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5750:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5763:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5776:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5789:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5809:48: warning: element annotation from state 18 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5823:49: warning: element annotation from state 18 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5837:49: warning: element annotation from state 18 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5851:49: warning: element annotation from state 18 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5877:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5893:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5909:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5925:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5938:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5956:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5974:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:5992:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6010:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6028:50: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6049:50: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6070:50: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6091:50: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6109:50: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6127:50: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6506:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6512:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6518:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6532:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6546:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6560:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6571:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6585:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6596:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6615:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6634:70: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6635:64: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6636:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6655:70: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6656:64: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6657:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6676:64: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6677:58: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6678:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6694:64: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6695:58: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6696:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6712:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6733:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6754:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6773:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6792:48: warning: element annotation from state 18 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6806:48: warning: element annotation from state 18 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6820:48: warning: element annotation from state 18 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6860:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6898:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6911:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6930:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6949:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6965:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6989:71: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6990:65: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:6991:50: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:7015:65: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:7016:59: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:7017:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:7038:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:7064:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:8001:66: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:8110:64: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:8202:68: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:8242:66: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10544:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10558:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10572:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10591:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10610:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10627:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10644:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10660:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10676:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10695:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10714:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10733:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10752:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10768:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10784:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10803:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10822:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10840:48: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10858:48: warning: element annotation from state 18 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10878:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10897:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10921:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10943:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10964:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:10988:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:11012:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:11033:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:11057:49: warning: element annotation from state 10 is unknown, ignoring
+/usr/share/gir-1.0/Gee-0.8.gir:11167:48: warning: element annotation from state 10 is unknown, ignoring
+[ 95%] Built target granite
+[ 97%] Generating GraniteDemo.c
+Scanning dependencies of target granite-demo
+[100%] Building C object demo/CMakeFiles/granite-demo.dir/GraniteDemo.c.o
+In file included from /build/granite-bzr/src/granite/build/demo/GraniteDemo.c:32:0:
+/build/granite-bzr/src/granite/build/demo/../lib/granite.h:1677:1: warning: ‘GraniteWidgetsSourceListSortFunc’ is deprecated [-Wdeprecated-declarations]
+ void granite_widgets_source_list_set_sort_func (GraniteWidgetsSourceList* self, GraniteWidgetsSourceListSortFunc sort_func, void* sort_func_target, GDestroyNotify sort_func_target_destroy_notify) G_GNUC_DEPRECATED;
+ ^
+Linking C executable granite-demo
+[100%] Built target granite-demo
+Scanning dependencies of target i18n
+[100%] Built target i18n

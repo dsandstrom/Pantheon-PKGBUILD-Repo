@@ -1,0 +1,102 @@
+-- The C compiler identification is GNU 5.1.0
+-- The CXX compiler identification is GNU 5.1.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Vala: /usr/bin/valac  
+-- checking for a minimum Vala version of 0.24.0
+--   found Vala, version 0.28.0
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.28") 
+-- checking for modules 'glib-2.0;gio-2.0;gio-unix-2.0;gee-0.8;gtk+-3.0>=3.12;granite;switchboard-2.0;libaccounts-glib;libgsignon-glib;gsignond;json-glib-1.0;libsoup-2.4;gmodule-2.0;rest-0.7'
+--   found glib-2.0, version 2.44.1
+--   found gio-2.0, version 2.44.1
+--   found gio-unix-2.0, version 2.44.1
+--   found gee-0.8, version 0.18.0
+--   found gtk+-3.0, version 3.16.4
+--   found granite, version 0.3.0
+--   found switchboard-2.0, version 2.0
+--   found libaccounts-glib, version 1.18
+--   found libgsignon-glib, version 2.4.0
+--   found gsignond, version 1.0.4
+--   found json-glib-1.0, version 1.0.2
+--   found libsoup-2.4, version 2.50.0
+--   found gmodule-2.0, version 2.44.1
+--   found rest-0.7, version 0.7.93
+-- checking for module 'webkit2gtk-4.0'
+--   found webkit2gtk-4.0, version 2.8.3
+-- Plugins enabled
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /build/switchboard-plug-online-accounts-bzr/src/switchboard-plug-online-accounts/build
+Scanning dependencies of target i18n
+[  0%] Built target i18n
+[  2%] Generating AccountsManager.c;Account.c;PluginManager.c;MethodPlugin.c;ProviderPlugin.c;pantheon-online-accounts.vapi;pantheon-online-accounts.h
+Scanning dependencies of target pantheon-online-accounts
+[  5%] Building C object src/CMakeFiles/pantheon-online-accounts.dir/AccountsManager.c.o
+[  8%] Building C object src/CMakeFiles/pantheon-online-accounts.dir/Account.c.o
+[ 11%] Building C object src/CMakeFiles/pantheon-online-accounts.dir/PluginManager.c.o
+[ 14%] Building C object src/CMakeFiles/pantheon-online-accounts.dir/MethodPlugin.c.o
+[ 17%] Building C object src/CMakeFiles/pantheon-online-accounts.dir/ProviderPlugin.c.o
+Linking C shared library libpantheon-online-accounts.so
+[ 17%] Built target pantheon-online-accounts
+[ 20%] Generating OnlineAccounts.c;Views/SourceSelector.c;Views/AccountView.c;Authentification/Server.c;Authentification/DialogService.c;Authentification/RequestQueue.c;Authentification/RequestInfo.c;Authentification/Key.c;Authentification/Dialog.c;Authentification/WebDialog.c;Authentification/GraphicalDialog.c
+Scanning dependencies of target pantheon-online-accounts-plug
+[ 23%] Building C object src/CMakeFiles/pantheon-online-accounts-plug.dir/OnlineAccounts.c.o
+[ 26%] Building C object src/CMakeFiles/pantheon-online-accounts-plug.dir/Views/SourceSelector.c.o
+[ 29%] Building C object src/CMakeFiles/pantheon-online-accounts-plug.dir/Views/AccountView.c.o
+[ 32%] Building C object src/CMakeFiles/pantheon-online-accounts-plug.dir/Authentification/Server.c.o
+[ 35%] Building C object src/CMakeFiles/pantheon-online-accounts-plug.dir/Authentification/DialogService.c.o
+[ 38%] Building C object src/CMakeFiles/pantheon-online-accounts-plug.dir/Authentification/RequestQueue.c.o
+[ 41%] Building C object src/CMakeFiles/pantheon-online-accounts-plug.dir/Authentification/RequestInfo.c.o
+[ 44%] Building C object src/CMakeFiles/pantheon-online-accounts-plug.dir/Authentification/Key.c.o
+[ 47%] Building C object src/CMakeFiles/pantheon-online-accounts-plug.dir/Authentification/Dialog.c.o
+[ 50%] Building C object src/CMakeFiles/pantheon-online-accounts-plug.dir/Authentification/WebDialog.c.o
+[ 52%] Building C object src/CMakeFiles/pantheon-online-accounts-plug.dir/Authentification/GraphicalDialog.c.o
+Linking C shared module libpantheon-online-accounts-plug.so
+[ 52%] Built target pantheon-online-accounts-plug
+[ 55%] Generating OAuth.c;OAuthProvider.c
+Scanning dependencies of target generic-oauth
+[ 58%] Building C object plugins/Methods/Generic-OAuth/CMakeFiles/generic-oauth.dir/OAuth.c.o
+[ 61%] Building C object plugins/Methods/Generic-OAuth/CMakeFiles/generic-oauth.dir/OAuthProvider.c.o
+Linking C shared module libgeneric-oauth.so
+[ 61%] Built target generic-oauth
+[ 64%] Generating Password.c;PasswordProvider.c
+Scanning dependencies of target password
+[ 67%] Building C object plugins/Methods/Password/CMakeFiles/password.dir/Password.c.o
+[ 70%] Building C object plugins/Methods/Password/CMakeFiles/password.dir/PasswordProvider.c.o
+Linking C shared module libpassword.so
+[ 70%] Built target password
+[ 73%] Generating google.c
+Scanning dependencies of target google
+[ 76%] Building C object plugins/Providers/Google/CMakeFiles/google.dir/google.c.o
+Linking C shared module libgoogle.so
+[ 76%] Built target google
+[ 79%] Generating facebook.c
+Scanning dependencies of target facebook
+[ 82%] Building C object plugins/Providers/Facebook/CMakeFiles/facebook.dir/facebook.c.o
+Linking C shared module libfacebook.so
+[ 82%] Built target facebook
+[ 85%] Generating microsoft.c
+Scanning dependencies of target microsoft
+[ 88%] Building C object plugins/Providers/Microsoft/CMakeFiles/microsoft.dir/microsoft.c.o
+Linking C shared module libmicrosoft.so
+[ 88%] Built target microsoft
+[ 91%] Generating yahoo.c
+Scanning dependencies of target yahoo
+[ 94%] Building C object plugins/Providers/Yahoo/CMakeFiles/yahoo.dir/yahoo.c.o
+Linking C shared module libyahoo.so
+[ 94%] Built target yahoo
+[ 97%] Generating fastmail.c
+Scanning dependencies of target fastmail
+[100%] Building C object plugins/Providers/FastMail/CMakeFiles/fastmail.dir/fastmail.c.o
+Linking C shared module libfastmail.so
+[100%] Built target fastmail

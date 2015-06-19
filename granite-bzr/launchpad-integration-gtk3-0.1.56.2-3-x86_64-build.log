@@ -1,0 +1,423 @@
+libtoolize: putting auxiliary files in '.'.
+libtoolize: copying file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+libtoolize: Consider adding '-I m4' to ACLOCAL_AMFLAGS in Makefile.am.
+Copying file ABOUT-NLS
+Copying file config.rpath
+Copying file m4/codeset.m4
+Copying file m4/gettext.m4
+Copying file m4/glibc21.m4
+Copying file m4/iconv.m4
+Copying file m4/intdiv0.m4
+Copying file m4/intmax.m4
+Copying file m4/inttypes-pri.m4
+Copying file m4/inttypes.m4
+Copying file m4/inttypes_h.m4
+Copying file m4/isc-posix.m4
+Copying file m4/lcmessage.m4
+Copying file m4/lib-ld.m4
+Copying file m4/lib-link.m4
+Copying file m4/lib-prefix.m4
+Copying file m4/longdouble.m4
+Copying file m4/longlong.m4
+Copying file m4/nls.m4
+Copying file m4/po.m4
+Copying file m4/printf-posix.m4
+Copying file m4/progtest.m4
+Copying file m4/signed.m4
+Copying file m4/size_max.m4
+Copying file m4/stdint_h.m4
+Copying file m4/uintmax_t.m4
+Copying file m4/ulonglong.m4
+Copying file m4/wchar_t.m4
+Copying file m4/wint_t.m4
+Copying file m4/xsize.m4
+Copying file mkinstalldirs
+Copying file po/Makefile.in.in
+Copying file po/Makevars.template
+Copying file po/Rules-quot
+Copying file po/boldquot.sed
+Copying file po/en@boldquot.header
+Copying file po/en@quot.header
+Copying file po/insert-header.sin
+Copying file po/quot.sed
+Copying file po/remove-potcdate.sin
+configure.ac:10: installing './compile'
+configure.ac:11: installing './config.guess'
+configure.ac:11: installing './config.sub'
+configure.ac:6: installing './install-sh'
+configure.ac:6: installing './missing'
+Makefile.am: installing './INSTALL'
+Makefile.am:16: installing './py-compile'
+lib/Makefile.am:58: warning: pkgpythondir was already defined in condition TRUE, which includes condition !USE_GTK3 ...
+configure.ac:23: ... 'pkgpythondir' previously defined here
+lib/Makefile.am:59: warning: pkgpyexecdir was already defined in condition TRUE, which includes condition !USE_GTK3 ...
+configure.ac:23: ... 'pkgpyexecdir' previously defined here
+lib/Makefile.am:11: warning: 'INCLUDES' is the old name for 'AM_CPPFLAGS' (or '*_CPPFLAGS')
+lib/Makefile.am: installing './depcomp'
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for bind_textdomain_codeset... yes
+checking whether /usr/bin/python2 version is >= 2.4... yes
+checking for /usr/bin/python2 version... 2.7
+checking for /usr/bin/python2 platform... linux2
+checking for /usr/bin/python2 script directory... ${prefix}/lib/python2.7/site-packages
+checking for /usr/bin/python2 extension module directory... ${exec_prefix}/lib/python2.7/site-packages
+checking for headers required to compile python extensions... found
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gobject-introspection... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking for GTK+ - version >= 2.91.3... yes (version 3.16.4)
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating po/Makefile.in
+config.status: WARNING:  'po/Makefile.in.in' seems to ignore the --datarootdir setting
+config.status: creating pixmaps/Makefile
+config.status: creating launchpad-integration.pc
+config.status: creating launchpad-integration-3.0.pc
+config.status: creating launchpad-integration-sharp.pc
+config.status: creating launchpad-integration
+config.status: WARNING:  'launchpad-integration.in' seems to ignore the --datarootdir setting
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+make  all-recursive
+make[1]: Entering directory '/build/launchpad-integration-gtk3/src/~ubuntu-desktop/launchpad-integration/ubuntu'
+Making all in lib
+make[2]: Entering directory '/build/launchpad-integration-gtk3/src/~ubuntu-desktop/launchpad-integration/ubuntu/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libdrm -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -I/usr/include/python2.7 -I/usr/include/python2.7  -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DLOCALEDIR=\""/usr/share/locale"\"  -D_FORTIFY_SOURCE=2  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong --param=ssp-buffer-size=4 -MT launchpad-integration.lo -MD -MP -MF .deps/launchpad-integration.Tpo -c -o launchpad-integration.lo launchpad-integration.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libdrm -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/python2.7 -I/usr/include/python2.7 -DGNOME_ICONDIR=\"/usr/share/pixmaps\" -DLOCALEDIR=\"/usr/share/locale\" -D_FORTIFY_SOURCE=2 -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong --param=ssp-buffer-size=4 -MT launchpad-integration.lo -MD -MP -MF .deps/launchpad-integration.Tpo -c launchpad-integration.c  -fPIC -DPIC -o .libs/launchpad-integration.o
+launchpad-integration.c: In function ‘launchpad_integration_new_action_group’:
+launchpad-integration.c:170:5: warning: ‘gtk_action_group_new’ is deprecated [-Wdeprecated-declarations]
+     action_group = gtk_action_group_new ("LaunchpadIntegration");
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:240:0,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkactiongroup.h:175:17: note: declared here
+ GtkActionGroup *gtk_action_group_new                     (const gchar                *name);
+                 ^
+launchpad-integration.c:172:5: warning: ‘gtk_action_group_set_translation_domain’ is deprecated [-Wdeprecated-declarations]
+     gtk_action_group_set_translation_domain (action_group, PACKAGE);
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:240:0,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkactiongroup.h:252:17: note: declared here
+ void            gtk_action_group_set_translation_domain  (GtkActionGroup             *action_group,
+                 ^
+launchpad-integration.c:173:5: warning: ‘gtk_action_group_add_actions’ is deprecated [-Wdeprecated-declarations]
+     gtk_action_group_add_actions (action_group,
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:240:0,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkactiongroup.h:210:17: note: declared here
+ void            gtk_action_group_add_actions             (GtkActionGroup             *action_group,
+                 ^
+launchpad-integration.c: In function ‘launchpad_integration_add_ui’:
+launchpad-integration.c:206:5: warning: ‘gtk_ui_manager_get_type’ is deprecated [-Wdeprecated-declarations]
+     g_return_if_fail (GTK_IS_UI_MANAGER (ui));
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:270:0,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:128:16: note: declared here
+ GType          gtk_ui_manager_get_type            (void) G_GNUC_CONST;
+                ^
+launchpad-integration.c:211:5: warning: ‘gtk_ui_manager_insert_action_group’ is deprecated [-Wdeprecated-declarations]
+     gtk_ui_manager_insert_action_group (ui, action_group, -1);
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:270:0,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:138:16: note: declared here
+ void           gtk_ui_manager_insert_action_group (GtkUIManager          *manager,
+                ^
+launchpad-integration.c:215:5: warning: ‘gtk_ui_manager_new_merge_id’ is deprecated [-Wdeprecated-declarations]
+     merge_id = gtk_ui_manager_new_merge_id (ui);
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:270:0,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:186:16: note: declared here
+ guint          gtk_ui_manager_new_merge_id        (GtkUIManager          *manager);
+                ^
+launchpad-integration.c:217:5: warning: ‘gtk_ui_manager_add_ui’ is deprecated [-Wdeprecated-declarations]
+     gtk_ui_manager_add_ui (ui,
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:270:0,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:171:16: note: declared here
+ void           gtk_ui_manager_add_ui              (GtkUIManager          *manager,
+                ^
+launchpad-integration.c:226:2: warning: ‘gtk_ui_manager_add_ui’ is deprecated [-Wdeprecated-declarations]
+  gtk_ui_manager_add_ui (ui,
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:270:0,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:171:16: note: declared here
+ void           gtk_ui_manager_add_ui              (GtkUIManager          *manager,
+                ^
+launchpad-integration.c:235:5: warning: ‘gtk_ui_manager_add_ui’ is deprecated [-Wdeprecated-declarations]
+     gtk_ui_manager_add_ui (ui,
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:270:0,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:171:16: note: declared here
+ void           gtk_ui_manager_add_ui              (GtkUIManager          *manager,
+                ^
+launchpad-integration.c: In function ‘launchpad_integration_add_ui_with_separators’:
+launchpad-integration.c:257:5: warning: ‘gtk_ui_manager_get_type’ is deprecated [-Wdeprecated-declarations]
+     g_return_if_fail (GTK_IS_UI_MANAGER (ui));
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:270:0,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:128:16: note: declared here
+ GType          gtk_ui_manager_get_type            (void) G_GNUC_CONST;
+                ^
+launchpad-integration.c:262:5: warning: ‘gtk_ui_manager_insert_action_group’ is deprecated [-Wdeprecated-declarations]
+     gtk_ui_manager_insert_action_group (ui, action_group, -1);
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:270:0,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:138:16: note: declared here
+ void           gtk_ui_manager_insert_action_group (GtkUIManager          *manager,
+                ^
+launchpad-integration.c:266:5: warning: ‘gtk_ui_manager_new_merge_id’ is deprecated [-Wdeprecated-declarations]
+     merge_id = gtk_ui_manager_new_merge_id (ui);
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:270:0,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:186:16: note: declared here
+ guint          gtk_ui_manager_new_merge_id        (GtkUIManager          *manager);
+                ^
+launchpad-integration.c:269:2: warning: ‘gtk_ui_manager_add_ui’ is deprecated [-Wdeprecated-declarations]
+  gtk_ui_manager_add_ui (ui,
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:270:0,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:171:16: note: declared here
+ void           gtk_ui_manager_add_ui              (GtkUIManager          *manager,
+                ^
+launchpad-integration.c:279:2: warning: ‘gtk_ui_manager_add_ui’ is deprecated [-Wdeprecated-declarations]
+  gtk_ui_manager_add_ui (ui,
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:270:0,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:171:16: note: declared here
+ void           gtk_ui_manager_add_ui              (GtkUIManager          *manager,
+                ^
+launchpad-integration.c:289:2: warning: ‘gtk_ui_manager_add_ui’ is deprecated [-Wdeprecated-declarations]
+  gtk_ui_manager_add_ui (ui,
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:270:0,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkuimanager.h:171:16: note: declared here
+ void           gtk_ui_manager_add_ui              (GtkUIManager          *manager,
+                ^
+launchpad-integration.c: In function ‘launchpad_integration_add_items’:
+launchpad-integration.c:348:2: warning: ‘gtk_action_group_get_action’ is deprecated [-Wdeprecated-declarations]
+  action = gtk_action_group_get_action (action_group, actions[i].name);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/gtk.h:240:0,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkactiongroup.h:195:17: note: declared here
+ GtkAction      *gtk_action_group_get_action              (GtkActionGroup             *action_group,
+                 ^
+launchpad-integration.c:350:2: warning: ‘gtk_action_set_accel_group’ is deprecated [-Wdeprecated-declarations]
+  gtk_action_set_accel_group(action, acg);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/deprecated/gtkactivatable.h:25:0,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:238,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkaction.h:157:14: note: declared here
+ void         gtk_action_set_accel_group        (GtkAction     *action,
+              ^
+launchpad-integration.c:352:2: warning: ‘gtk_action_create_menu_item’ is deprecated [-Wdeprecated-declarations]
+  item = gtk_action_create_menu_item (action);
+  ^
+In file included from /usr/include/gtk-3.0/gtk/deprecated/gtkactivatable.h:25:0,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:238,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkaction.h:124:14: note: declared here
+ GtkWidget *  gtk_action_create_menu_item       (GtkAction     *action);
+              ^
+launchpad-integration.c: In function ‘launchpad_integration_add_item_factory’:
+launchpad-integration.c:375:5: warning: ‘gtk_icon_factory_new’ is deprecated [-Wdeprecated-declarations]
+     icon_factory = gtk_icon_factory_new ();
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtkstyleprovider.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkstylecontext.h:27,
+                 from /usr/include/gtk-3.0/gtk/gtkicontheme.h:27,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:120,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkiconfactory.h:80:17: note: declared here
+ GtkIconFactory* gtk_icon_factory_new      (void);
+                 ^
+launchpad-integration.c:376:5: warning: ‘gtk_icon_factory_add_default’ is deprecated [-Wdeprecated-declarations]
+     gtk_icon_factory_add_default (icon_factory);
+     ^
+In file included from /usr/include/gtk-3.0/gtk/gtkstyleprovider.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkstylecontext.h:27,
+                 from /usr/include/gtk-3.0/gtk/gtkicontheme.h:27,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:120,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkiconfactory.h:92:13: note: declared here
+ void        gtk_icon_factory_add_default     (GtkIconFactory  *factory);
+             ^
+launchpad-integration.c:390:6: warning: ‘gtk_icon_set_new_from_pixbuf’ is deprecated [-Wdeprecated-declarations]
+      icon_set = gtk_icon_set_new_from_pixbuf (pixbuf);
+      ^
+In file included from /usr/include/gtk-3.0/gtk/gtkstyleprovider.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkstylecontext.h:27,
+                 from /usr/include/gtk-3.0/gtk/gtkicontheme.h:27,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:120,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkiconfactory.h:140:13: note: declared here
+ GtkIconSet* gtk_icon_set_new_from_pixbuf (GdkPixbuf       *pixbuf);
+             ^
+launchpad-integration.c:391:6: warning: ‘gtk_icon_factory_add’ is deprecated [-Wdeprecated-declarations]
+      gtk_icon_factory_add (icon_factory, actions[i].stock_id, icon_set);
+      ^
+In file included from /usr/include/gtk-3.0/gtk/gtkstyleprovider.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkstylecontext.h:27,
+                 from /usr/include/gtk-3.0/gtk/gtkicontheme.h:27,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:120,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkiconfactory.h:82:17: note: declared here
+ void            gtk_icon_factory_add      (GtkIconFactory *factory,
+                 ^
+launchpad-integration.c:395:13: warning: ‘gtk_stock_lookup’ is deprecated [-Wdeprecated-declarations]
+             if (!gtk_stock_lookup(actions[i].stock_id, &s))
+             ^
+In file included from /usr/include/gtk-3.0/gtk/deprecated/gtkactiongroup.h:37:0,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:240,
+                 from launchpad-integration.h:3,
+                 from launchpad-integration.c:7:
+/usr/include/gtk-3.0/gtk/deprecated/gtkstock.h:82:10: note: declared here
+ gboolean gtk_stock_lookup     (const gchar         *stock_id,
+          ^
+mv -f .deps/launchpad-integration.Tpo .deps/launchpad-integration.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong --param=ssp-buffer-size=4 -version-info 1:0:0 -Wl,-O1,--sort-common,--as-needed,-z,relro -o liblaunchpad-integration-3.0.la -rpath /usr/lib launchpad-integration.lo -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0  
+Makefile:584: recipe for target 'liblaunchpad-integration-3.0.la' failed
+make[2]: *** [liblaunchpad-integration-3.0.la] Interrupt
+Makefile:642: recipe for target 'all-recursive' failed
+make[1]: *** [all-recursive] Interrupt
+Makefile:442: recipe for target 'all' failed
+make: *** [all] Interrupt
+
+[1m[31m==> ERROR:(B[m[1m Aborted by user! Exiting...(B[m

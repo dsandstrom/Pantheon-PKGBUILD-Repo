@@ -1,0 +1,100 @@
+-- The C compiler identification is GNU 5.1.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found Vala: /usr/bin/valac  
+-- checking for a minimum Vala version of 0.22
+--   found Vala, version 0.28.0
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.28") 
+-- checking for modules 'granite>=0.3.0;clutter-gtk-1.0;gstreamer-1.0;gstreamer-pbutils-1.0;gstreamer-tag-1.0'
+--   found granite, version 0.3.0
+--   found clutter-gtk-1.0, version 1.6.0
+--   found gstreamer-1.0, version 1.4.5
+--   found gstreamer-pbutils-1.0, version 1.4.5
+--   found gstreamer-tag-1.0, version 1.4.5
+-- libnotify disabled
+-- GSettings schemas will be installed locally.
+-- GSettings schemas will be installed into /usr/share/glib-2.0/schemas/
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /build/audience-bzr/src/audience/build
+[  7%] Generating /build/audience-bzr/src/audience/build/src/config.c;Audience.c;Consts.c;Settings.c;Utils.c;DiskManager.c;Widgets/BottomBar.c;Widgets/SettingsPopover.c;Widgets/PreviewPopover.c;Widgets/TimeWidget.c;Widgets/Playlist.c;Widgets/PlaylistPopover.c;Widgets/VideoPlayer.c
+warning: --save-temps has no effect when -C or --ccode is set
+/build/audience-bzr/src/audience/src/Widgets/VideoPlayer.vala:192.21-192.42: warning: Clutter.Texture.new has been deprecated since 1.12
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+/build/audience-bzr/src/audience/src/Widgets/PreviewPopover.vala:44.17-44.38: warning: Clutter.Texture.new has been deprecated since 1.12
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+
+** (valac:5268): CRITICAL **: vala_data_type_copy: assertion 'self != NULL' failed
+/build/audience-bzr/src/audience/src/Audience.vala:599.17-599.55: warning: Access to static member `Gdk.Window.constrain_size' with an instance reference
+                mainwindow.get_window ().constrain_size (geom, Gdk.WindowHints.ASPECT, w, h, out b, out c);
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/build/audience-bzr/src/audience/src/Audience.vala:353.58-353.101: warning: Gdk.Cursor.new has been deprecated since 3.16
+/build/audience-bzr/src/audience/src/Audience.vala:563.9-563.39: warning: field `Audience.App.update_aspect_ratio_locked' never used
+        bool update_aspect_ratio_locked = false;
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Scanning dependencies of target audience
+[ 14%] Building C object src/CMakeFiles/audience.dir/config.c.o
+[ 21%] Building C object src/CMakeFiles/audience.dir/Audience.c.o
+[ 28%] Building C object src/CMakeFiles/audience.dir/Consts.c.o
+[ 35%] Building C object src/CMakeFiles/audience.dir/Settings.c.o
+[ 42%] Building C object src/CMakeFiles/audience.dir/Utils.c.o
+[ 50%] Building C object src/CMakeFiles/audience.dir/DiskManager.c.o
+[ 57%] Building C object src/CMakeFiles/audience.dir/Widgets/BottomBar.c.o
+[ 64%] Building C object src/CMakeFiles/audience.dir/Widgets/SettingsPopover.c.o
+[ 71%] Building C object src/CMakeFiles/audience.dir/Widgets/PreviewPopover.c.o
+[ 78%] Building C object src/CMakeFiles/audience.dir/Widgets/TimeWidget.c.o
+[ 85%] Building C object src/CMakeFiles/audience.dir/Widgets/Playlist.c.o
+[ 92%] Building C object src/CMakeFiles/audience.dir/Widgets/PlaylistPopover.c.o
+[100%] Building C object src/CMakeFiles/audience.dir/Widgets/VideoPlayer.c.o
+Linking C executable audience
+[100%] Built target audience
+Scanning dependencies of target i18n
+[100%] Built target i18n

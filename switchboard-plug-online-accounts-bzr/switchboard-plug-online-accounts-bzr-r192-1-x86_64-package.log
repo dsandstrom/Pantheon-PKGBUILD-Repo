@@ -1,0 +1,132 @@
+[  0%] Built target i18n
+[ 17%] Built target pantheon-online-accounts
+[ 52%] Built target pantheon-online-accounts-plug
+[ 61%] Built target generic-oauth
+[ 70%] Built target password
+[ 76%] Built target google
+[ 82%] Built target facebook
+[ 88%] Built target microsoft
+[ 94%] Built target yahoo
+[100%] Built target fastmail
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/cs/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/fr/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/zh_CN/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/zh_TW/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/en_AU/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/fa/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/bs/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/ky/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/fr_CA/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/en_CA/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/eu/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/ca/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/uk/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/pl/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/nl/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/bn/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/lv/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/pt/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/it/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/id/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/si/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/be/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/ar/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/te/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/eo/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/am/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/ko/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/ta/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/hi/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/es/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/mr/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/ml/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/vi/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/pt_BR/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/sw/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/sv/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/bg/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/sr/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/ka/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/az/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/ro/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/fi/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/sma/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/ru/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/lb/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/hy/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/hu/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/rue/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/et/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/ast/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/he/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/nn/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/de/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/my/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/th/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/tr/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/lt/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/lo/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/el/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/ms/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/ckb/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/sq/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/sl/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/hr/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/da/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/zh_HK/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/en_GB/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/nb/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/sk/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/ja/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/af/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/locale/gl/LC_MESSAGES/pantheon-online-accounts.mo
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/dbus-1/services/com.google.code.AccountsSSO.gSingleSignOnUI.service
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/applications/pantheon-plug-onlineaccounts.desktop
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/switchboard/network/pantheon-online-accounts/libpantheon-online-accounts-plug.so
+-- Removed runtime path from "/build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/switchboard/network/pantheon-online-accounts/libpantheon-online-accounts-plug.so"
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/libpantheon-online-accounts.so.0.1
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/libpantheon-online-accounts.so.0
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/libpantheon-online-accounts.so
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/pkgconfig/pantheon-online-accounts.pc
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/vala/vapi/pantheon-online-accounts.vapi
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/vala/vapi/pantheon-online-accounts.deps
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/include/pantheon-online-accounts/pantheon-online-accounts.h
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/pantheon-online-accounts/libgeneric-oauth.so
+-- Removed runtime path from "/build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/pantheon-online-accounts/libgeneric-oauth.so"
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/pantheon-online-accounts/libpassword.so
+-- Removed runtime path from "/build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/pantheon-online-accounts/libpassword.so"
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/pantheon-online-accounts/generic-oauth-plugins/libgoogle.so
+-- Removed runtime path from "/build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/pantheon-online-accounts/generic-oauth-plugins/libgoogle.so"
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/icons/hicolor/scalable/apps/google.svg
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/providers/google.provider
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/services/google-calendar.service
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/services/google-contacts.service
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/services/google-drive.service
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/services/google-picasa.service
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/services/google-gmail.service
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/pantheon-online-accounts/generic-oauth-plugins/libfacebook.so
+-- Removed runtime path from "/build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/pantheon-online-accounts/generic-oauth-plugins/libfacebook.so"
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/icons/hicolor/scalable/apps/facebook.svg
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/providers/facebook.provider
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/services/facebook-calendar.service
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/services/facebook-contacts.service
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/services/facebook-microblog.service
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/services/facebook-im.service
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/pantheon-online-accounts/generic-oauth-plugins/libmicrosoft.so
+-- Removed runtime path from "/build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/pantheon-online-accounts/generic-oauth-plugins/libmicrosoft.so"
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/icons/hicolor/scalable/apps/microsoft.svg
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/providers/microsoft.provider
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/services/microsoft-contacts.service
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/services/microsoft-calendar.service
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/services/microsoft-mails.service
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/pantheon-online-accounts/generic-oauth-plugins/libyahoo.so
+-- Removed runtime path from "/build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/pantheon-online-accounts/generic-oauth-plugins/libyahoo.so"
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/icons/hicolor/scalable/apps/yahoo.svg
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/providers/yahoo.provider
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/services/yahoo-calendar.service
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/pantheon-online-accounts/password-plugins/libfastmail.so
+-- Removed runtime path from "/build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/lib/pantheon-online-accounts/password-plugins/libfastmail.so"
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/icons/hicolor/scalable/apps/fastmail.svg
+-- Installing: /build/switchboard-plug-online-accounts-bzr/pkg/switchboard-plug-online-accounts-bzr/usr/share/accounts/providers/fastmail.provider

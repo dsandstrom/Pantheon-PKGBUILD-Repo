@@ -1,4 +1,5 @@
 # Maintainer: Maxime Gauduin <alucryd@archlinux.org>
+<<<<<<< 99d6cb4d4ad9536d34e26b5a40b83f8b10acac00
 # Contributor: flamelab <panosfilip@gmail.com>
 
 pkgname=wingpanel-indicator-launcher-bzr
@@ -14,6 +15,21 @@ depends=('gala-bzr' 'slingshot-launcher-bzr' 'gnome-menus' 'granite-bzr' 'wingpa
 makedepends=('bzr' 'cmake' 'vala')
 install='wingpanel-indicator-launcher.install'
 source=('wingpanel-indicator-launcher::bzr+lp:~parnold-x/+junk/wingpanel-indicator-launcher')
+=======
+
+pkgname=wingpanel-indicator-launcher-bzr
+pkgver=r2
+pkgrel=1
+pkgdesc='Launcher indicator for Wingpanel'
+arch=('i686' 'x86_64')
+url='https://code.launchpad.net/~parnold-x/+junk/wingpanel-indicator-launcher'
+license=('GPL3')
+groups=('pantheon-unstable')
+depends=('slingshot-launcher-bzr' 'wingpanel-rewrite-x11-bzr')
+makedepends=('bzr' 'cmake' 'vala')
+install='wingpanel-indicator-launcher.install'
+source=('bzr+lp:~parnold-x/+junk/wingpanel-indicator-launcher')
+>>>>>>> d1857ee259e30f2ace4d06e4564e4934805bd295
 sha256sums=('SKIP')
 
 pkgver() {
@@ -32,11 +48,17 @@ build() {
 
   cmake .. \
     -DCMAKE_BUILD_TYPE='Release' \
+<<<<<<< 99d6cb4d4ad9536d34e26b5a40b83f8b10acac00
     -DCMAKE_INSTALL_PREFIX='/usr' \
     -DCMAKE_INSTALL_LIBDIR='/usr/lib' \
     -DGSETTINGS_COMPILE='FALSE' \
     -DUSE_UNITY='FALSE'
   make -j1
+=======
+    -DCMAKE_INSTALL_PREFIX='/usr'\
+    -DCMAKE_INSTALL_LIBDIR='/usr/lib'
+  make
+>>>>>>> d1857ee259e30f2ace4d06e4564e4934805bd295
 }
 
 package() {

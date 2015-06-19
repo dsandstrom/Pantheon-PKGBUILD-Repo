@@ -1,0 +1,69 @@
+-- The C compiler identification is GNU 5.1.0
+-- The CXX compiler identification is GNU 5.1.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Shared libraries enabled
+-- Unity integration disabled
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.28") 
+-- checking for modules 'clutter-gtk-1.0;glib-2.0>=2.32;gio-2.0;gee-0.8;gmodule-2.0;gtk+-3.0>=3.10;gio-unix-2.0'
+--   found clutter-gtk-1.0, version 1.6.0
+--   found glib-2.0, version 2.44.1
+--   found gio-2.0, version 2.44.1
+--   found gee-0.8, version 0.18.0
+--   found gmodule-2.0, version 2.44.1
+--   found gtk+-3.0, version 3.16.4
+--   found gio-unix-2.0, version 2.44.1
+-- Found Vala: /usr/bin/valac  
+-- checking for a minimum Vala version of 0.21.0
+--   found Vala, version 0.28.0
+-- checking for modules 'granite;clutter-gtk-1.0;glib-2.0>=2.32;gio-2.0;gee-0.8;gmodule-2.0;gtk+-3.0>=3.10;gio-unix-2.0'
+--   found granite, version 0.3.0
+--   found clutter-gtk-1.0, version 1.6.0
+--   found glib-2.0, version 2.44.1
+--   found gio-2.0, version 2.44.1
+--   found gee-0.8, version 0.18.0
+--   found gmodule-2.0, version 2.44.1
+--   found gtk+-3.0, version 3.16.4
+--   found gio-unix-2.0, version 2.44.1
+CMake Warning (dev) at src/CMakeLists.txt:20 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "../switchboard" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- GSettings schemas will be installed locally.
+-- GSettings schemas will be installed into /usr/share/glib-2.0/schemas/
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /build/switchboard-bzr/src/switchboard/build
+Scanning dependencies of target i18n
+[  0%] Built target i18n
+[ 12%] Generating Plug.c;PlugsManager.c;switchboard-2.0.vapi;switchboard.h
+Scanning dependencies of target switchboard-2.0
+[ 25%] Building C object lib/CMakeFiles/switchboard-2.0.dir/Plug.c.o
+[ 37%] Building C object lib/CMakeFiles/switchboard-2.0.dir/PlugsManager.c.o
+Linking C shared library libswitchboard-2.0.so
+[ 37%] Built target switchboard-2.0
+[ 50%] Generating Switchboard.c;CategoryView.c;EmbeddedAlert.c;NavigationButton.c
+Scanning dependencies of target switchboard
+[ 62%] Building C object src/CMakeFiles/../switchboard.dir/Switchboard.c.o
+[ 75%] Building C object src/CMakeFiles/../switchboard.dir/CategoryView.c.o
+[ 87%] Building C object src/CMakeFiles/../switchboard.dir/EmbeddedAlert.c.o
+[100%] Building C object src/CMakeFiles/../switchboard.dir/NavigationButton.c.o
+Linking C executable ../switchboard
+[100%] Built target ../switchboard
