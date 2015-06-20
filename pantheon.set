@@ -9,7 +9,6 @@ elementary-add-icon-theme-git
 elementary-wallpapers-bzr
 pantheon-default-settings-bzr
 dee-bzr
-libunity
 scour
 ido
 footnote-bzr
@@ -23,10 +22,6 @@ switchboard-bzr
 switchboard-plug-online-accounts-bzr
 gsignond-plugin-lastfm-bzr
 geary-plank-bzr
-indicator-datetime
-indicator-session-systemd
-indicator-session
-indicator-sound
 libappindicator
 libgnome-control-center
 libindicate
@@ -66,3 +61,11 @@ switchboard-plug-power-bzr
 switchboard-plug-security-privacy-bzr
 ttf-opensans
 wingpanel-rewrite-x11-bzr
+wingpanel-indicator-ayatana-bzr
+wingpanel-indicator-datetime-bzr
+wingpanel-indicator-network-bzr
+wingpanel-indicator-launcher-bzr
+wingpanel-indicator-notifications-bzr
+wingpanel-indicator-power-bzr
+wingpanel-indicator-session-bzr
+wingpanel-indicator-sound-bzr
